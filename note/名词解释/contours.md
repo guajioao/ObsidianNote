@@ -1,0 +1,1 @@
+Pablo Arbelaez, Michael Maire, Charless Fowlkes, and Jitendra Malik. Contour detection and hierarchical image segmentation. IEEE TPAMI, 33(5):898–916, 2011. 3, 6

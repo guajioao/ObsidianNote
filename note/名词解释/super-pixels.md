@@ -1,0 +1,1 @@
+SLIC superpixels compared to state-of-the-art superpixel methods

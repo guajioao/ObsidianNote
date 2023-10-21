@@ -1,0 +1,15 @@
+* 收录于：CVPR2023
+
+* 应用领域：Referring image segmentation (RIS)，即找到跟语句相对应区域的掩码
+
+* 总体方法：
+	结构图:![[用全局局部特征做RIS_结构图.png]]
+	通过比对全局-局部的视觉和文本特征相似度，来挑选最匹配的掩膜。视觉文本编码器都是使用CLIP的编码器，视觉的Global部分将其拆开为池化前后两部分。
+	* 全局的视觉特征提取即**先提取**整体**特征**,**再用掩膜**提取出对应特征；
+	* 局部的视觉特征即**先用掩膜**裁剪出图像区域,**再提取特征**
+	
+* 实验结果
+![[Pasted image 20231005150222.png]]
+
+* 详细笔记
+[[Zero-shot RIS with Global-Local Features|Zero-shot RIS with Global-Local Features]]
