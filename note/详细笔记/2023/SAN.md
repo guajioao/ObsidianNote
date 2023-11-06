@@ -47,10 +47,11 @@
 		* CLIP只能通过【CLS】token来进行图像级识别，该工作的思路是通过【CLS】token在感兴趣区域的attention map来指导准确的mask识别。
 		* 创建一组【SLS】tokens，被视觉token单向更新，不影响视觉token和【CLS】token。
 		* SLS更新公式：![[Pasted image 20231008203657.png]]
-			* Bk为推理的注意力偏移attention bias，第l层，第k个注意力头
+			* $B_k \in R^{\frac{H}{16}\times \frac{W}{16} \times N}$为第L层第k个头的注意力偏移attention bias
 			* ![[Pasted image 20231008204155.png]]，
 			* ![[Pasted image 20231008204208.png]]![[Pasted image 20231008204215.png]]，
 			*  ![[Pasted image 20231008204312.png]]
+			* 来自代码：$X \in R^{K*N*C}$ 
 		* **因为加入了注意力偏移Bk，SLS的特征逐渐演变为适合mask预测**。【Prompt？】
 			* ![[Pasted image 20231016220019.png]]
 			* 注意力与Masks来自同一个Query token，所以有着对应关系

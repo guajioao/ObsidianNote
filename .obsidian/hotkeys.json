@@ -40,7 +40,25 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "F"
+      "key": "="
+    }
+  ],
+  "obsidian-git:add-to-gitignore": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ],
+  "obsidian-git:pull": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
     }
   ]
 }

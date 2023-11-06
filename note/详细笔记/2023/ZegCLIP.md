@@ -28,7 +28,7 @@
 	1.**Deep Prompt Tuning, DPT** ：深度提示调优【防止微调时丢失unseen类信息】
 	2.**Relationship Descriptor, RD**：关系描述符 【使得模型能够匹配unseen类的label和patch】与SAN的【SLS】作用类似？
 	3.**Non-mutually Exclisive Loss**：非互斥损失 
-
+![[Pasted image 20231023155309.png]]
 ## 一、引言 Introduction
 
 

@@ -6,179 +6,33 @@
       {
         "id": "9656a90045e7cdfd",
         "type": "tabs",
-        "dimension": 35.25469168900804,
         "children": [
           {
-            "id": "549d448f1e7f9396",
+            "id": "6930f168413f9dca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gather/关系分析.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20a8406d51ce049d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "202311109组会/Transformer论文.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ec6e90ecfa736c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "202311109组会/思维链idea.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5a926a5340a3743",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/名词解释/N-gram.md",
+                "file": "20231109组会/Transformer课程笔记.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "b1b2fcdb69b527b1",
+        "id": "9b2f197cd8e8342d",
         "type": "tabs",
-        "dimension": 64.74530831099196,
         "children": [
           {
-            "id": "4ddfe8c0de885063",
+            "id": "c7e1932ef82eff3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/note.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c279bb91f5a44a75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/简单概括/2023年论文对比.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ce44a1525ac427e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/详细笔记/2022/ZegFormer.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6017619290a608d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/详细笔记/2022/DenseCLIP.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc7aec9129da220f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/详细笔记/2023/CESL.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df9e6592d4f473a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/详细笔记/2023/OvSeg.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34b6b49a82a2e67d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/简单概括/2023/Zero-shot Referring Image Segmentation with Global-Local Context Features.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f0748bd77b8836e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/详细笔记/2023/ZegCLIP.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b19b04451e0539f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/简单概括/2023/Side Adapter Network for Open-Vocabulary Semantic Segmentation.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -252,8 +106,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/note.md",
-                "collapseAll": false,
+                "file": "20231109组会/Transformer课程笔记.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -269,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/note.md",
+                "file": "20231109组会/Transformer课程笔记.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/note.md"
+                "file": "20231109组会/Transformer课程笔记.md"
               }
             }
           }
@@ -310,56 +164,57 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4ddfe8c0de885063",
+  "active": "6930f168413f9dca",
   "lastOpenFiles": [
-    "note/详细笔记/2022/ZegFormer.md",
-    "note/简单概括/2022年论文对比.md",
-    "note/简单概括/2023年论文对比.md",
-    "202311109组会/Transformer论文.md",
-    "gather/关系分析.md",
-    "note/简单概括/2021/CLIP.md",
-    "papers/CLIP_显著性检测/610e25f45d7848d9a42068a9f40f2a82/1885600357aa4e57b502ce9a96d36e0c.pdf",
-    "papers/CLIP_显著性检测/610e25f45d7848d9a42068a9f40f2a82",
-    "note/详细笔记/2023/CESL.md",
-    "note/详细笔记/2022/DenseCLIP.md",
-    "note/详细笔记/2023/OvSeg.md",
-    "note/简单概括/2023/CESL.md",
-    "note/简单概括/2023/Zero-shot Referring Image Segmentation with Global-Local Context Features.md",
-    "202311109组会/思维链idea.md",
-    "note/详细笔记/2023/ZegCLIP.md",
-    "note/简单概括/2023/Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP.md",
-    "note/简单概括/2023/Side Adapter Network for Open-Vocabulary Semantic Segmentation.md",
-    "gather/关系统计.md",
-    "note/详细笔记/2023/SAN.md",
-    "note/详细笔记/2022/OpenSeg.md",
-    "202311109组会/Transformer课程笔记.md",
-    "202311109组会/Modified n-gram precision.md",
-    "files/605bb53047634be3cb6964cd5cefce6.png",
-    "papers/tools/BLEU.pdf",
-    "papers/tools/BLEU.pdf.crdownload",
-    "note/名词解释/N-gram.md",
-    "papers/tools/Transformer_Attention is all you need.pdf",
-    "files/Pasted image 20231020220059.png",
+    "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
+    "20231109组会/Transformer课程笔记.md",
     "生活note/note.md",
-    "202311109组会",
-    "files/Pasted image 20231020214759.png",
-    "files/Pasted image 20231020212356.png",
-    "papers/tools/Transformer_Attention is all you need.pdf.crdownload",
-    "files/Pasted image 20231020194702.png",
+    "note/详细笔记/before/Transformer.md",
+    "papers/tools/93e49fe5e7e94f7ebe81ecd7a54eeb3c/277ac6223b48445ba022fc7465d9b301.pdf",
+    "papers/tools/93e49fe5e7e94f7ebe81ecd7a54eeb3c",
+    "files/Pasted image 20231106103144.png",
+    "生活note/RF.md",
+    "未命名 2.md",
+    "files/Pasted image 20231105162203.png",
+    "files/Pasted image 20231105162138.png",
+    "note/详细笔记/2022/DenseCLIP.md",
+    "note/详细笔记/before",
+    "note/详细笔记/2022/CLIP_README.md",
+    "codes/self-query.py",
+    "codes",
+    "note/详细笔记/2023/OvSeg.md",
+    "note/详细笔记/2023/CLIP-S4.md",
+    "未命名 1.md",
     "未命名.md",
-    "note/名词解释/dice loss.md",
     "231019.md",
-    "files/Pasted image 20231019092407.png",
-    "files/Pasted image 20231019090839.png",
-    "files/Pasted image 20231011194237.png",
-    "files/Pasted image 20231016220019.png",
-    "papers/CLIP_Segmentation/4c0135dfc5f74752b5c6f8b830d0db50/6072d2b3981841ef8b898c48b1415b47.pdf",
-    "papers/CLIP_Segmentation/4c0135dfc5f74752b5c6f8b830d0db50",
-    "files/Pasted image 20231016205704.png",
-    "note/简单概括/2023",
+    "生活note/question.md",
+    "note/详细笔记/2023/ZegCLIP.md",
+    "note/简单概括/2022/DenseCLIP-sum.md",
+    "note/详细笔记/2023/CESL.md",
+    "note/详细笔记/2023/SAN.md",
+    "note/详细笔记/2023/Zero-shot RIS with Global-Local Features.md",
+    "files/Pasted image 20231030103757.png",
+    "papers/CLIP_Segmentation/8a8ca0ceec6e4468a5e6f1096a734092/d108ab2b8a0c42c18f768ce5199e076a.pdf",
+    "papers/CLIP_Segmentation/8a8ca0ceec6e4468a5e6f1096a734092/ec4f81da4b3849db8700d13041b7fdb9.pdf",
+    "papers/CLIP_Segmentation/8a8ca0ceec6e4468a5e6f1096a734092",
+    "files/Pasted image 20231030100846.png",
+    "papers/CLIP_Segmentation/603e5d4bcc2b44548d5d0bc7e5c14cb8/cb996ca2747749c2a2a17ee21d6dc695.pdf",
+    "papers/CLIP_Segmentation/603e5d4bcc2b44548d5d0bc7e5c14cb8",
+    "note/详细笔记/2022/active contours models.md",
+    "note/名词解释/TTA.md",
+    "note/详细笔记/2022/TTA技术.md",
+    "note/名词解释/TTA技术.md",
+    "files/Pasted image 20231029203834.png",
+    "files/Pasted image 20231029203813.png",
+    "files/Pasted image 20231029203651.png",
+    "files/Pasted image 20231029201038.png",
+    "files/Pasted image 20231029200942.png",
+    "note/名词解释/dice loss.md",
+    "生活note/习思第二节 加快建设教育强国.md",
     "未命名.canvas"
   ]
 }

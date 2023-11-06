@@ -41,7 +41,7 @@ Decoupling Zero-Shot Semantic Segmentation
 
 ## 三、方法 Method
 ### 3.1 ZS3的解耦公式
-对于给定图像 *I*，其语义分割可被定义为( R, L )
+* 对于给定图像 *I*，其语义分割可被定义为( R, L )
 	* R将图像分组为N个段，其中所有R的并集就是图像域，R之间交集为空
 	* L将每个段R和语义标签 c ∈ C 联系在一起，其中类别C是预定义的集合
 * 完全监督的语义分割从大规模语义标注数据集中学习，例如：$\mathrm {D} = {\left \{ I_k,\mathcal{R_k},\mathcal{L}_k \right \} }^K_{k=1}$ 
