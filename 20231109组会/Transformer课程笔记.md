@@ -2,7 +2,7 @@
 [[Transformer_Attention is all you need.pdf]]
 
 # 一、Encoder
-结构：![[Pasted image 20231020212356.png|251]]
+结构：![[Pasted image 20231020212356.png|176]]
 ## 1. Multi-Head Attention
 
 ## 2. 归一化[Layer Normalization]
@@ -22,7 +22,7 @@
 2. encoder的输出$a_i, i \in [1,n]$分别经过两个transform，得到$k_i$和$v_i$
 3. q与encoder**所有的**ki相乘，再经过归一化得到$\alpha_i'$
 4. $\alpha_i'$再与**对应的** $v_i$相乘，得到Decoder中Cross attention的 $v_i$
-![[Pasted image 20231020194702.png]]
+![[Pasted image 20231020194702.png|450]]
 Decoder和Encoder中都有很多的层，原始论文都用了Encoder最后一层的输出来与Decoder中每一层做Cross attention
 
 

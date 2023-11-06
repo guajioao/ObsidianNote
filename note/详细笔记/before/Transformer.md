@@ -55,12 +55,18 @@
 
 ### 3.2.1 Scaled Dot-Product Attention
 作者将他们特别设计的attention称为"Scaled 点积注意力"，如图2所示。输入由$d_k$的queries和keys、与$d_v$维的values组成。用Q和所有Keys相乘，再除以$\sqrt{d_k}$，并用一个softmax函数来获得values的权重。【特点是用$\sqrt{d_k}$来缩放点乘结果，防止梯度过大】
-![[Pasted image 20231105162138.png#Fig2|inL|244]]实际上会同时计算一组queries的attention并打包为一个matrix Q，所有keys和values也会被一起打包为K和V。通过下列公式计算输出矩阵：
+![[Pasted image 20231105162138.png#Fig2|inC|244]]实际上会同时计算一组queries的attention并打包为一个matrix Q，所有keys和values也会被一起打包为K和V。通过下列公式计算输出矩阵：
 $$Attention(Q,K,V) = softmax(\frac{QK^T}{\sqrt{d_k}})V$$
 	* 两个使用最广的注意力函数是加法注意力和点积(乘法)注意力。该算法与点积注意力一致，除了增加了一个$\frac{1}{\sqrt{d_k}}$的scaling factor。加法注意力用包含一个隐层的前馈网络来计算compatibility function。这两者在理论复杂性上是相似的，但点积复杂度实际上更快也更有效率，因为它可以使用高度优化的矩阵乘法来实现。
 在$d_k$比较小的时候二者是相似的，但加法注意力因为不需要对$d_k$个大量数值进行缩放，比乘法注意力表现更好。我们怀疑当$d_k$很大时，点积的增长幅度也很大，这会将softmax函数推到梯度很小的区域。为了减轻这样的影响，我们使用了$\frac{1}{\sqrt{d_k}}$来缩放点积。
+
 ### 3.2.2 Multi-Head Attention
-不使用与模型维度$d_{model}$相同的kays,values和queries，作者发现对qkv使用h次不同的线性投影，分别学到$d_k$,$d_k$,$d_v$维，这样是更好的操作。对每一个投影后的qkv平行的应用注意力函数，产生$d_v$维度的输出值。这些输出会被Concat起来，并再次投影，获得最终的输出。
+不使用与模型维度$d_{model}$相同的kays,values和queries
+
+* 对qkv使用h次不同的线性投影，分别学到$d_k$,$d_k$,$d_v$维
+* 对每一个投影后的qkv平行的应用注意力函数，产生$d_v$维度的输出值
+* Concat这些输出，并再次做投影，获得最终的输出。
+
 ![[Pasted image 20231106103144.png|274]]
 多头注意力可以关注来自不同位置的不同表征子空间。
 $$MultiHead(Q,K,V) = Concat(head_1,\cdots,head_h)W^O$$

@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "9656a90045e7cdfd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6930f168413f9dca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20231109组会/Transformer课程笔记.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "9b2f197cd8e8342d",
         "type": "tabs",
         "children": [
@@ -32,11 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md",
+                "file": "Slides/Transformer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0d0a0b0e5470ca0f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c70bca4f512be284",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {}
             }
           }
         ]
@@ -106,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20231109组会/Transformer课程笔记.md",
+                "file": "Slides/Transformer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20231109组会/Transformer课程笔记.md",
+                "file": "Slides/Transformer.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -146,11 +141,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20231109组会/Transformer课程笔记.md"
+                "file": "Slides/Transformer.md"
               }
             }
+          },
+          {
+            "id": "1c3f4f4d4dbab11b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -165,15 +169,17 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "6930f168413f9dca",
+  "active": "c7e1932ef82eff3e",
   "lastOpenFiles": [
-    "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
-    "20231109组会/Transformer课程笔记.md",
-    "生活note/note.md",
     "note/详细笔记/before/Transformer.md",
+    "Slides/Transformer.md",
+    "Slides",
+    "20231109组会/Transformer课程笔记.md",
+    "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
+    "生活note/note.md",
     "papers/tools/93e49fe5e7e94f7ebe81ecd7a54eeb3c/277ac6223b48445ba022fc7465d9b301.pdf",
     "papers/tools/93e49fe5e7e94f7ebe81ecd7a54eeb3c",
     "files/Pasted image 20231106103144.png",
@@ -203,7 +209,6 @@
     "papers/CLIP_Segmentation/8a8ca0ceec6e4468a5e6f1096a734092",
     "files/Pasted image 20231030100846.png",
     "papers/CLIP_Segmentation/603e5d4bcc2b44548d5d0bc7e5c14cb8/cb996ca2747749c2a2a17ee21d6dc695.pdf",
-    "papers/CLIP_Segmentation/603e5d4bcc2b44548d5d0bc7e5c14cb8",
     "note/详细笔记/2022/active contours models.md",
     "note/名词解释/TTA.md",
     "note/详细笔记/2022/TTA技术.md",
