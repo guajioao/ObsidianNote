@@ -21,25 +21,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "ce2c3f3f0cccc6e3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f3aadc7e6b90987f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/详细笔记/before/Transformer.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -176,10 +157,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f3aadc7e6b90987f",
+  "active": "c7e1932ef82eff3e",
   "lastOpenFiles": [
-    "Slides/Transformer.md",
+    "231019.md",
+    "未命名.md",
+    "未命名 1.md",
     "note/详细笔记/before/Transformer.md",
+    "Slides/Transformer.md",
     "Slides",
     "20231109组会/Transformer课程笔记.md",
     "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
@@ -198,9 +182,6 @@
     "codes",
     "note/详细笔记/2023/OvSeg.md",
     "note/详细笔记/2023/CLIP-S4.md",
-    "未命名 1.md",
-    "未命名.md",
-    "231019.md",
     "生活note/question.md",
     "note/详细笔记/2023/ZegCLIP.md",
     "note/简单概括/2022/DenseCLIP-sum.md",

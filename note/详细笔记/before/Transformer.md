@@ -102,7 +102,15 @@ Transformer通过三种方式使用多头注意力：
 	* 在embedding层，将这些权重乘以$\sqrt{d_{model}}$
 
 ### 3.5 Positional Encoding
-
+因为没有循环和卷积了，要利用序列的顺序，必须注入关于序列中tokens的相对或绝对位置的信息：
+* 为此，在编码器和解码器栈底的输入embeddings中加入位置编码"Positional Encoding"
+* 位置编码与embeddings一样也是$d_{model}$维的，因此可以直接相加
+* 位置编码有许多选择，学习的或者固定的。
+	* 在本文中使用不同频率的sine和cosine函数：
+	$$PE_{(pos,2i)}= sin(pos/10000^{2i}/d_{model})$$
+	$$PE_{(pos,2i+1)}= cos(pos/10000^{2i}/d_{model})$$
+	* 其中pos指位置，i是维度。即，位置编码的每一个维度都对应一个正弦曲线。波长是一个几何级数，从$2\pi$到$10000\cdot2\pi$。
+	* 我们选择这个函数是因为，
 
 
 
