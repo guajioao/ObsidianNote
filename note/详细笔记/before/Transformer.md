@@ -20,7 +20,7 @@
 
 ## 结构
 * 结构图：
-	* 图1：![[Pasted image 20231020220059.png|400]]
+	* 图1：![[Pasted image 20231020220059.png|500]]
 	* 
 
 ## 一、引言 Introduction
@@ -53,29 +53,59 @@
 ### 3.2 注意力Attention
 一个注意力函数可以被形容为：将一个query和一组key-value对映射为一个输出，其中query,keys,values和输出都是向量。output输出是通过values的加权求和计算得到的，分配给每个value的权重是通过一个**compatibility function**在query和相关的key上计算得到的。【compatibility function即用q和k计算权值的函数】
 
-### 3.2.1 Scaled Dot-Product Attention
+#### 3.2.1 Scaled Dot-Product Attention
 作者将他们特别设计的attention称为"Scaled 点积注意力"，如图2所示。输入由$d_k$的queries和keys、与$d_v$维的values组成。用Q和所有Keys相乘，再除以$\sqrt{d_k}$，并用一个softmax函数来获得values的权重。【特点是用$\sqrt{d_k}$来缩放点乘结果，防止梯度过大】
-![[Pasted image 20231105162138.png#Fig2|inC|244]]实际上会同时计算一组queries的attention并打包为一个matrix Q，所有keys和values也会被一起打包为K和V。通过下列公式计算输出矩阵：
+图2(left):![[Pasted image 20231105162138.png#Fig2|inC|244]]
+实际上会同时计算一组queries的attention并打包为一个matrix Q，所有keys和values也会被一起打包为K和V。通过下列公式计算输出矩阵：
 $$Attention(Q,K,V) = softmax(\frac{QK^T}{\sqrt{d_k}})V$$
 	* 两个使用最广的注意力函数是加法注意力和点积(乘法)注意力。该算法与点积注意力一致，除了增加了一个$\frac{1}{\sqrt{d_k}}$的scaling factor。加法注意力用包含一个隐层的前馈网络来计算compatibility function。这两者在理论复杂性上是相似的，但点积复杂度实际上更快也更有效率，因为它可以使用高度优化的矩阵乘法来实现。
 在$d_k$比较小的时候二者是相似的，但加法注意力因为不需要对$d_k$个大量数值进行缩放，比乘法注意力表现更好。我们怀疑当$d_k$很大时，点积的增长幅度也很大，这会将softmax函数推到梯度很小的区域。为了减轻这样的影响，我们使用了$\frac{1}{\sqrt{d_k}}$来缩放点积。
 
-### 3.2.2 Multi-Head Attention
+#### 3.2.2 Multi-Head Attention
 不使用与模型维度$d_{model}$相同的kays,values和queries
-
 * 对qkv使用h次不同的线性投影，分别学到$d_k$,$d_k$,$d_v$维
 * 对每一个投影后的qkv平行的应用注意力函数，产生$d_v$维度的输出值
 * Concat这些输出，并再次做投影，获得最终的输出。
 
-![[Pasted image 20231106103144.png|274]]
+图2(right)：![[Pasted image 20231106103144.png|274]]
 多头注意力可以关注来自不同位置的不同表征子空间。
 $$MultiHead(Q,K,V) = Concat(head_1,\cdots,head_h)W^O$$
-where $head_i = Attention(QW^Q_i,KW^K_i,VW^V_i)$
-其中投影的参数矩阵$W^Q_i \in R^{d_{model}\times d_k},W^K_i \in R^{d_{model}\times d_k},W^V_i \in R^{d_{model}\times d_v},W^O \in R^{d_k\times d_{model}}$。在本工作中使用$h=8$个平行注意力层或头，每一层使用$d_k=d_v=d_{model}/h=64$。由于每一个头的维度减小了，总计算量与单头全维度的注意力是相似的。
+其中 $head_i = Attention(QW^Q_i,KW^K_i,VW^V_i)$，投影的参数矩阵:$W^Q_i \in R^{d_{model}\times d_k}$,$W^K_i \in R^{d_{model}\times d_k}$,$W^V_i \in R^{d_{model}\times d_v}$,$W^O \in R^{d_k\times d_{model}}$。
+在本工作中使用$h=8$个平行的注意力层或头，每一层使用$d_k=d_v=d_{model}/h=64$。由于每一个头的维度减小了，总计算量与单头全维度的注意力是相似的。
 
-### 3.2.3 Application of Attention in our Model
+#### 3.2.3 Application of Attention in our Model
 Transformer通过三种方式使用多头注意力：
-* "编码器-解码器注意力"层
+* "编码器-解码器注意力"层【即解码器第二层】
+	* q来自前一个decoder层，k和v来自编码器的输出。
+	* 这使得编码器的每一个position都能够关注【attend】输入序列的每一个位置【我的理解是让q能够看到所有的inputs】【与mask的作用区别】
+	* 这模仿了Seq2Seq模型中经典的编码器-解码器注意力机制
+* 编码器中的自注意力层
+	* 所有的keys,values和queries都来自上一层的输出的同一个地方。
+	* 当前层的每一个position可以关注到上一层的所有位置
+* 解码器中的自注意力层(Masked Multi-Head Attention)
+	* 当前层的每一个位置都可以关注到上一层所有传来的未被mask的区域
+	* 需要防止信息向左流动，以保持自回归特性
+	* 通过在缩放的点积注意力中mask所有不合适位置的连接来实现
+
+### 3.3 Position-wise Feed-Forward Networks
+在注意力子层之外，编码器和解码器每一层还包含一个全连接前馈网络，它分别独立的应用于每个position。
+* 由两个线性变换组成，中间夹一个ReLu激活$$FFN(x)=max(0,xW_1+b_1)W_2+b2$$
+	* 其中线性变化虽然在不同位置是相同的，但是每一层的参数不同
+* 另一种描述方法：两个大小为1的卷积
+	* 输入输出维度是$d_{model}=512$，且the inner-layer的维度为$d_{ff}=2048$
+
+### 3.4 Embeddings and Softmax
+* 与其他序列转化模型一样，
+	* 使用学习到的embedding将输入tokens和输出tokens转换为$d_{model}$维的向量
+	* 使用寻常的线性变换和softmax函数来转换decoder的输出来预测下一个token的概率
+* 在两个embedding层(Input Embedding和Output Embedding)和pre-softmax线性变换之间共享同一个权值矩阵
+	* 在embedding层，将这些权重乘以$\sqrt{d_{model}}$
+
+### 3.5 Positional Encoding
+
+
+
+
 
 
 ## 四、Why self-attention

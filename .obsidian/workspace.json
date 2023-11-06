@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Slides/Transformer.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -23,15 +23,20 @@
         ]
       },
       {
-        "id": "0d0a0b0e5470ca0f",
+        "id": "ce2c3f3f0cccc6e3",
         "type": "tabs",
         "children": [
           {
-            "id": "c70bca4f512be284",
+            "id": "f3aadc7e6b90987f",
             "type": "leaf",
             "state": {
-              "type": "reveal-preview-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/before/Transformer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -101,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Slides/Transformer.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Slides/Transformer.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Slides/Transformer.md"
+                "file": "note/详细笔记/before/Transformer.md"
               }
             }
           },
@@ -168,14 +173,13 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "c7e1932ef82eff3e",
+  "active": "f3aadc7e6b90987f",
   "lastOpenFiles": [
-    "note/详细笔记/before/Transformer.md",
     "Slides/Transformer.md",
+    "note/详细笔记/before/Transformer.md",
     "Slides",
     "20231109组会/Transformer课程笔记.md",
     "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
