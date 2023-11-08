@@ -110,13 +110,21 @@ Transformer通过三种方式使用多头注意力：
 * 位置编码与embeddings一样也是$d_{model}$维的，因此可以直接相加
 * 位置编码有许多选择，学习的或者固定的。
 	* 在本文中使用不同频率的sine和cosine函数：
-	$$PE_{(pos,2i)}= sin(pos/10000^{2i}/d_{model})$$
-	$$PE_{(pos,2i+1)}= cos(pos/10000^{2i}/d_{model})$$
-	* 其中pos指位置，i是维度。即，位置编码的每一个维度都对应一个正弦曲线。波长是一个几何级数，从$2\pi$到$10000\cdot2\pi$。
-	* 我们选择这个函数是因为，我们假设它使得模型能够很容易的通过相对位置学习注意力(注意力矩阵A)，因为对于固定偏移k，$PE_{pos+k}$可以用一个$PE_{pos}$的线性函数表示
+	$$PE_{(pos,2i)}= sin(pos/10000^{2i/d_{model}})$$
+	$$PE_{(pos,2i+1)}= cos(pos/10000^{2i/d_{model}})$$
+	* 其中pos指位置，i是维度。即，位置编码的每一个维度都对应一个正弦曲线。例如$PE(1,2)=sin(1*10000^{-2/d_{model}})$就是指位置0的第2个维度的值
+	* Transformer选择这个函数是因为，他们假设它使得模型能够很容易的通过相对位置学习注意力(注意力矩阵A)，因为对于固定偏移k，$PE_{pos+k}$可以用一个$PE_{pos}$的线性函数表示
 		* 防止$x_1,x_2$调换位置后A不变
-		* 未加入位置编码前：对于$x_t,x_s$，二者之间的注意力$A_{t,s}=q_tk_s^T=x_tW_QW_Kx_s$
-
+		* 未加入位置编码前：对于$x_t,x_s$，二者之间的注意力$A_{t,s}=q_t^Tk_s=x_t^TW_Q^TW_Kx_s$
+		* 加入位置编码后：$A_{t,s}=q_t^Tk_s=(x_t+p_t)^TW_Q^TW_K(x_s+p_s)$
+		* $A_{t,s}=x_t^TW_Q^TW_Kx_s+x_t^TW_Q^TW_Kp_s+p_t^TW_Q^TW_Kx_s+p_t^TW_Q^TW_Kp_s$
+		$p_t=[\cdots,sin(\frac{t}{10000^{2i/d}}),cos(\frac{t}{10000^{2i/d}}),\cdots]^T \in \mathbb{R}^d$
+【拓展】Transformer意图在$q_t,k_s$做内积时通过两个p来得到token间的相对位置，即：
+	$p_t^Tp_s^T=\sum(\sin t\theta_i \sin s\theta_i+\cos t\theta_i \cos s\theta_i) = \sum \cos(t-s)\theta_i$
+	$\theta_i = 10000^{-2n/d}$ 
+	希望获得cos(t-s)这一相对位置
+**但是**，在TENER文中指出，由于参数矩阵的存在，实际上相对位置由$p_t^TW_Q^TW_Kp_s$表示，而非$p_t^Tp_s^T$。如下图所示，蓝色的线是$p_t^Tp_s^T$，而下面两条是两个随机$W_S$计算得出的$p_t^TW_Q^TW_Kp_s$。可以看出实际上无法真正在计算注意力矩阵式感知到相对位置信息
+![[Pasted image 20231108112654.png|475]]
 
 
 
