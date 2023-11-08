@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md",
+                "file": "20231109组会/Transformer课程笔记.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -176,8 +176,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c7e1932ef82eff3e",
+  "active": "e49c9d7eb8193a43",
   "lastOpenFiles": [
+    "20231109组会/Transformer课程笔记.md",
+    "20231109组会/演示ppt.md",
+    "note/详细笔记/before/Transformer.md",
+    "files/Pasted image 20231108190621.png",
+    "files/Pasted image 20231108190235.png",
     "files/Pasted image 20231108112654.png",
     "papers/tools/Transformer/TENER-Adapting Transformer Encoder for Named Entity Recognition.pdf",
     "papers/tools/Transformer/Unconfirmed 922063.crdownload",
@@ -193,10 +198,8 @@
     "231019.md",
     "未命名.md",
     "未命名 1.md",
-    "note/详细笔记/before/Transformer.md",
     "Slides/Transformer.md",
     "Slides",
-    "20231109组会/Transformer课程笔记.md",
     "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
     "生活note/note.md",
     "papers/tools/93e49fe5e7e94f7ebe81ecd7a54eeb3c/277ac6223b48445ba022fc7465d9b301.pdf",
@@ -205,7 +208,6 @@
     "生活note/RF.md",
     "未命名 2.md",
     "files/Pasted image 20231105162203.png",
-    "files/Pasted image 20231105162138.png",
     "note/详细笔记/2022/DenseCLIP.md",
     "note/详细笔记/before",
     "note/详细笔记/2022/CLIP_README.md",
@@ -217,13 +219,10 @@
     "note/详细笔记/2023/CESL.md",
     "note/详细笔记/2023/SAN.md",
     "note/详细笔记/2023/Zero-shot RIS with Global-Local Features.md",
-    "files/Pasted image 20231030103757.png",
-    "files/Pasted image 20231030100846.png",
     "note/详细笔记/2022/active contours models.md",
     "note/名词解释/TTA.md",
     "note/详细笔记/2022/TTA技术.md",
     "note/名词解释/TTA技术.md",
-    "note/名词解释/dice loss.md",
     "未命名.canvas"
   ]
 }
