@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md",
+                "file": "20231109组会/Transformer课程笔记.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md",
+                "file": "20231109组会/Transformer课程笔记.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md"
+                "file": "20231109组会/Transformer课程笔记.md"
               }
             }
           },
@@ -176,11 +176,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e49c9d7eb8193a43",
+  "active": "c7e1932ef82eff3e",
   "lastOpenFiles": [
+    "231019.md",
+    "result.md",
     "20231109组会/Transformer课程笔记.md",
-    "20231109组会/演示ppt.md",
     "note/详细笔记/before/Transformer.md",
+    "20231109组会/演示ppt.md",
+    "未命名.md",
+    "未命名 1.md",
+    "20231109组会/Modified n-gram precision.md",
+    "20231109组会/思维链idea.md",
     "files/Pasted image 20231108190621.png",
     "files/Pasted image 20231108190235.png",
     "files/Pasted image 20231108112654.png",
@@ -195,9 +201,6 @@
     "files/Pasted image 20231108100634.png",
     "papers/tools/ca672a1a25bd40b29c2c9cdd8f1e4fea/143bcac83e7e41c5a49b5d5e72b28e10.pdf",
     "papers/tools/ca672a1a25bd40b29c2c9cdd8f1e4fea",
-    "231019.md",
-    "未命名.md",
-    "未命名 1.md",
     "Slides/Transformer.md",
     "Slides",
     "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
@@ -206,7 +209,6 @@
     "papers/tools/93e49fe5e7e94f7ebe81ecd7a54eeb3c",
     "files/Pasted image 20231106103144.png",
     "生活note/RF.md",
-    "未命名 2.md",
     "files/Pasted image 20231105162203.png",
     "note/详细笔记/2022/DenseCLIP.md",
     "note/详细笔记/before",
@@ -222,7 +224,6 @@
     "note/详细笔记/2022/active contours models.md",
     "note/名词解释/TTA.md",
     "note/详细笔记/2022/TTA技术.md",
-    "note/名词解释/TTA技术.md",
     "未命名.canvas"
   ]
 }

@@ -74,4 +74,3 @@ Decoder和Encoder中都有很多的层，原始论文都用了Encoder最后一�
 			* $w_n = 1/N$
 			* $p_n$：出现在答案中的n元词语占候选译文中n元词语总数的比例【就是Modified n-gram precision啦】
 * 
-
