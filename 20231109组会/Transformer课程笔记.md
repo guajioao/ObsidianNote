@@ -5,8 +5,10 @@
 结构：![[Pasted image 20231020212356.png|176]]
 ## 1. Multi-Head Attention
 
-## 2. 归一化[Layer Normalization]
-
+## 2. 归一化\[Layer Normalization]
+![[Pasted image 20231108221741.png]]
+Batch Norm:对样本内部的值归一化
+Layer Norm: 对不同样本在同一维度上的值归一化
 
 # 二、Decoder
 
@@ -29,7 +31,7 @@ Decoder和Encoder中都有很多的层，原始论文都用了Encoder最后一�
 
 
 ## 3. Feed Forward
-
+提取语义信息
 
 
 # 拓展

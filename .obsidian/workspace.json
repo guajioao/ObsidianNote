@@ -6,6 +6,7 @@
       {
         "id": "9b2f197cd8e8342d",
         "type": "tabs",
+        "dimension": 37.79697624190065,
         "children": [
           {
             "id": "c7e1932ef82eff3e",
@@ -25,6 +26,7 @@
       {
         "id": "5acffd0301eda1c3",
         "type": "tabs",
+        "dimension": 62.20302375809935,
         "children": [
           {
             "id": "e49c9d7eb8193a43",
@@ -178,6 +180,7 @@
   },
   "active": "c7e1932ef82eff3e",
   "lastOpenFiles": [
+    "files/Pasted image 20231108221741.png",
     "231019.md",
     "result.md",
     "20231109组会/Transformer课程笔记.md",
@@ -223,7 +226,6 @@
     "note/详细笔记/2023/Zero-shot RIS with Global-Local Features.md",
     "note/详细笔记/2022/active contours models.md",
     "note/名词解释/TTA.md",
-    "note/详细笔记/2022/TTA技术.md",
     "未命名.canvas"
   ]
 }
