@@ -21,6 +21,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "5acffd0301eda1c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e49c9d7eb8193a43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/before/Transformer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5,
+    "width": 253.5,
     "collapsed": true
   },
   "right": {
@@ -159,6 +178,11 @@
   },
   "active": "c7e1932ef82eff3e",
   "lastOpenFiles": [
+    "files/Pasted image 20231108101251.png",
+    "files/Pasted image 20231108101240.png",
+    "files/Pasted image 20231108101213.png",
+    "files/Pasted image 20231108100941.png",
+    "files/Pasted image 20231108100634.png",
     "papers/tools/ca672a1a25bd40b29c2c9cdd8f1e4fea/143bcac83e7e41c5a49b5d5e72b28e10.pdf",
     "papers/tools/ca672a1a25bd40b29c2c9cdd8f1e4fea",
     "231019.md",
@@ -193,17 +217,12 @@
     "files/Pasted image 20231030103757.png",
     "papers/CLIP_Segmentation/8a8ca0ceec6e4468a5e6f1096a734092/d108ab2b8a0c42c18f768ce5199e076a.pdf",
     "papers/CLIP_Segmentation/8a8ca0ceec6e4468a5e6f1096a734092/ec4f81da4b3849db8700d13041b7fdb9.pdf",
-    "papers/CLIP_Segmentation/8a8ca0ceec6e4468a5e6f1096a734092",
     "files/Pasted image 20231030100846.png",
     "note/详细笔记/2022/active contours models.md",
     "note/名词解释/TTA.md",
     "note/详细笔记/2022/TTA技术.md",
     "note/名词解释/TTA技术.md",
     "files/Pasted image 20231029203834.png",
-    "files/Pasted image 20231029203813.png",
-    "files/Pasted image 20231029203651.png",
-    "files/Pasted image 20231029201038.png",
-    "files/Pasted image 20231029200942.png",
     "note/名词解释/dice loss.md",
     "未命名.canvas"
   ]

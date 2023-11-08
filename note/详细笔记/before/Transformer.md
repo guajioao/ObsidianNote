@@ -75,20 +75,21 @@ $$MultiHead(Q,K,V) = Concat(head_1,\cdots,head_h)W^O$$
 
 #### 3.2.3 Application of Attention in our Model
 Transformer通过三种方式使用多头注意力：
-* "编码器-解码器注意力"层【即解码器第二层】
+* "编码器-解码器注意力"层【即解码器第二层】![[Pasted image 20231108101213.png]]
 	* q来自前一个decoder层，k和v来自编码器的输出。
 	* 这使得编码器的每一个position都能够关注【attend】输入序列的每一个位置【我的理解是让q能够看到所有的inputs】【与mask的作用区别】
 	* 这模仿了Seq2Seq模型中经典的编码器-解码器注意力机制
-* 编码器中的自注意力层
+* **编码器**中的自注意力层![[Pasted image 20231108101240.png]]
 	* 所有的keys,values和queries都来自上一层的输出的同一个地方。
 	* 当前层的每一个position可以关注到上一层的所有位置
-* 解码器中的自注意力层(Masked Multi-Head Attention)
+* **解码器**中的自注意力层(Masked Multi-Head Attention)![[Pasted image 20231108101251.png]]
 	* 当前层的每一个位置都可以关注到上一层所有传来的未被mask的区域
 	* 需要防止信息向左流动，以保持自回归特性
 	* 通过在缩放的点积注意力中mask所有不合适位置的连接来实现
 
 ### 3.3 Position-wise Feed-Forward Networks
-在注意力子层之外，编码器和解码器每一层还包含一个全连接前馈网络，它分别独立的应用于每个position。
+在注意力子层之外，编码器和解码器每一层还包含一个全连接前馈网络，它分别独立的应用于每个position。【这里的position指什么？head之间分别独立？】
+![[Pasted image 20231108100634.png]]
 * 由两个线性变换组成，中间夹一个ReLu激活$$FFN(x)=max(0,xW_1+b_1)W_2+b2$$
 	* 其中线性变化虽然在不同位置是相同的，但是每一层的参数不同
 * 另一种描述方法：两个大小为1的卷积
@@ -102,6 +103,8 @@ Transformer通过三种方式使用多头注意力：
 	* 在embedding层，将这些权重乘以$\sqrt{d_{model}}$
 
 ### 3.5 Positional Encoding
+![[Pasted image 20231108100941.png]]
+
 因为没有循环和卷积了，要利用序列的顺序，必须注入关于序列中tokens的相对或绝对位置的信息：
 * 为此，在编码器和解码器栈底的输入embeddings中加入位置编码"Positional Encoding"
 * 位置编码与embeddings一样也是$d_{model}$维的，因此可以直接相加
@@ -110,10 +113,9 @@ Transformer通过三种方式使用多头注意力：
 	$$PE_{(pos,2i)}= sin(pos/10000^{2i}/d_{model})$$
 	$$PE_{(pos,2i+1)}= cos(pos/10000^{2i}/d_{model})$$
 	* 其中pos指位置，i是维度。即，位置编码的每一个维度都对应一个正弦曲线。波长是一个几何级数，从$2\pi$到$10000\cdot2\pi$。
-	* 我们选择这个函数是因为，我们假设它使得模型能够很容易的通过相对位置学习注意力(注意力矩阵A)
-		* 使得$x_1,x_2$调换位置后相对位置不变，即
-		* $sin(x_1-x_2)=sin(x_2-x_1)$ 
-		* 因此自注意力计算时可以调换元素的位置
+	* 我们选择这个函数是因为，我们假设它使得模型能够很容易的通过相对位置学习注意力(注意力矩阵A)，因为对于固定偏移k，$PE_{pos+k}$可以用一个$PE_{pos}$的线性函数表示
+		* 防止$x_1,x_2$调换位置后A不变
+		* 未加入位置编码前：对于$x_t,x_s$，二者之间的注意力$A_{t,s}=q_tk_s^T=x_tW_QW_Kx_s$
 
 
 
