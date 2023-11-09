@@ -8,28 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2ebe36ab40b1ec9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "7aafd7e685bf2590",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "231109.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "231109.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "231109.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "231109.md"
+                "file": "note/详细笔记/before/Transformer.md"
               }
             }
           },
@@ -168,6 +159,7 @@
   },
   "active": "7aafd7e685bf2590",
   "lastOpenFiles": [
+    "Slides/Transformer.md",
     "231109.md",
     "note/详细笔记/before/Transformer.md",
     "未命名 1.md",
@@ -193,7 +185,6 @@
     "files/Pasted image 20231108100634.png",
     "papers/tools/ca672a1a25bd40b29c2c9cdd8f1e4fea/143bcac83e7e41c5a49b5d5e72b28e10.pdf",
     "papers/tools/ca672a1a25bd40b29c2c9cdd8f1e4fea",
-    "Slides/Transformer.md",
     "Slides",
     "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
     "生活note/note.md",
