@@ -4,44 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "9b2f197cd8e8342d",
+        "id": "095e4e9cebf7fc90",
         "type": "tabs",
-        "dimension": 37.79697624190065,
         "children": [
           {
-            "id": "c7e1932ef82eff3e",
+            "id": "c2ebe36ab40b1ec9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "7aafd7e685bf2590",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20231109组会/Transformer课程笔记.md",
+                "file": "231109.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
-      },
-      {
-        "id": "5acffd0301eda1c3",
-        "type": "tabs",
-        "dimension": 62.20302375809935,
-        "children": [
-          {
-            "id": "e49c9d7eb8193a43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/详细笔记/before/Transformer.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20231109组会/Transformer课程笔记.md",
+                "file": "231109.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20231109组会/Transformer课程笔记.md",
+                "file": "231109.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20231109组会/Transformer课程笔记.md"
+                "file": "231109.md"
               }
             }
           },
@@ -178,16 +166,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c7e1932ef82eff3e",
+  "active": "7aafd7e685bf2590",
   "lastOpenFiles": [
-    "files/Pasted image 20231108221741.png",
-    "231019.md",
+    "231109.md",
+    "note/详细笔记/before/Transformer.md",
+    "未命名 1.md",
     "result.md",
     "20231109组会/Transformer课程笔记.md",
-    "note/详细笔记/before/Transformer.md",
+    "files/Pasted image 20231108221741.png",
+    "231019.md",
     "20231109组会/演示ppt.md",
     "未命名.md",
-    "未命名 1.md",
     "20231109组会/Modified n-gram precision.md",
     "20231109组会/思维链idea.md",
     "files/Pasted image 20231108190621.png",
@@ -212,7 +201,6 @@
     "papers/tools/93e49fe5e7e94f7ebe81ecd7a54eeb3c",
     "files/Pasted image 20231106103144.png",
     "生活note/RF.md",
-    "files/Pasted image 20231105162203.png",
     "note/详细笔记/2022/DenseCLIP.md",
     "note/详细笔记/before",
     "note/详细笔记/2022/CLIP_README.md",
