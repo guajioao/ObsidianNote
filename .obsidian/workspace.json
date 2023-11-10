@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20231109组会/Transformer课程笔记.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20231109组会/Transformer课程笔记.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20231109组会/Transformer课程笔记.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20231109组会/Transformer课程笔记.md"
+                "file": "note/详细笔记/before/Transformer.md"
               }
             }
           },
@@ -178,9 +178,11 @@
   },
   "active": "7aafd7e685bf2590",
   "lastOpenFiles": [
-    "files/Pasted image 20231108221741.png",
-    "20231109组会/Transformer课程笔记.md",
+    "papers/tools/Transformer/40bba7a833014e99b1386adf5c537e57/67b7e84594be4b70acd11d5151bffdf9.pdf",
+    "papers/tools/Transformer/40bba7a833014e99b1386adf5c537e57",
     "20231109组会/Modified n-gram precision.md",
+    "20231109组会/Transformer课程笔记.md",
+    "files/Pasted image 20231108221741.png",
     "note/详细笔记/before/Transformer.md",
     "files/Pasted image 20231109215058.png",
     "papers/tools/Transformer/Transformer_Attention is all you need.pdf",
@@ -210,7 +212,6 @@
     "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
     "生活note/note.md",
     "papers/tools/93e49fe5e7e94f7ebe81ecd7a54eeb3c/277ac6223b48445ba022fc7465d9b301.pdf",
-    "papers/tools/93e49fe5e7e94f7ebe81ecd7a54eeb3c",
     "生活note/RF.md",
     "note/详细笔记/2022/DenseCLIP.md",
     "note/详细笔记/2022/CLIP_README.md",
