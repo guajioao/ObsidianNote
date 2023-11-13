@@ -159,12 +159,14 @@
   },
   "active": "7aafd7e685bf2590",
   "lastOpenFiles": [
+    "note/详细笔记/2022/ZegFormer.md",
+    "note/简单概括/2022年论文对比.md",
+    "note/详细笔记/before/Transformer.md",
     "papers/tools/Transformer/40bba7a833014e99b1386adf5c537e57/67b7e84594be4b70acd11d5151bffdf9.pdf",
     "papers/tools/Transformer/40bba7a833014e99b1386adf5c537e57",
     "20231109组会/Modified n-gram precision.md",
     "20231109组会/Transformer课程笔记.md",
     "files/Pasted image 20231108221741.png",
-    "note/详细笔记/before/Transformer.md",
     "files/Pasted image 20231109215058.png",
     "papers/tools/Transformer/Transformer_Attention is all you need.pdf",
     "Slides/Transformer.md",
@@ -192,7 +194,6 @@
     "Slides",
     "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
     "生活note/note.md",
-    "papers/tools/93e49fe5e7e94f7ebe81ecd7a54eeb3c/277ac6223b48445ba022fc7465d9b301.pdf",
     "生活note/RF.md",
     "note/详细笔记/2022/DenseCLIP.md",
     "note/详细笔记/2022/CLIP_README.md",
@@ -204,7 +205,6 @@
     "note/详细笔记/2023/CESL.md",
     "note/详细笔记/2023/SAN.md",
     "note/详细笔记/2023/Zero-shot RIS with Global-Local Features.md",
-    "note/详细笔记/2022/active contours models.md",
     "未命名.canvas"
   ]
 }
