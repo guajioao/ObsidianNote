@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md",
+                "file": "note/详细笔记/others/Normalization.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md",
+                "file": "note/详细笔记/others/Normalization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md",
+                "file": "note/详细笔记/others/Normalization.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md"
+                "file": "note/详细笔记/others/Normalization.md"
               }
             }
           },
@@ -159,11 +158,17 @@
   },
   "active": "7aafd7e685bf2590",
   "lastOpenFiles": [
+    "papers/tools/Group Normalization.pdf",
+    "papers/tools/1803.08494.pdf",
+    "papers/tools/1803.08494.pdf.crdownload",
+    "note/详细笔记/2022/DenseCLIP.md",
+    "note/详细笔记/others/Normalization.md",
+    "note/详细笔记/others",
+    "note/详细笔记/before/Transformer.md",
     "papers/tools/Transformer/Cross Attenntion.pdf",
     "papers/tools/Transformer/Cross Attenntion.pdf.crdownload",
     "note/简单概括/2021/ViT-Vision Transformer.md",
     "files/Pasted image 20231113210611.png",
-    "note/详细笔记/before/Transformer.md",
     "note/详细笔记/2022/ZegFormer.md",
     "note/简单概括/2022年论文对比.md",
     "papers/tools/Transformer/40bba7a833014e99b1386adf5c537e57/67b7e84594be4b70acd11d5151bffdf9.pdf",
@@ -186,25 +191,19 @@
     "files/Pasted image 20231108112654.png",
     "papers/tools/Transformer/TENER-Adapting Transformer Encoder for Named Entity Recognition.pdf",
     "papers/tools/Transformer/Unconfirmed 922063.crdownload",
-    "papers/tools/Transformer",
-    "papers/tools/新建文件夹",
     "files/Pasted image 20231108101251.png",
     "files/Pasted image 20231108101240.png",
     "files/Pasted image 20231108101213.png",
     "files/Pasted image 20231108100941.png",
-    "papers/tools/ca672a1a25bd40b29c2c9cdd8f1e4fea/143bcac83e7e41c5a49b5d5e72b28e10.pdf",
-    "papers/tools/ca672a1a25bd40b29c2c9cdd8f1e4fea",
     "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
     "生活note/note.md",
     "生活note/RF.md",
-    "note/详细笔记/2022/DenseCLIP.md",
     "note/详细笔记/2022/CLIP_README.md",
     "note/详细笔记/2023/OvSeg.md",
     "note/详细笔记/2023/CLIP-S4.md",
     "生活note/question.md",
     "note/详细笔记/2023/ZegCLIP.md",
     "note/简单概括/2022/DenseCLIP-sum.md",
-    "note/详细笔记/2023/CESL.md",
     "未命名.canvas"
   ]
 }
