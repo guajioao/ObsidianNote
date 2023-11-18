@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/others/Normalization.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/others/Normalization.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/others/Normalization.md",
+                "file": "note/详细笔记/before/Transformer.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/others/Normalization.md"
+                "file": "note/详细笔记/before/Transformer.md"
               }
             }
           },
@@ -158,11 +159,11 @@
   },
   "active": "7aafd7e685bf2590",
   "lastOpenFiles": [
+    "note/详细笔记/others/Normalization.md",
     "papers/tools/Group Normalization.pdf",
     "papers/tools/1803.08494.pdf",
     "papers/tools/1803.08494.pdf.crdownload",
     "note/详细笔记/2022/DenseCLIP.md",
-    "note/详细笔记/others/Normalization.md",
     "note/详细笔记/others",
     "note/详细笔记/before/Transformer.md",
     "papers/tools/Transformer/Cross Attenntion.pdf",
@@ -190,7 +191,6 @@
     "files/Pasted image 20231108190235.png",
     "files/Pasted image 20231108112654.png",
     "papers/tools/Transformer/TENER-Adapting Transformer Encoder for Named Entity Recognition.pdf",
-    "papers/tools/Transformer/Unconfirmed 922063.crdownload",
     "files/Pasted image 20231108101251.png",
     "files/Pasted image 20231108101240.png",
     "files/Pasted image 20231108101213.png",
