@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md",
+                "file": "还账记录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "152dfa441df87365",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "还账记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -87,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md",
+                "file": "还账记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md",
+                "file": "还账记录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/before/Transformer.md"
+                "file": "还账记录.md"
               }
             }
           },
@@ -159,38 +171,42 @@
   },
   "active": "7aafd7e685bf2590",
   "lastOpenFiles": [
+    "手机时间计算.md",
+    "还账记录.md",
+    "未命名.md",
+    "组会/未命名 1.md",
+    "组会/231109.md",
+    "note/详细笔记/2023/ZegCLIP.md",
+    "note/简单概括/2023年论文对比.md",
+    "note/详细笔记/2023/CESL.md",
+    "papers/显著性检测",
+    "papers/tools/Transformer/BLEU.pdf",
+    "papers/图像分割",
+    "papers/新建文件夹",
+    "note/详细笔记/before/Transformer.md",
     "note/详细笔记/others/Normalization.md",
     "papers/tools/Group Normalization.pdf",
     "papers/tools/1803.08494.pdf",
     "papers/tools/1803.08494.pdf.crdownload",
     "note/详细笔记/2022/DenseCLIP.md",
     "note/详细笔记/others",
-    "note/详细笔记/before/Transformer.md",
     "papers/tools/Transformer/Cross Attenntion.pdf",
     "papers/tools/Transformer/Cross Attenntion.pdf.crdownload",
     "note/简单概括/2021/ViT-Vision Transformer.md",
     "files/Pasted image 20231113210611.png",
     "note/详细笔记/2022/ZegFormer.md",
     "note/简单概括/2022年论文对比.md",
-    "papers/tools/Transformer/40bba7a833014e99b1386adf5c537e57/67b7e84594be4b70acd11d5151bffdf9.pdf",
-    "papers/tools/Transformer/40bba7a833014e99b1386adf5c537e57",
-    "20231109组会/Modified n-gram precision.md",
-    "20231109组会/Transformer课程笔记.md",
+    "组会/Modified n-gram precision.md",
+    "组会/Transformer课程笔记.md",
     "files/Pasted image 20231108221741.png",
     "files/Pasted image 20231109215058.png",
-    "papers/tools/Transformer/Transformer_Attention is all you need.pdf",
     "Slides/Transformer.md",
-    "231109.md",
-    "未命名 1.md",
-    "result.md",
-    "231019.md",
-    "20231109组会/演示ppt.md",
-    "未命名.md",
-    "20231109组会/思维链idea.md",
+    "组会/231019.md",
+    "组会/演示ppt.md",
+    "组会/思维链idea.md",
     "files/Pasted image 20231108190621.png",
     "files/Pasted image 20231108190235.png",
     "files/Pasted image 20231108112654.png",
-    "papers/tools/Transformer/TENER-Adapting Transformer Encoder for Named Entity Recognition.pdf",
     "files/Pasted image 20231108101251.png",
     "files/Pasted image 20231108101240.png",
     "files/Pasted image 20231108101213.png",
@@ -201,9 +217,6 @@
     "note/详细笔记/2022/CLIP_README.md",
     "note/详细笔记/2023/OvSeg.md",
     "note/详细笔记/2023/CLIP-S4.md",
-    "生活note/question.md",
-    "note/详细笔记/2023/ZegCLIP.md",
-    "note/简单概括/2022/DenseCLIP-sum.md",
     "未命名.canvas"
   ]
 }
