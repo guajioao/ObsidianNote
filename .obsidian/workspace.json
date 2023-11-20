@@ -156,8 +156,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1bcdcfc174a25054",
+  "active": "c1e94dfe42bc008c",
   "lastOpenFiles": [
+    "papers/Semantic Segmentation/ICCV2023_VPD_Unleashing Text-to-Image Diffusion Models for Visual Perception.pdf",
+    "papers/Semantic Segmentation/ICML2023_DVP.pdf",
+    "papers/Semantic Segmentation/ICML2023_DVP.pdf.crdownload",
     "生活note/手机时间计算.md",
     "生活note/还账记录.md",
     "手机时间计算.md",
@@ -180,8 +183,6 @@
     "papers/tools/1803.08494.pdf.crdownload",
     "note/详细笔记/2022/DenseCLIP.md",
     "note/详细笔记/others",
-    "papers/tools/Transformer/Cross Attenntion.pdf",
-    "papers/tools/Transformer/Cross Attenntion.pdf.crdownload",
     "note/简单概括/2021/ViT-Vision Transformer.md",
     "files/Pasted image 20231113210611.png",
     "note/详细笔记/2022/ZegFormer.md",
@@ -203,7 +204,6 @@
     "files/Pasted image 20231108100941.png",
     "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
     "生活note/note.md",
-    "生活note/RF.md",
     "未命名.canvas"
   ]
 }
