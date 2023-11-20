@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -156,7 +157,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c1e94dfe42bc008c",
+  "active": "1bcdcfc174a25054",
   "lastOpenFiles": [
     "papers/Semantic Segmentation/ICCV2023_VPD_Unleashing Text-to-Image Diffusion Models for Visual Perception.pdf",
     "papers/Semantic Segmentation/ICML2023_DVP.pdf",
