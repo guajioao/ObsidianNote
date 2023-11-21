@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "095e4e9cebf7fc90",
+        "id": "693844c7c99d0b84",
         "type": "tabs",
         "children": [
           {
-            "id": "1bcdcfc174a25054",
+            "id": "2353544f2909fcb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/常用指令.md"
+                "file": "note/详细笔记/2021/MaskFormer.md"
               }
             }
           },
@@ -157,54 +157,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1bcdcfc174a25054",
+  "active": "2353544f2909fcb4",
   "lastOpenFiles": [
+    "生活note/接下来要看的.md",
+    "note/详细笔记/2021/MaskFormer.md",
+    "note/详细笔记/2022/OpenSeg.md",
+    "note/详细笔记/2022/MaskCLIP.md",
+    "note/详细笔记/2022/CRIS.md",
+    "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
+    "note/详细笔记/2022/ZegFormer.md",
+    "note/详细笔记/2022/SimSeg.md",
+    "note/详细笔记/2020/DETR.md",
+    "note/简单概括/2021/CLIP.md",
+    "files/Pasted image 20231121220910.png",
+    "生活note/idea/未命名.md",
+    "生活note/常用指令.md",
+    "生活note/课内/RF.md",
+    "生活note/idea/question.md",
+    "生活note/idea/note.md",
+    "生活note/其他",
+    "生活note/课内",
+    "生活note/idea",
+    "note/详细笔记/2020",
+    "note/详细笔记/未命名.md",
+    "files/Pasted image 20231121215242.png",
     "papers/Semantic Segmentation/CVPR2017_FPN_Lin_Feature_Pyramid_Networks_paper.pdf",
     "papers/Semantic Segmentation/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf",
     "papers/Semantic Segmentation/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf.crdownload",
     "papers/Semantic Segmentation/ICCV2023_VPD_Unleashing Text-to-Image Diffusion Models for Visual Perception.pdf",
     "papers/Semantic Segmentation/ICML2023_DVP.pdf",
     "papers/Semantic Segmentation/ICML2023_DVP.pdf.crdownload",
-    "生活note/手机时间计算.md",
-    "生活note/还账记录.md",
+    "生活note/其他/手机时间计算.md",
+    "生活note/其他/还账记录.md",
     "手机时间计算.md",
     "还账记录.md",
-    "生活note/常用指令.md",
-    "生活note/学习通刷题题库token.md",
+    "生活note/课内/学习通刷题题库token.md",
     "组会/未命名 1.md",
     "组会/231109.md",
     "note/详细笔记/2023/ZegCLIP.md",
     "note/简单概括/2023年论文对比.md",
     "note/详细笔记/2023/CESL.md",
-    "papers/显著性检测",
-    "papers/tools/Transformer/BLEU.pdf",
-    "papers/图像分割",
-    "papers/新建文件夹",
-    "note/详细笔记/before/Transformer.md",
-    "note/详细笔记/others/Normalization.md",
-    "papers/tools/Group Normalization.pdf",
-    "note/详细笔记/2022/DenseCLIP.md",
-    "note/简单概括/2021/ViT-Vision Transformer.md",
     "files/Pasted image 20231113210611.png",
-    "note/详细笔记/2022/ZegFormer.md",
-    "note/简单概括/2022年论文对比.md",
-    "组会/Modified n-gram precision.md",
-    "组会/Transformer课程笔记.md",
     "files/Pasted image 20231108221741.png",
     "files/Pasted image 20231109215058.png",
-    "Slides/Transformer.md",
-    "组会/231019.md",
-    "组会/演示ppt.md",
-    "组会/思维链idea.md",
     "files/Pasted image 20231108190621.png",
     "files/Pasted image 20231108190235.png",
     "files/Pasted image 20231108112654.png",
     "files/Pasted image 20231108101251.png",
     "files/Pasted image 20231108101240.png",
-    "files/Pasted image 20231108101213.png",
-    "files/Pasted image 20231108100941.png",
-    "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
-    "生活note/note.md",
     "未命名.canvas"
   ]
 }

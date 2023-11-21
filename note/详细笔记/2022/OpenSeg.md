@@ -22,9 +22,9 @@ Scaling Open-Vocabulary Image Segmentation with Image-Level Labels
 
 ## 结构
 * 原论文结构图
-	* ![[Pasted image 20231014163940.png]]
+	* ![[Pasted image 20231014163940.png|425]]
 * 重制辅助理解结构图
-	* ![[f9798c19e40a63231d4016179970e17.png]]
+	* ![[f9798c19e40a63231d4016179970e17.png|475]]
 
 
 ## 一、引言 Introduction
