@@ -1,6 +1,7 @@
 
 收录于：NIPS2021
 Per-Pixel Classification is Not All You Need for Semantic Segmentation
+[code](https://github.com/facebookresearch/MaskFormer)
 
 ## 摘要：
 * 语义分割被视为逐像素分类问题，实例分割在此基础上被视为mask分类
@@ -30,13 +31,16 @@ Per-Pixel Classification is Not All You Need for Semantic Segmentation
 	* 用backbone提取出特征图$F$
 	* 两条线：分别计算分类损失与二元掩码损失
 		* 分类损失线：
-			* F输入Transformer decoder，产生N个per-segment embeddings $Q$【queries是N个可学习的embeddings】
+			* F输入Transformer decoder，产生N个per-segment embeddings $Q \in \mathbb{R}^{C_Q \times N}$【queries是N个可学习的embeddings】
+				* queries是N个$C_Q \times 1$大小的向量
+				* 每一个query在Transformer 解码器中都独立的对$F$进行交叉注意力查询
 			* 这个$Q$独立地分别产生N个**类别预测**和N个对应的mask embeddinngs $\varepsilon_{mask}$
 		* 二元掩码损失线：
 			* F通过pixel decoder产生per-pixel embeddings $\varepsilon_{pixel}$
 			* $\varepsilon_{pixel}$与$\varepsilon_{mask}$做点积，后面跟着一个Sigmoid激活，产生N个**二元掩码预测**
 	* 对语义分割任务，直接将N个二元损失与他们的类别预测通过一个简单的矩阵乘法combine起来即可
-Transformer decoder部分的query用CLIP的文本特征？这部分的目的是产生每个class对应的mask embeddings。
+Transformer decoder部分的query用CLIP的文本特征？这部分的目的是产生每个class对应的mask embeddings。 ^9af7dd
+
 
 ## 一、引言 Introduction
 

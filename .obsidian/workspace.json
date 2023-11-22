@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md",
+                "file": "note/详细笔记/Visual Prompt Tuning.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c39856d8a427bb2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/2020/DETR.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -87,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md",
+                "file": "note/详细笔记/Visual Prompt Tuning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md",
+                "file": "note/详细笔记/Visual Prompt Tuning.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md"
+                "file": "note/详细笔记/Visual Prompt Tuning.md"
               }
             }
           },
@@ -140,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -159,52 +171,51 @@
   },
   "active": "2353544f2909fcb4",
   "lastOpenFiles": [
-    "生活note/接下来要看的.md",
     "note/详细笔记/2021/MaskFormer.md",
+    "note/详细笔记/2020/DETR.md",
+    "papers/目标检测/detr.pdf",
+    "papers/目标检测/detr.pdf.crdownload",
+    "papers/目标检测/FPN_Panoptic Feature Pyramid Networks.pdf",
+    "papers/Semantic Segmentation/FPN_Panoptic Feature Pyramid Networks.pdf",
+    "papers/tools/FPN_Panoptic Feature Pyramid Networks.pdf",
+    "papers/tools/NIPS2021_MaskFormer_Per-Pixel Classification is Not All You Need for Semantic Segmentation.pdf",
+    "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_SimSeg_A Simple Baseline for Zero-shot Semantic Segmentation with.pdf",
+    "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_OpenSeg_Scaling Open-Vocabulary Image Segmentation with Image-Level Labels.pdf",
+    "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_MaskCLIP_Extract Free Dense Labels from CLIP.pdf",
+    "papers/Semantic Segmentation/CLIP_Segmentation/CVPR2023_Zero-shot Referring Image Segmentation with Global-Local Context Features.pdf",
+    "note/详细笔记/2022/Mask2Former.md",
+    "note/详细笔记/2021/Multi-task self-training for learning general representations.md",
+    "note/详细笔记/2022/DenseCLIP.md",
+    "生活note/idea/q1.md",
+    "files/Pasted image 20231122102044.png",
+    "files/e309dd225b1f67bf4663c99d26565c7.png",
+    "生活note/idea/未命名.md",
+    "生活note/接下来要看的.md",
     "note/详细笔记/2022/OpenSeg.md",
     "note/详细笔记/2022/MaskCLIP.md",
     "note/详细笔记/2022/CRIS.md",
     "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
     "note/详细笔记/2022/ZegFormer.md",
     "note/详细笔记/2022/SimSeg.md",
-    "note/详细笔记/2020/DETR.md",
     "note/简单概括/2021/CLIP.md",
     "files/Pasted image 20231121220910.png",
-    "生活note/idea/未命名.md",
     "生活note/常用指令.md",
     "生活note/课内/RF.md",
     "生活note/idea/question.md",
     "生活note/idea/note.md",
-    "生活note/其他",
-    "生活note/课内",
-    "生活note/idea",
-    "note/详细笔记/2020",
     "note/详细笔记/未命名.md",
     "files/Pasted image 20231121215242.png",
-    "papers/Semantic Segmentation/CVPR2017_FPN_Lin_Feature_Pyramid_Networks_paper.pdf",
-    "papers/Semantic Segmentation/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf",
-    "papers/Semantic Segmentation/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf.crdownload",
-    "papers/Semantic Segmentation/ICCV2023_VPD_Unleashing Text-to-Image Diffusion Models for Visual Perception.pdf",
-    "papers/Semantic Segmentation/ICML2023_DVP.pdf",
-    "papers/Semantic Segmentation/ICML2023_DVP.pdf.crdownload",
     "生活note/其他/手机时间计算.md",
     "生活note/其他/还账记录.md",
     "手机时间计算.md",
     "还账记录.md",
     "生活note/课内/学习通刷题题库token.md",
-    "组会/未命名 1.md",
-    "组会/231109.md",
-    "note/详细笔记/2023/ZegCLIP.md",
-    "note/简单概括/2023年论文对比.md",
-    "note/详细笔记/2023/CESL.md",
     "files/Pasted image 20231113210611.png",
     "files/Pasted image 20231108221741.png",
     "files/Pasted image 20231109215058.png",
     "files/Pasted image 20231108190621.png",
     "files/Pasted image 20231108190235.png",
     "files/Pasted image 20231108112654.png",
-    "files/Pasted image 20231108101251.png",
-    "files/Pasted image 20231108101240.png",
     "未命名.canvas"
   ]
 }
