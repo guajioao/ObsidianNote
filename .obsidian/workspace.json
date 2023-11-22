@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/Visual Prompt Tuning.md",
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/Visual Prompt Tuning.md",
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/Visual Prompt Tuning.md",
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/Visual Prompt Tuning.md"
+                "file": "note/详细笔记/2021/MaskFormer.md"
               }
             }
           },
@@ -171,6 +171,9 @@
   },
   "active": "2353544f2909fcb4",
   "lastOpenFiles": [
+    "papers/Semantic Segmentation/NIPS2021_MaskFormer_Per-Pixel Classification is Not All You Need for Semantic Segmentation.pdf",
+    "note/详细笔记/2022/Mask2Former.md",
+    "note/详细笔记/Visual Prompt Tuning.md",
     "note/详细笔记/2021/MaskFormer.md",
     "note/详细笔记/2020/DETR.md",
     "papers/目标检测/detr.pdf",
@@ -183,7 +186,6 @@
     "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_OpenSeg_Scaling Open-Vocabulary Image Segmentation with Image-Level Labels.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_MaskCLIP_Extract Free Dense Labels from CLIP.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/CVPR2023_Zero-shot Referring Image Segmentation with Global-Local Context Features.pdf",
-    "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/2021/Multi-task self-training for learning general representations.md",
     "note/详细笔记/2022/DenseCLIP.md",
     "生活note/idea/q1.md",
@@ -209,7 +211,6 @@
     "生活note/其他/还账记录.md",
     "手机时间计算.md",
     "还账记录.md",
-    "生活note/课内/学习通刷题题库token.md",
     "files/Pasted image 20231113210611.png",
     "files/Pasted image 20231108221741.png",
     "files/Pasted image 20231109215058.png",
