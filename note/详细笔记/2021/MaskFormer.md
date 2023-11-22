@@ -53,15 +53,25 @@ Transformer decoder部分的query用CLIP的文本特征？这部分的目的是�
 * 介绍作者提出的掩码分类模型，以及使用的Transformer decoder在其中的作用
 * 提出一种简单的将mask分类输出结果转换为其他任务依赖的输出格式
 ### 3.1 逐像素分类公式
-对于一个HxW的图像，总共有K个类别，需要预测图像的每个像素$y=\{p_i|p_i \in \triangle^{K}\}$，其中$\triangle^{K}$是一个K维的概率向量。
+对于一个HxW的图像，总共有K个类别，需要预测图像的每个像素$y=\{p_i|p_i \in \Delta^{K}\}$，其中$\Delta^{K}$是一个K维的概率向量。
 训练非常直接，直接用ground truth的类别标签$y^{gt}=\{y^{gt}|y^{gt} \in  \{1,\cdots ,K\}\}^{H\cdot W}_{i=1}$来计算每个像素的交叉熵损失 $\mathcal{L}_{pixel-cls}(y,y^{pt})=\sum^{H\cdot W}_{i=1}-\log p_i(y^{gt}_{i})$
 
 ### 3.2 掩码分类公式
-将语义分割任务分解为：
+将语义分割任务分解为：划分区域获得二元掩码；对掩码进行分类
 * 将图像划分/分组为N个区域(N不一定与K相等)，用二元掩码表示$\{m_i|m_i \in [0,1]^{H\times W}\}^N_{i=1}$
 * 用在K个类别上的分布将每个区域联系成一个整体
 * 对每一个segment进行联合分组和分类，即进行掩码分类
 	* 定义了目标输出$z$，是一组N概率-掩码对，即$z=\{(p_i,m_i)\}^N_{i=1}$
+	* $p_i \in \Delta^{K+1}$还包含一个"no object"标签($\phi$)，用于推理不属于K中任何一个类的mask
+	* 允许使用相同的class预测多个掩码，使得它可以同时用于语义分割和实例分割任务
+训练的时候，掩码分类模型需要在一组预测$z$与一组GT段$z^{gt}$之间进行匹配matching $\sigma$
+$z^{gt} = \{(c_i^{gt},m_i^{gt})|c_i^{gt}\in\{1,\cdots,K\},m_i^{gt}\in \{0,1\}^{H\times W}\}_{i=1}^{N^{gt}}$，其中$c_i^{gt}$是第i个类的GT掩码。
+* 对于语义分割任务，普通的fixed matching就足够了，因为预测数量N与类别标签K是匹配的。在实验中，作者发现基于bipartite matching的赋值比fixed matching效果更好。
+* 与DETR不同，DETR使用bbox来计算在预测$z_i$与GT$z_j^{gt}$之间对于匹配问题的的assignment costs，而作者的工作MaskFormer中直接使用class和mask预测，即$-p_i(c_j^{gt})+\mathcal{L}_{mask} (m_i,m_j^{gt})$，其中$\mathcal{L}_{mask}$是二元mask损失
+* 训练时的损失是：![[Pasted image 20231122210319.png]]
+* 
+
+### 3.3 MaskFormer
 
 
 
