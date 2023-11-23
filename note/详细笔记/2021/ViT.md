@@ -1,9 +1,7 @@
 
-收录于：ECCV2020
-End-to-End Object Detection with Transformers
-Detection Transformer (DETR)
-Transformer在目标检测领域的成功应用
-[code](https://github.com/encounter1997/SFA)
+收录于：ICLR2021
+AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE
+
 
 ## 摘要：
 
@@ -19,7 +17,7 @@ Transformer在目标检测领域的成功应用
 * [[#六、结论]]
 
 ## 结构
-结构图.![[Pasted image 20231122220228.png]]
+结构图：![[Pasted image 20231122221309.png]]
 
 ## 一、引言 Introduction
 
