@@ -72,8 +72,27 @@ $z^{gt} = \{(c_i^{gt},m_i^{gt})|c_i^{gt}\in\{1,\cdots,K\},m_i^{gt}\in \{0,1\}^{H
 * 
 
 ### 3.3 MaskFormer
+* 计算得到N个概率-mask对$z=\{(p_i,m_i)\}^N_{i=1}$
+* 包括三个模块：
+	* a pixel-level module：提取出per-pixel embeddings来产生二元掩码预测结果
+	* a transforemr module：用一组Transformer decoder layers计算N个per-segment embeddings
+	* a segmentation module：从之前的输出中产生预测结果$\{(p_i,m_i)\}^N_{i=1}$
+* 在推理的时候，由$p_i$与$m_i$来组装成最终的预测结果
 
+**Pixel-level module**：以$H\times W$大小的图像为输入
+* backbone产生低分辨率图像特征图![[Pasted image 20231123203654.png|192]]
+		其中$C_{\mathcal{F}}$是通道数，S是特征图的stride(作者使用$S=32$的设置)
+* 逐渐上采样特征图，产生per-pixel embeddings $\varepsilon_{pixel}$ ![[Pasted image 20231123204631.png|149]]
+		其中$C_{\varepsilon}$是embedding的维度
+* 当时的任何基于per-pixel 分类器的分割模型均符合这个像素级模块的设计，包括基于Transforemr的模型
+* MaskFormer能将所有这样的模型转换为mask分类模型
 
+**Transformer module**
+* 使用标准的Transformer decoder，来从**图像特征图** $\mathcal{F}$和N个可学习的位置编码(即**queries**)计算输出，即N个per-segment embeddings $Q\in \mathbb{R}^{C_Q\times N}$
+	* $C_Q$对每一个segment的全局信息进行编码
+	* 与[[DETR]]一样，decoder平行的产生输出
+
+**Segmentation module**
 
 
 ## 四、实现细节

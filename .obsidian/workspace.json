@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2021/SETR.md",
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -27,6 +27,25 @@
               "type": "markdown",
               "state": {
                 "file": "note/详细笔记/2020/DETR.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1a1d01dc6b2accf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e4a8e09f131b50a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -83,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -99,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2021/SETR.md",
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2021/SETR.md",
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2021/SETR.md"
+                "file": "note/详细笔记/2021/MaskFormer.md"
               }
             }
           },
@@ -171,13 +191,16 @@
   },
   "active": "2353544f2909fcb4",
   "lastOpenFiles": [
+    "files/Pasted image 20231123204631.png",
+    "files/Pasted image 20231123203728.png",
+    "files/Pasted image 20231123203654.png",
+    "note/详细笔记/2021/SETR.md",
     "papers/Semantic Segmentation/2021NIPS_MaskFormer_Per-Pixel Classification is Not All You Need for Semantic Segmentation.pdf",
     "papers/Semantic Segmentation/2023ICCV_VPD_Unleashing Text-to-Image Diffusion Models for Visual Perception.pdf",
     "papers/Semantic Segmentation/2022CVPR_Mask2Former_Masked-attention Mask Transformer for Universal Image Segmentation.pdf",
     "papers/Semantic Segmentation/2017CVPR_FPN_Lin_Feature_Pyramid_Networks_paper.pdf",
     "papers/Semantic Segmentation/2021CVPR_SETR_Transformer to Semantic Segmentation.pdf",
     "gather/Transformer在CV的应用.md",
-    "note/详细笔记/2021/SETR.md",
     "note/详细笔记/2021/ViT.md",
     "files/Pasted image 20231122221309.png",
     "note/详细笔记/2020/DETR.md",
@@ -192,7 +215,6 @@
     "papers/Semantic Segmentation/NIPS2021_MaskFormer_Per-Pixel Classification is Not All You Need for Semantic Segmentation.pdf",
     "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/Visual Prompt Tuning.md",
-    "papers/目标检测/detr.pdf",
     "note/详细笔记/2021/Multi-task self-training for learning general representations.md",
     "note/详细笔记/2022/DenseCLIP.md",
     "生活note/idea/q1.md",
@@ -215,8 +237,6 @@
     "note/详细笔记/未命名.md",
     "files/Pasted image 20231121215242.png",
     "files/Pasted image 20231113210611.png",
-    "files/Pasted image 20231108221741.png",
-    "files/Pasted image 20231109215058.png",
     "未命名.canvas"
   ]
 }
