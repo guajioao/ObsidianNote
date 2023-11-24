@@ -26,9 +26,10 @@ Per-Pixel Classification is Not All You Need for Semantic Segmentation
 	* ![[Pasted image 20231121215242.png]]
 	* 每一个mask都单独计算mask损失和分类损失
 	* 这样成组的进行匹配可以通过[[DETR]]中采用的bipartite matching或者通过fixed matching，即直接使用mask的index（当预测结果个数K与类别个数N相同时:$K=N$）
-* Overview
+* MaskFormer Overview
 	* ![[Pasted image 20231121220910.png]]
 	* 用backbone提取出特征图$F$
+	* 为什么在MaskFormer中要直接用F，而不像DETR中一样通过encoder之后再输入decoder
 	* 两条线：分别计算分类损失与二元掩码损失
 		* 分类损失线：
 			* F输入Transformer decoder，产生N个per-segment embeddings $Q \in \mathbb{R}^{C_Q \times N}$【queries是N个可学习的embeddings】
@@ -111,7 +112,7 @@ $z^{gt} = \{(c_i^{gt},m_i^{gt})|c_i^{gt}\in\{1,\cdots,K\},m_i^{gt}\in \{0,1\}^{H
 **General inference**：通过![[Pasted image 20231123221447.png|350]]将每个像素分配给N个预测的概率-掩码对来将图像分割成块。其中，$c_i$是在每i个概率-掩码对中最可能的类别标签。
 * 直觉地，只有在类别概率$p_i(c_i)$和掩码推理概率$m_i[h,w]$都高的情况下才会将位置$[h,w]$分配给概率-掩码对$i$
 * 分配给同一个概率掩码对$i$的像素组成一个segment，其中所有的像素类别标签都为$c_i$
-	* 语义分割任务中所有$c_i$相同的像素被合并
+	* 语义分割任务中所有$c_i$相同的像素被合并为同一个区域
 	* 实例分割中，可以用概率-掩码对的index $i$来区分同一类别的不同实例
 	* 为了减少假阳率(FP rate)，在全景分割中采用与DETR和【参考文献24】相同的推理策略
 	* 在推理之前先过滤出低置信度的推理结果，并删除了那些有大量掩码被其他预测结果遮挡$(m_i>0.5)$的预测segments
@@ -121,6 +122,10 @@ $z^{gt} = \{(c_i^{gt},m_i^{gt})|c_i^{gt}\in\{1,\cdots,K\},m_i^{gt}\in \{0,1\}^{H
 * the argmax不包括"no object"类，因为标准的语义分割结果要求每个像素都取一个标签
 * 这一策略返回一个per-pixel class probality![[Pasted image 20231123224202.png]]
 * 然而作者观察到直接的最大化每个像素的类别可能会导致结果变差。我们分析这是因为梯度均匀的分布到每一个query中，使得训练变复杂。
+
+MaskFormer这篇文章里3.4讲的两个推理方法
+* general inference是对每一个概率-掩码对 $i$ 找到每一个 $c_i$ 中包含的一组概率$p_i(c)$中的最大值，记为 $p_i(c_i)$，然后乘以 $m_i$。找最大的 $p_i\cdot m_i$
+* semantic inference对每一个概率-掩码对 $i$ 不找$c_i$中的最大概率了，直接每一组$p_i$都乘以相应的$m_i$后求和，最大化这个求和结果
 
 
 ## 四、实现细节

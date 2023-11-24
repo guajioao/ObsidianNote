@@ -6,6 +6,7 @@
       {
         "id": "693844c7c99d0b84",
         "type": "tabs",
+        "dimension": 50.885558583106274,
         "children": [
           {
             "id": "2353544f2909fcb4",
@@ -33,11 +34,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "1a1d01dc6b2accf8",
         "type": "tabs",
+        "dimension": 49.11444141689373,
         "children": [
           {
             "id": "2e4a8e09f131b50a",
@@ -189,8 +192,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2353544f2909fcb4",
+  "active": "2e4a8e09f131b50a",
   "lastOpenFiles": [
+    "note/详细笔记/2020/DETR.md",
+    "note/详细笔记/2021/ViT.md",
+    "note/详细笔记/2021/MaskFormer.md",
+    "生活note/接下来要看的.md",
+    "files/Pasted image 20231124210431.png",
+    "生活note/其他/还账记录.md",
+    "files/Pasted image 20231124202516.png",
+    "papers/ClassicalNetwork/2020ECCV_DETR_End-to-End Object Detection with Transformers.pdf",
+    "papers/ClassicalNetwork/ECCV2020_DETR_End-to-End Object Detection with Transformers.pdf",
+    "papers/Semantic Segmentation/569a72bd0aa345b18f0f5264d08b2966/d373bf2a0a824891b0902756b3dc667f.pdf",
+    "papers/Semantic Segmentation/569a72bd0aa345b18f0f5264d08b2966",
     "papers/Semantic Segmentation/90068c629d8b473db8eed71e10337a94/70bc8275199542b8ae2ba6c2e694a138.pdf",
     "papers/Semantic Segmentation/90068c629d8b473db8eed71e10337a94",
     "papers/ClassicalNetwork/2021CVPR_Swin Transformer_Hierarchical Vision Transformer using Shifted Windows.pdf",
@@ -206,25 +220,14 @@
     "files/Pasted image 20231123203728.png",
     "files/Pasted image 20231123203654.png",
     "note/详细笔记/2021/SETR.md",
-    "papers/Semantic Segmentation/2021NIPS_MaskFormer_Per-Pixel Classification is Not All You Need for Semantic Segmentation.pdf",
-    "papers/Semantic Segmentation/2023ICCV_VPD_Unleashing Text-to-Image Diffusion Models for Visual Perception.pdf",
-    "papers/Semantic Segmentation/2022CVPR_Mask2Former_Masked-attention Mask Transformer for Universal Image Segmentation.pdf",
-    "papers/Semantic Segmentation/2017CVPR_FPN_Lin_Feature_Pyramid_Networks_paper.pdf",
-    "papers/Semantic Segmentation/2021CVPR_SETR_Transformer to Semantic Segmentation.pdf",
     "gather/Transformer在CV的应用.md",
-    "note/详细笔记/2021/ViT.md",
-    "files/Pasted image 20231122221309.png",
-    "note/详细笔记/2020/DETR.md",
     "gather/关系分析.md",
-    "note/详细笔记/2021/MaskFormer.md",
-    "files/Pasted image 20231122220228.png",
     "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/Visual Prompt Tuning.md",
     "note/详细笔记/2021/Multi-task self-training for learning general representations.md",
     "note/详细笔记/2022/DenseCLIP.md",
     "生活note/idea/q1.md",
     "生活note/idea/未命名.md",
-    "生活note/接下来要看的.md",
     "note/详细笔记/2022/OpenSeg.md",
     "note/详细笔记/2022/MaskCLIP.md",
     "note/详细笔记/2022/CRIS.md",
@@ -236,7 +239,6 @@
     "生活note/课内/RF.md",
     "生活note/idea/question.md",
     "生活note/idea/note.md",
-    "note/详细笔记/未命名.md",
     "未命名.canvas"
   ]
 }
