@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2020/DETR.md",
+                "file": "生活note/其他/还账记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md",
+                "file": "生活note/其他/还账记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md",
+                "file": "生活note/其他/还账记录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md"
+                "file": "生活note/其他/还账记录.md"
               }
             }
           },
@@ -192,14 +192,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2e4a8e09f131b50a",
+  "active": "c39856d8a427bb2a",
   "lastOpenFiles": [
+    "note/详细笔记/2021/MaskFormer.md",
+    "生活note/其他/还账记录.md",
     "note/详细笔记/2020/DETR.md",
     "note/详细笔记/2021/ViT.md",
-    "note/详细笔记/2021/MaskFormer.md",
     "生活note/接下来要看的.md",
     "files/Pasted image 20231124210431.png",
-    "生活note/其他/还账记录.md",
     "files/Pasted image 20231124202516.png",
     "papers/ClassicalNetwork/2020ECCV_DETR_End-to-End Object Detection with Transformers.pdf",
     "papers/ClassicalNetwork/ECCV2020_DETR_End-to-End Object Detection with Transformers.pdf",
