@@ -6,7 +6,6 @@
       {
         "id": "693844c7c99d0b84",
         "type": "tabs",
-        "dimension": 50.885558583106274,
         "children": [
           {
             "id": "2353544f2909fcb4",
@@ -14,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md",
+                "file": "note/详细笔记/2021/ViT.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -28,27 +27,6 @@
               "type": "markdown",
               "state": {
                 "file": "生活note/其他/还账记录.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "1a1d01dc6b2accf8",
-        "type": "tabs",
-        "dimension": 49.11444141689373,
-        "children": [
-          {
-            "id": "2e4a8e09f131b50a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -122,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/详细笔记/2021/ViT.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/详细笔记/2021/ViT.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/其他/还账记录.md"
+                "file": "note/详细笔记/2021/ViT.md"
               }
             }
           },
@@ -192,12 +170,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c39856d8a427bb2a",
+  "active": "2353544f2909fcb4",
   "lastOpenFiles": [
-    "note/详细笔记/2021/MaskFormer.md",
-    "生活note/其他/还账记录.md",
     "note/详细笔记/2020/DETR.md",
+    "note/详细笔记/2021/MaskFormer.md",
+    "note/详细笔记/2022/DenseCLIP.md",
     "note/详细笔记/2021/ViT.md",
+    "生活note/其他/还账记录.md",
     "生活note/接下来要看的.md",
     "files/Pasted image 20231124210431.png",
     "files/Pasted image 20231124202516.png",
@@ -225,7 +204,6 @@
     "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/Visual Prompt Tuning.md",
     "note/详细笔记/2021/Multi-task self-training for learning general representations.md",
-    "note/详细笔记/2022/DenseCLIP.md",
     "生活note/idea/q1.md",
     "生活note/idea/未命名.md",
     "note/详细笔记/2022/OpenSeg.md",
