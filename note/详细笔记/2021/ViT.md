@@ -37,9 +37,9 @@ AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE
 	* locality：假设相邻的区域上会有相同的特征
 	* translation equivariance平移等变性：f(g(x))=g(f(x)),无论是在卷积之前平移还是在平移之前卷积，结果是不变的
 	* 在Transformer里面是没有的，对Transformer来说都需要重新学习，因此必须要大量的数据。
-* Hybrid Architecture
+* Hybrid Architecture.可以用特征图来作为flatten与投影的对象，而不是整张图。
 
-## 四、实现细节
+## 四、实验
 
 
 ## 五、实验结果
