@@ -6,9 +6,23 @@
       {
         "id": "693844c7c99d0b84",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "2353544f2909fcb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/2021/MaskFormer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59c550feeb3194a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,6 +41,26 @@
               "type": "markdown",
               "state": {
                 "file": "生活note/其他/还账记录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "fbe6f576a1af5315",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "428c989df3571203",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2022/Mask2Former.md",
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2022/Mask2Former.md",
+                "file": "note/详细笔记/2021/MaskFormer.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2022/Mask2Former.md"
+                "file": "note/详细笔记/2021/MaskFormer.md"
               }
             }
           },
@@ -172,6 +206,7 @@
   },
   "active": "2353544f2909fcb4",
   "lastOpenFiles": [
+    "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/2021/MaskFormer.md",
     "note/详细笔记/2021/ViT.md",
     "note/详细笔记/before/Transformer.md",
@@ -202,7 +237,6 @@
     "note/详细笔记/2021/SETR.md",
     "gather/Transformer在CV的应用.md",
     "gather/关系分析.md",
-    "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/Visual Prompt Tuning.md",
     "note/详细笔记/2021/Multi-task self-training for learning general representations.md",
     "生活note/idea/q1.md",

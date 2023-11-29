@@ -101,7 +101,7 @@ $z^{gt} = \{(c_i^{gt},m_i^{gt})|c_i^{gt}\in\{1,\cdots,K\},m_i^{gt}\in \{0,1\}^{H
 	* 最后通过第i个mask embedding与per-pixel embedding $m_i$做点积，来获得每一个二元掩码的结果。
 	* 点积后面跟着一个sigmoid激活函数，即![[Pasted image 20231123215902.png]]
 * 作者发现不使用softmax而是使用sigmoid，即不让各个掩码互相排斥是更有利的
-* 在训练中，最红的损失结合了交叉熵分类损失与二元掩码损失
+* 在训练中，最后的损失结合了交叉熵分类损失与二元掩码损失
 * 为了简便，使用了DETR中相同的mask损失，即一个focal loss与dice loss的线性组合，系数分别为超参数$\lambda_{focal}$和$\lambda_{dice}$
 
 ### 3.4 Mask-classification inference
