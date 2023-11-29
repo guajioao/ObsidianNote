@@ -4,6 +4,10 @@ Masked-attention Mask Transformer for Universal Image Segmentation
 [code](https://github.com/facebookresearch/Mask2Former)
 
 ## 摘要：
+* 提出Masked-attention Mask Transformer(Mask2Former)
+	* 可以处理任何图像分割任务（全景、实例、语义分割）
+	* 核心组成部分是masked-attenntion：通过将交叉注意力约束在预测的掩码区域来提取局部特征
+	* 不仅减少了至少三次研究工作，还在四个流行数据集上超过了专门的架构，均达到了SOTA的成果
 
 
 ## 目录：
@@ -33,6 +37,21 @@ Masked-attention Mask Transformer for Universal Image Segmentation
 
 
 ## 三、方法 Method
+
+### 3.1 Mask classification preliminaries
+基于[[Maskformer]]，介绍Maskformer的主要结构：
+* backbone：提取低分辨率特征
+* pixel decoder：上采样低分辨率特征，来产生高分辨率 per-pixel embeddings
+* Transformer decoder：用图像特征来产生object queries
+最后获得
+
+### 3.2 Transformer decoder with masked attention
+基于Maskformer相同的架构，但提出新的Transformer decoder替换原本的标准Transformer decoder部分
+* 关键部分是 masked attention操作
+	* 限制交叉注意力的范围，将其约束在每个query预测的mask中
+
+
+
 
 
 ## 四、实现细节

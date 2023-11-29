@@ -96,10 +96,12 @@ $z^{gt} = \{(c_i^{gt},m_i^{gt})|c_i^{gt}\in\{1,\cdots,K\},m_i^{gt}\in \{0,1\}^{H
 **Segmentation module**
 * 在Q上用一个线性分类器，跟着一个softmax激活，来对每个segment都产生一个类别概率预测$\{p_i \in \Delta^{K+1}\}^N_{i=1}$
 	* 加入了一个"no object"类别，因此是(K+1)
+	* ![[2d1bfc1ea5d48a13ebb0578f8fbda4d.jpg]]
 * 为了预测掩码：
 	* 用一个有2个隐层的多层感知机(MLP)将Q转换为N个mask embeddings ![[Pasted image 20231123215617.png]]
 	* 最后通过第i个mask embedding与per-pixel embedding $m_i$做点积，来获得每一个二元掩码的结果。
 	* 点积后面跟着一个sigmoid激活函数，即![[Pasted image 20231123215902.png]]
+		* ![[397cfa6881313e8c7c004945de58c45.jpg]]
 * 作者发现不使用softmax而是使用sigmoid，即不让各个掩码互相排斥是更有利的
 * 在训练中，最后的损失结合了交叉熵分类损失与二元掩码损失
 * 为了简便，使用了DETR中相同的mask损失，即一个focal loss与dice loss的线性组合，系数分别为超参数$\lambda_{focal}$和$\lambda_{dice}$
@@ -110,10 +112,12 @@ $z^{gt} = \{(c_i^{gt},m_i^{gt})|c_i^{gt}\in\{1,\cdots,K\},m_i^{gt}\in \{0,1\}^{H
 * *semantic inference*，特别为语义分割设计的
 
 **General inference**：通过![[Pasted image 20231123221447.png|350]]将每个像素分配给N个预测的概率-掩码对来将图像分割成块。其中，$c_i$是在每i个概率-掩码对中最可能的类别标签。
+* ![[91c70c40817b8bb9dceee9f2cb07fbc.jpg]]
 * 直觉地，只有在类别概率$p_i(c_i)$和掩码推理概率$m_i[h,w]$都高的情况下才会将位置$[h,w]$分配给概率-掩码对$i$
 * 分配给同一个概率掩码对$i$的像素组成一个segment，其中所有的像素类别标签都为$c_i$
 	* 语义分割任务中所有$c_i$相同的像素被合并为同一个区域
 	* 实例分割中，可以用概率-掩码对的index $i$来区分同一类别的不同实例
+		* 概率最大的类别$c_i$一样，但是i不一样，即为同一类别的不同实例
 	* 为了减少假阳率(FP rate)，在全景分割中采用与DETR和【参考文献24】相同的推理策略
 	* 在推理之前先过滤出低置信度的推理结果，并删除了那些有大量掩码被其他预测结果遮挡$(m_i>0.5)$的预测segments
 
