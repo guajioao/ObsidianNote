@@ -49,6 +49,28 @@ Masked-attention Mask Transformer for Universal Image Segmentation
 基于Maskformer相同的架构，但提出新的Transformer decoder替换原本的标准Transformer decoder部分
 * 关键部分是 masked attention操作
 	* 限制交叉注意力的范围，将其约束在每个query预测的mask中
+* 为了处理小目标，提出多尺度策略来利用高分辨率的特征图
+	* 从像素解码器的特征金字塔，以循环的方式将特征图连续喂输入Transformer解码器的各层里
+* 提高性能，而没有引入额外的计算
+
+#### 3.2.1 Masked attention
+上下文特征在图像分割中的重要性显而易见，但是，最近的研究认为Transformer-based模型收敛慢是由于交叉注意力层中的全局语义，因为需要许多训练轮次来学习注意物体的周围区域。
+* 作者假设局部特征已足以更新query特征，且上下文信息可以通过自注意力来汇集。
+* 因此提出masked attention，一个交叉注意力的变体
+	* 只在每个query对应推理得到的mask的前景区域做注意力
+* 标准的交叉注意力计算$$ X_l=softmax(Q_lK_l^T)V_l+X_{l-1} $$
+* 其中，$l$是当前层序号，$X_l\in \mathbb{R}^{N\times C}$指第$l$层的N个C维query特征，且$Q_l=f_Q(X_{l-1})\in \mathbb{R}^{N\times C}$。
+	* $X_0$指输入Transformer decoder的query特征。
+	* $K_l,V_l\in \mathbb{R}^{H_lW_l\times C}$是分别通过$f_K(\cdot)$和$f_V(\cdot)$变换后的图像特征
+	* $H_l,W_l$是图像特征的空间分辨率
+	* $f_K(\cdot)$和$f_V(\cdot)$是线性变换
+* 作者提出的masked attention将注意力矩阵体征为:$$ X_l = softmax(\mathcal{M}_{l-1}+Q_lK_l^T)V_l+X_{l-1} $$
+	* 此外，注意力mask$\mathcal{M}_{l-1}$在(x,y)位置的特征为$$\mathcal{M}_{l-1}=\begin{cases}0  & \text{ if } M_{l-1}(x,y)=1 
+		 \\-\infty  & \text{otherwise}\end{cases}$$
+		 * 其中，$M_{l-1}\in \{0,1\}^{N\times H_kW_l}$是上一层Transformer decoder layer resize后mask的二元输出(阈值设置为0.5)【？】
+		 * 
+
+
 
 
 
