@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2022/Mask2Former.md",
+                "file": "note/详细笔记/others/扩散模型.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -48,6 +48,25 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "3bf4cb7bcea7163d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e9db0414beb102c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/2022/Mask2Former.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2022/Mask2Former.md",
+                "file": "note/详细笔记/others/扩散模型.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2022/Mask2Former.md",
+                "file": "note/详细笔记/others/扩散模型.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2022/Mask2Former.md"
+                "file": "note/详细笔记/others/扩散模型.md"
               }
             }
           },
@@ -186,17 +205,22 @@
   },
   "active": "59c550feeb3194a8",
   "lastOpenFiles": [
+    "papers/ClassicalNetwork/DDPM.pdf",
+    "papers/ClassicalNetwork/Unconfirmed 384381.crdownload",
+    "note/详细笔记/2022/Mask2Former.md",
+    "note/详细笔记/others/扩散模型.md",
+    "生活note/接下来要看的.md",
+    "papers/Semantic Segmentation/b1b58ab854914adc9ed620038118974f/54128bb657cf4438a9c79fe9c3bc10e0.pdf",
+    "papers/Semantic Segmentation/b1b58ab854914adc9ed620038118974f",
     "note/详细笔记/2021/MaskFormer.md",
     "files/91c70c40817b8bb9dceee9f2cb07fbc.jpg",
     "files/2d1bfc1ea5d48a13ebb0578f8fbda4d.jpg",
     "files/397cfa6881313e8c7c004945de58c45.jpg",
-    "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/2021/ViT.md",
     "note/详细笔记/before/Transformer.md",
     "生活note/其他/还账记录.md",
     "note/详细笔记/2020/DETR.md",
     "note/详细笔记/2022/DenseCLIP.md",
-    "生活note/接下来要看的.md",
     "files/Pasted image 20231124210431.png",
     "files/Pasted image 20231124202516.png",
     "papers/ClassicalNetwork/2020ECCV_DETR_End-to-End Object Detection with Transformers.pdf",
@@ -206,9 +230,6 @@
     "papers/Semantic Segmentation/90068c629d8b473db8eed71e10337a94/70bc8275199542b8ae2ba6c2e694a138.pdf",
     "papers/Semantic Segmentation/90068c629d8b473db8eed71e10337a94",
     "papers/ClassicalNetwork/2021CVPR_Swin Transformer_Hierarchical Vision Transformer using Shifted Windows.pdf",
-    "papers/ClassicalNetwork/2021CVPR_Swin Transformer.pdf",
-    "papers/ClassicalNetwork/2021Swin Transformer.pdf",
-    "papers/ClassicalNetwork/2021Swin Transformer.pdf.crdownload",
     "files/Pasted image 20231123224202.png",
     "files/Pasted image 20231123223848.png",
     "files/Pasted image 20231123221447.png",
@@ -230,7 +251,6 @@
     "note/简单概括/2021/CLIP.md",
     "生活note/常用指令.md",
     "生活note/课内/RF.md",
-    "生活note/idea/question.md",
     "未命名.canvas"
   ]
 }
