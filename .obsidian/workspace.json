@@ -48,25 +48,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "3bf4cb7bcea7163d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5e9db0414beb102c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/详细笔记/2022/Mask2Former.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
