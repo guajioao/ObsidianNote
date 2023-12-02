@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/others/扩散模型.md",
+                "file": "note/详细笔记/2020/DETR.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c66151e3e5f6915e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/2021/MaskFormer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f3f964c8cdea34e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/2022/Mask2Former.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/others/扩散模型.md",
+                "file": "note/详细笔记/2020/DETR.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/others/扩散模型.md",
+                "file": "note/详细笔记/2020/DETR.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/others/扩散模型.md"
+                "file": "note/详细笔记/2020/DETR.md"
               }
             }
           },
@@ -158,13 +185,16 @@
   },
   "active": "59c550feeb3194a8",
   "lastOpenFiles": [
-    "生活note/课内/MapReduce.md",
     "note/详细笔记/2021/MaskFormer.md",
+    "note/详细笔记/2022/Mask2Former.md",
+    "note/详细笔记/2020/DETR.md",
+    "note/详细笔记/2023/ZegCLIP.md",
+    "note/详细笔记/others/Normalization.md",
     "note/详细笔记/others/扩散模型.md",
+    "生活note/课内/MapReduce.md",
     "生活note/其他/还账记录.md",
     "papers/ClassicalNetwork/DDPM.pdf",
     "papers/ClassicalNetwork/Unconfirmed 384381.crdownload",
-    "note/详细笔记/2022/Mask2Former.md",
     "生活note/接下来要看的.md",
     "papers/Semantic Segmentation/b1b58ab854914adc9ed620038118974f/54128bb657cf4438a9c79fe9c3bc10e0.pdf",
     "papers/Semantic Segmentation/b1b58ab854914adc9ed620038118974f",
@@ -173,7 +203,6 @@
     "files/397cfa6881313e8c7c004945de58c45.jpg",
     "note/详细笔记/2021/ViT.md",
     "note/详细笔记/before/Transformer.md",
-    "note/详细笔记/2020/DETR.md",
     "note/详细笔记/2022/DenseCLIP.md",
     "files/Pasted image 20231124210431.png",
     "files/Pasted image 20231124202516.png",
@@ -202,8 +231,6 @@
     "note/详细笔记/2022/ZegFormer.md",
     "note/详细笔记/2022/SimSeg.md",
     "note/简单概括/2021/CLIP.md",
-    "生活note/常用指令.md",
-    "生活note/课内/RF.md",
     "未命名.canvas"
   ]
 }
