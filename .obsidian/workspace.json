@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2020/DETR.md",
+                "file": "note/详细笔记/others/扩散模型.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/others/扩散模型.md",
+                "file": "生活note/接下来要看的.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -197,8 +195,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6f3f964c8cdea34e",
+  "active": "59c550feeb3194a8",
   "lastOpenFiles": [
+    "note/详细笔记/2020/DETR.md",
+    "note/详细笔记/2021/MaskFormer.md",
+    "生活note/接下来要看的.md",
+    "note/详细笔记/others/扩散模型.md",
     "note/详细笔记/2022/ZegFormer.md",
     "note/详细笔记/2023/CLIP-S4.md",
     "note/详细笔记/2022/SimSeg.md",
@@ -206,16 +208,12 @@
     "note/详细笔记/2022/OpenSeg.md",
     "note/详细笔记/2023/OvSeg.md",
     "note/详细笔记/2022/Mask2Former.md",
-    "note/详细笔记/2021/MaskFormer.md",
     "生活note/其他/还账记录.md",
-    "note/详细笔记/2020/DETR.md",
     "note/详细笔记/2023/ZegCLIP.md",
     "note/详细笔记/others/Normalization.md",
-    "note/详细笔记/others/扩散模型.md",
     "生活note/课内/MapReduce.md",
     "papers/ClassicalNetwork/DDPM.pdf",
     "papers/ClassicalNetwork/Unconfirmed 384381.crdownload",
-    "生活note/接下来要看的.md",
     "papers/Semantic Segmentation/b1b58ab854914adc9ed620038118974f/54128bb657cf4438a9c79fe9c3bc10e0.pdf",
     "papers/Semantic Segmentation/b1b58ab854914adc9ed620038118974f",
     "files/91c70c40817b8bb9dceee9f2cb07fbc.jpg",
