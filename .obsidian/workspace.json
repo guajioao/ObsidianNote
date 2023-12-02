@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2022/Mask2Former.md",
+                "file": "note/详细笔记/others/扩散模型.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2022/Mask2Former.md",
+                "file": "note/详细笔记/others/扩散模型.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2022/Mask2Former.md",
+                "file": "note/详细笔记/others/扩散模型.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2022/Mask2Former.md"
+                "file": "note/详细笔记/others/扩散模型.md"
               }
             }
           },
@@ -198,10 +199,16 @@
   },
   "active": "6f3f964c8cdea34e",
   "lastOpenFiles": [
+    "note/详细笔记/2022/ZegFormer.md",
+    "note/详细笔记/2023/CLIP-S4.md",
+    "note/详细笔记/2022/SimSeg.md",
+    "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
+    "note/详细笔记/2022/OpenSeg.md",
+    "note/详细笔记/2023/OvSeg.md",
+    "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/2021/MaskFormer.md",
     "生活note/其他/还账记录.md",
     "note/详细笔记/2020/DETR.md",
-    "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/2023/ZegCLIP.md",
     "note/详细笔记/others/Normalization.md",
     "note/详细笔记/others/扩散模型.md",
@@ -237,13 +244,7 @@
     "note/详细笔记/2021/Multi-task self-training for learning general representations.md",
     "生活note/idea/q1.md",
     "生活note/idea/未命名.md",
-    "note/详细笔记/2022/OpenSeg.md",
     "note/详细笔记/2022/MaskCLIP.md",
-    "note/详细笔记/2022/CRIS.md",
-    "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
-    "note/详细笔记/2022/ZegFormer.md",
-    "note/详细笔记/2022/SimSeg.md",
-    "note/简单概括/2021/CLIP.md",
     "未命名.canvas"
   ]
 }
