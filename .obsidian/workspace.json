@@ -45,8 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9d4056a7a85675b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "生活note/其他/还账记录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2020/DETR.md",
+                "file": "note/详细笔记/2022/Mask2Former.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2020/DETR.md",
+                "file": "note/详细笔记/2022/Mask2Former.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2020/DETR.md"
+                "file": "note/详细笔记/2022/Mask2Former.md"
               }
             }
           },
@@ -183,16 +196,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "59c550feeb3194a8",
+  "active": "6f3f964c8cdea34e",
   "lastOpenFiles": [
     "note/详细笔记/2021/MaskFormer.md",
-    "note/详细笔记/2022/Mask2Former.md",
+    "生活note/其他/还账记录.md",
     "note/详细笔记/2020/DETR.md",
+    "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/2023/ZegCLIP.md",
     "note/详细笔记/others/Normalization.md",
     "note/详细笔记/others/扩散模型.md",
     "生活note/课内/MapReduce.md",
-    "生活note/其他/还账记录.md",
     "papers/ClassicalNetwork/DDPM.pdf",
     "papers/ClassicalNetwork/Unconfirmed 384381.crdownload",
     "生活note/接下来要看的.md",
