@@ -37,6 +37,24 @@ Delving into Shape-aware Zero-shot Semantic Segmentation
 
 ## 三、方法 Method
 
+#### 3.1 Task Definition
+
+
+#### 3.2 Pixel-wise Vision-Language Alignment
+
+* Visual Encoder
+	* 
+* Text Encoder
+	* 
+* Vision-Language Alignment
+	* 最小化pixels与对应语义类别的距离，最大化与其他类别的距离
+	* 损失计算公式:
+		* ![[Pasted image 20231206214640.png]]
+		* 分子：位置(i,j)上视觉特征与真实标签类别对应的文本特征之间的相似度
+		* 分母，视觉特征与所有文本特征之间的相似度
+		* -log(Softmax($<F_V[i,j],F_T>$))
+#### 3.3 Shape Contraint
+引入边缘探测作为限制任务，则视觉编码器能够更细粒度的获取图像信息【有没有更好的办法？同时训练两个任务比较复杂。能不能把Mask2Former的mask attention思想用在这里？】
 
 ## 四、实现细节
 
