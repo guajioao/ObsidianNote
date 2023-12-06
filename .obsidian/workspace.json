@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "6f3f964c8cdea34e",
+            "id": "56bd1704eb305148",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/接下来要看的.md",
+                "file": "note/详细笔记/2023/SAZS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "9d4056a7a85675b1",
+            "id": "794c0e551ccd08db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "gather/CLIP用于分割论文合集.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gather/CLIP用于分割论文合集.md",
+                "file": "note/详细笔记/2023/SAZS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gather/CLIP用于分割论文合集.md",
+                "file": "note/详细笔记/2023/SAZS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gather/CLIP用于分割论文合集.md"
+                "file": "note/详细笔记/2023/SAZS.md"
               }
             }
           },
@@ -196,8 +196,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c66151e3e5f6915e",
+  "active": "56bd1704eb305148",
   "lastOpenFiles": [
+    "note/简单概括/2023/PACL.md",
+    "note/详细笔记/2023/SAZS.md",
+    "gather/关系分析.md",
+    "gather/CLIP用于分割论文合集.md",
+    "gather/Transformer在CV的应用.md",
+    "gather/Referance.md",
+    "gather/关系统计.md",
     "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_Open-World Semantic Segmentation via Contrasting and Clustering Vision-Language Embedding.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_Open-world Semantic Segmentation via.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_Open-world Semantic Segmentation via.pdf.crdownload",
@@ -208,9 +215,7 @@
     "papers/CLIP improve/cvpr2022_RegionCLIP_Region-based Language-Image Pretraining.pdf",
     "papers/CLIP improve/cvpr2022_RegionCLIP_Region-based Language-Image Pretraining.pdf.crdownload",
     "papers/CLIP improve",
-    "papers/新建文件夹",
     "note/详细笔记/2022/MaskCLIP.md",
-    "gather/CLIP用于分割论文合集.md",
     "note/详细笔记/2023/SAN.md",
     "note/简单概括/2023年论文对比.md",
     "note/详细笔记/2023/ZegCLIP.md",
@@ -230,14 +235,9 @@
     "note/详细笔记/2022/OpenSeg.md",
     "note/详细笔记/2023/OvSeg.md",
     "生活note/其他/还账记录.md",
-    "note/详细笔记/others/Normalization.md",
-    "生活note/课内/MapReduce.md",
     "files/91c70c40817b8bb9dceee9f2cb07fbc.jpg",
     "files/2d1bfc1ea5d48a13ebb0578f8fbda4d.jpg",
     "files/397cfa6881313e8c7c004945de58c45.jpg",
-    "note/详细笔记/2021/ViT.md",
-    "note/详细笔记/before/Transformer.md",
-    "note/详细笔记/2022/DenseCLIP.md",
     "files/Pasted image 20231124210431.png",
     "files/Pasted image 20231124202516.png",
     "files/Pasted image 20231123224202.png",
