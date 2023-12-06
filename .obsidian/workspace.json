@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md",
+                "file": "note/详细笔记/2022/Mask2Former.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -59,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -125,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/others/扩散模型.md",
+                "file": "note/详细笔记/2022/Mask2Former.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/others/扩散模型.md",
+                "file": "note/详细笔记/2022/Mask2Former.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/others/扩散模型.md"
+                "file": "note/详细笔记/2022/Mask2Former.md"
               }
             }
           },
@@ -195,13 +197,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "59c550feeb3194a8",
+  "active": "c66151e3e5f6915e",
   "lastOpenFiles": [
+    "note/详细笔记/2021/MaskFormer.md",
+    "note/详细笔记/others/扩散模型.md",
     "files/Pasted image 20231202203802.png",
     "note/详细笔记/2020/DETR.md",
-    "note/详细笔记/2021/MaskFormer.md",
     "生活note/接下来要看的.md",
-    "note/详细笔记/others/扩散模型.md",
     "note/详细笔记/2022/ZegFormer.md",
     "note/详细笔记/2023/CLIP-S4.md",
     "note/详细笔记/2022/SimSeg.md",
@@ -235,7 +237,6 @@
     "files/Pasted image 20231123223848.png",
     "files/Pasted image 20231123221447.png",
     "files/Pasted image 20231123215902.png",
-    "files/Pasted image 20231123215617.png",
     "note/详细笔记/2021/SETR.md",
     "gather/Transformer在CV的应用.md",
     "gather/关系分析.md",
