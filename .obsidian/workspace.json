@@ -198,6 +198,9 @@
   },
   "active": "56bd1704eb305148",
   "lastOpenFiles": [
+    "note/详细笔记/2023/ZegCLIP.md",
+    "note/详细笔记/2023/SAZS.md",
+    "files/Pasted image 20231206201945.png",
     "papers/Semantic Segmentation/CLIP_Segmentation/45e9e038a66c4b67bdcb0685ed3ff51e/ab54a2bca66f4d9eaf2f48772d3c94ee.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/45e9e038a66c4b67bdcb0685ed3ff51e",
     "papers/Semantic Segmentation/CLIP_Segmentation/71ce5fab370841feb612274f14021feb/cb8808ea2bfd45d1af470df74575a615.pdf",
@@ -205,7 +208,6 @@
     "papers/Semantic Segmentation/CLIP_Segmentation/f09adb5e385540cc9dc879945aa43279/3b97a6a6969044f78878d3bd17d2027e.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/f09adb5e385540cc9dc879945aa43279",
     "note/简单概括/2023/PACL.md",
-    "note/详细笔记/2023/SAZS.md",
     "gather/关系分析.md",
     "gather/CLIP用于分割论文合集.md",
     "gather/Transformer在CV的应用.md",
@@ -215,11 +217,9 @@
     "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_Open-world Semantic Segmentation via.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_Open-world Semantic Segmentation via.pdf.crdownload",
     "papers/Semantic Segmentation/CLIP_Segmentation/CVPR2023_A Simple Framework for Text-Supervised Semantic Segmentation.pdf",
-    "papers/Semantic Segmentation/CLIP_Segmentation/A Simple Framework for Text-Supervised Semantic Segmentation.pdf",
     "note/详细笔记/2022/MaskCLIP.md",
     "note/详细笔记/2023/SAN.md",
     "note/简单概括/2023年论文对比.md",
-    "note/详细笔记/2023/ZegCLIP.md",
     "note/简单概括/2022年论文对比.md",
     "note/简单概括/图像分割评价指标.md",
     "note/简单概括/2021/CLIP.md",
@@ -243,7 +243,6 @@
     "files/Pasted image 20231123224202.png",
     "files/Pasted image 20231123223848.png",
     "files/Pasted image 20231123221447.png",
-    "files/Pasted image 20231123215902.png",
     "未命名.canvas"
   ]
 }
