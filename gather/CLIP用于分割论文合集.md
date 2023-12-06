@@ -3,7 +3,7 @@
 		* Chong Zhou1 , Chen Change Loy1 , and Bo Dai2*
 		* **1** S-Lab，Nanyang科技大学，**2** 上海AI实验室
 		* [Extract Free Dense Labels from CLIP.pdf](obsidian://open?vault=notes&file=papers%2FCLIP_Segmentation%2F%2B%2B%2BECCV2022_Extract%20Free%20Dense%20Labels%20from%20CLIP.pdf)
-		* note: [[MaskCLIP|详细笔记]] [[Extract Free Dense Labels from CLIP|内容梗概]] 
+		* note: [[MaskCLIP]] [[Extract Free Dense Labels from CLIP|内容梗概]] 
 	* Scaling Open-Vocabulary Image Segmentation with Image-Level Labels
 		* Golnaz Ghiasi, Xiuye Gu, Yin Cui, and Tsung-Yi Lin? 
 		* Google Research

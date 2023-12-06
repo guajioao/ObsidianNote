@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2023/ZegCLIP.md",
+                "file": "gather/CLIP用于分割论文合集.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2023/ZegCLIP.md",
+                "file": "gather/CLIP用于分割论文合集.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2023/ZegCLIP.md",
+                "file": "gather/CLIP用于分割论文合集.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2023/ZegCLIP.md"
+                "file": "gather/CLIP用于分割论文合集.md"
               }
             }
           },
@@ -198,7 +198,22 @@
   },
   "active": "c66151e3e5f6915e",
   "lastOpenFiles": [
+    "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_Open-World Semantic Segmentation via Contrasting and Clustering Vision-Language Embedding.pdf",
+    "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_Open-world Semantic Segmentation via.pdf",
+    "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_Open-world Semantic Segmentation via.pdf.crdownload",
+    "papers/Semantic Segmentation/CLIP_Segmentation/CVPR2023_A Simple Framework for Text-Supervised Semantic Segmentation.pdf",
+    "papers/Semantic Segmentation/CLIP_Segmentation/A Simple Framework for Text-Supervised Semantic Segmentation.pdf",
+    "papers/Semantic Segmentation/CLIP_Segmentation/A Simple Framework for Text-Supervised Semantic Segmentation.pdf.crdownload",
+    "papers/CLIP improve/CVPR2022_RegionCLIP_Region-based Language-Image Pretraining.pdf",
+    "papers/CLIP improve/cvpr2022_RegionCLIP_Region-based Language-Image Pretraining.pdf",
+    "papers/CLIP improve/cvpr2022_RegionCLIP_Region-based Language-Image Pretraining.pdf.crdownload",
+    "papers/CLIP improve",
+    "papers/新建文件夹",
+    "note/详细笔记/2022/MaskCLIP.md",
+    "gather/CLIP用于分割论文合集.md",
+    "note/详细笔记/2023/SAN.md",
     "note/简单概括/2023年论文对比.md",
+    "note/详细笔记/2023/ZegCLIP.md",
     "note/简单概括/2022年论文对比.md",
     "note/简单概括/图像分割评价指标.md",
     "note/简单概括/2021/CLIP.md",
@@ -215,13 +230,8 @@
     "note/详细笔记/2022/OpenSeg.md",
     "note/详细笔记/2023/OvSeg.md",
     "生活note/其他/还账记录.md",
-    "note/详细笔记/2023/ZegCLIP.md",
     "note/详细笔记/others/Normalization.md",
     "生活note/课内/MapReduce.md",
-    "papers/ClassicalNetwork/DDPM.pdf",
-    "papers/ClassicalNetwork/Unconfirmed 384381.crdownload",
-    "papers/Semantic Segmentation/b1b58ab854914adc9ed620038118974f/54128bb657cf4438a9c79fe9c3bc10e0.pdf",
-    "papers/Semantic Segmentation/b1b58ab854914adc9ed620038118974f",
     "files/91c70c40817b8bb9dceee9f2cb07fbc.jpg",
     "files/2d1bfc1ea5d48a13ebb0578f8fbda4d.jpg",
     "files/397cfa6881313e8c7c004945de58c45.jpg",
@@ -230,20 +240,10 @@
     "note/详细笔记/2022/DenseCLIP.md",
     "files/Pasted image 20231124210431.png",
     "files/Pasted image 20231124202516.png",
-    "papers/ClassicalNetwork/2020ECCV_DETR_End-to-End Object Detection with Transformers.pdf",
-    "papers/ClassicalNetwork/ECCV2020_DETR_End-to-End Object Detection with Transformers.pdf",
-    "papers/Semantic Segmentation/569a72bd0aa345b18f0f5264d08b2966/d373bf2a0a824891b0902756b3dc667f.pdf",
-    "papers/Semantic Segmentation/569a72bd0aa345b18f0f5264d08b2966",
-    "papers/Semantic Segmentation/90068c629d8b473db8eed71e10337a94/70bc8275199542b8ae2ba6c2e694a138.pdf",
-    "papers/Semantic Segmentation/90068c629d8b473db8eed71e10337a94",
     "files/Pasted image 20231123224202.png",
     "files/Pasted image 20231123223848.png",
     "files/Pasted image 20231123221447.png",
     "files/Pasted image 20231123215902.png",
-    "note/详细笔记/2021/SETR.md",
-    "gather/Transformer在CV的应用.md",
-    "gather/关系分析.md",
-    "note/详细笔记/Visual Prompt Tuning.md",
     "未命名.canvas"
   ]
 }
