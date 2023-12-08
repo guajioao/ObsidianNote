@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2023/SAZS.md",
+                "file": "生活note/其他/还账记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2023/SAZS.md",
+                "file": "生活note/其他/还账记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2023/SAZS.md",
+                "file": "生活note/其他/还账记录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2023/SAZS.md"
+                "file": "生活note/其他/还账记录.md"
               }
             }
           },
@@ -198,9 +198,10 @@
   },
   "active": "56bd1704eb305148",
   "lastOpenFiles": [
+    "生活note/其他/手机时间计算.md",
+    "note/详细笔记/2023/SAZS.md",
     "note/详细笔记/2022/CRIS.md",
     "note/详细笔记/2022/DenseCLIP.md",
-    "note/详细笔记/2023/SAZS.md",
     "papers/Semantic Segmentation/CLIP_Segmentation/a28aaa9e37364c1f9bf673547dec5f6c/551b94733fd04091b2c644d4f21396ed.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/a28aaa9e37364c1f9bf673547dec5f6c",
     "note/名词解释/Softmax.md",
@@ -238,7 +239,6 @@
     "note/详细笔记/2022/ZegFormer.md",
     "note/详细笔记/2023/CLIP-S4.md",
     "note/详细笔记/2022/SimSeg.md",
-    "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
     "files/91c70c40817b8bb9dceee9f2cb07fbc.jpg",
     "files/2d1bfc1ea5d48a13ebb0578f8fbda4d.jpg",
     "files/397cfa6881313e8c7c004945de58c45.jpg",
