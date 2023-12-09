@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "生活note/其他/手机时间计算.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "生活note/其他/手机时间计算.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "生活note/其他/手机时间计算.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/其他/还账记录.md"
+                "file": "生活note/其他/手机时间计算.md"
               }
             }
           },
@@ -198,6 +198,7 @@
   },
   "active": "56bd1704eb305148",
   "lastOpenFiles": [
+    "生活note/其他/还账记录.md",
     "生活note/其他/手机时间计算.md",
     "note/详细笔记/2023/SAZS.md",
     "note/详细笔记/2022/CRIS.md",
@@ -238,7 +239,6 @@
     "生活note/接下来要看的.md",
     "note/详细笔记/2022/ZegFormer.md",
     "note/详细笔记/2023/CLIP-S4.md",
-    "note/详细笔记/2022/SimSeg.md",
     "files/91c70c40817b8bb9dceee9f2cb07fbc.jpg",
     "files/2d1bfc1ea5d48a13ebb0578f8fbda4d.jpg",
     "files/397cfa6881313e8c7c004945de58c45.jpg",
