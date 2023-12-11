@@ -13,54 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/others/扩散模型.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c66151e3e5f6915e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "gather/CLIP用于分割论文合集.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56bd1704eb305148",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "生活note/其他/还账记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "794c0e551ccd08db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "gather/CLIP用于分割论文合集.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,11 +156,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "56bd1704eb305148",
+  "active": "59c550feeb3194a8",
   "lastOpenFiles": [
     "生活note/其他/手机时间计算.md",
-    "生活note/其他/还账记录.md",
     "note/详细笔记/2023/SAZS.md",
+    "note/简单概括/2023年CLIP相关论文对比.md",
+    "papers/Semantic Segmentation/CLIP_Segmentation/CVPR2023_SAZS_Delving into Shape-aware Zero-shot Semantic Segmentation.pdf",
+    "note/简单概括/2022年CLIP相关论文对比.md",
+    "gather/关系分析.md",
+    "gather/关系统计.md",
+    "note/详细笔记/others/扩散模型.md",
+    "gather/CLIP用于分割论文合集.md",
+    "生活note/其他/还账记录.md",
     "note/详细笔记/2022/CRIS.md",
     "note/详细笔记/2022/DenseCLIP.md",
     "papers/Semantic Segmentation/CLIP_Segmentation/a28aaa9e37364c1f9bf673547dec5f6c/551b94733fd04091b2c644d4f21396ed.pdf",
@@ -218,27 +185,19 @@
     "papers/Semantic Segmentation/CLIP_Segmentation/f09adb5e385540cc9dc879945aa43279/3b97a6a6969044f78878d3bd17d2027e.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/f09adb5e385540cc9dc879945aa43279",
     "note/简单概括/2023/PACL.md",
-    "gather/关系分析.md",
-    "gather/CLIP用于分割论文合集.md",
     "gather/Transformer在CV的应用.md",
     "gather/Referance.md",
-    "gather/关系统计.md",
     "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_Open-World Semantic Segmentation via Contrasting and Clustering Vision-Language Embedding.pdf",
-    "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_Open-world Semantic Segmentation via.pdf",
     "note/详细笔记/2022/MaskCLIP.md",
     "note/详细笔记/2023/SAN.md",
-    "note/简单概括/2023年论文对比.md",
-    "note/简单概括/2022年论文对比.md",
     "note/简单概括/图像分割评价指标.md",
     "note/简单概括/2021/CLIP.md",
     "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/2021/MaskFormer.md",
-    "note/详细笔记/others/扩散模型.md",
     "files/Pasted image 20231202203802.png",
     "note/详细笔记/2020/DETR.md",
     "生活note/接下来要看的.md",
     "note/详细笔记/2022/ZegFormer.md",
-    "note/详细笔记/2023/CLIP-S4.md",
     "files/91c70c40817b8bb9dceee9f2cb07fbc.jpg",
     "files/2d1bfc1ea5d48a13ebb0578f8fbda4d.jpg",
     "files/397cfa6881313e8c7c004945de58c45.jpg",
