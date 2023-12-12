@@ -1,5 +1,5 @@
-# Zero-shot Referring Image Segmentation with Global-Local Context Features
-CVPR2023
+Zero-shot Referring Image Segmentation with Global-Local Context Features
+收录于：CVPR2023
 # 摘要
 Referring image segmentation (RIS)的目的是找到与给定句子所描述区域相符合的分割掩膜。为了克服数据集昂贵问题，作者提出zero-shot的RIS方法，即利用CLIP的交叉模态知识。
 * 提出掩码引导的视觉编码器，来获取图像的全局和局部上下文信息

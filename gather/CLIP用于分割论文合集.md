@@ -63,5 +63,5 @@
 		* Seonghoon Yu1 Paul Hongsuck Seo2 Jeany Son1
 		* **1**AI Graduate School, GIST; **2**Google Research
 		* [Zero-shot Referring Image Segmentation with Global-Local Context Features.pdf](obsidian://open?vault=notes&file=papers%2FCLIP_Segmentation%2FCVPR2023_Zero-shot%20Referring%20Image%20Segmentation%20with%20Global-Local%20Context%20Features.pdf)
-		* note: [[Zero-shot RIS with Global-Local Features|详细笔记]] [[Zero-shot Referring Image Segmentation with Global-Local Context Features|内容概括]]
+		* note: [[ZRIS|详细笔记]] [[Zero-shot Referring Image Segmentation with Global-Local Context Features|内容概括]]
 	* 

@@ -12,4 +12,4 @@
 ![[Pasted image 20231005150222.png]]
 
 * 详细笔记
-[[Zero-shot RIS with Global-Local Features|Zero-shot RIS with Global-Local Features]]
+[[ZRIS|ZRIS]]

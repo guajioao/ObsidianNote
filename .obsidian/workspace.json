@@ -13,7 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2022/OpenSeg.md",
+                "file": "note/详细笔记/2023/SAZS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6d588ac0b99d3325",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50a8bd685b5af386",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/2022/ZegFormer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#改进对maskimage的识别",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2022/OpenSeg.md",
+                "file": "CLIP语义分割相关分类.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2022/OpenSeg.md",
+                "file": "CLIP语义分割相关分类.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2022/OpenSeg.md"
+                "file": "CLIP语义分割相关分类.md"
               }
             }
           },
@@ -156,49 +175,86 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "59c550feeb3194a8",
+  "floating": {
+    "id": "4f9df352a51427e3",
+    "type": "floating",
+    "children": [
+      {
+        "id": "7cac3b88a44bd6b5",
+        "type": "window",
+        "children": [
+          {
+            "id": "410af240d2d61e3a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a94bdb42b60a2cfd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "CLIP语义分割相关分类.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 424,
+        "y": 259,
+        "width": 724,
+        "height": 779,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "a94bdb42b60a2cfd",
   "lastOpenFiles": [
+    "note/详细笔记/2023/SAZS.md",
+    "note/详细笔记/2022/OpenSeg.md",
+    "CLIP语义分割相关分类.md",
+    "note/详细笔记/2022/Mask2Former.md",
+    "note/详细笔记/2021/MaskFormer.md",
+    "note/详细笔记/2022/ZegFormer.md",
+    "note/详细笔记/2022/SimSeg.md",
+    "papers/Semantic Segmentation/CLIP_Segmentation/ICML2021_Learning transferable visual models from natural language supervision.pdf",
+    "papers/Semantic Segmentation/CLIP_Segmentation/icml2021_Learning transferable visual models from natural language supervision.pdf",
+    "papers/Semantic Segmentation/CLIP_Segmentation/icml2021_Learning transferable visual models from natural language supervision.pdf.crdownload",
+    "papers/Semantic Segmentation/CLIP_Segmentation/ICML2021_Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision.pdf",
+    "papers/Semantic Segmentation/CLIP_Segmentation/ICML2021_Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision.pdf.crdownload",
+    "papers/Semantic Segmentation/CLIP_Segmentation/Engineering_Village_detailed.pdf",
+    "papers/Semantic Segmentation/CLIP_Segmentation/Engineering_Village_detailed.pdf.crdownload",
+    "note/详细笔记/2023/OvSeg.md",
+    "note/详细笔记/2023/SAN.md",
+    "note/详细笔记/2021/SETR.md",
+    "note/详细笔记/2021/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
+    "note/详细笔记/2021/Multi-task self-training for learning general representations.md",
+    "note/详细笔记/2023/ZRIS.md",
+    "note/详细笔记/2023/ZegCLIP.md",
+    "note/详细笔记/2023/CLIP-S4.md",
+    "note/详细笔记/2023/CESL.md",
+    "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
+    "note/详细笔记/2022/CRIS.md",
+    "note/详细笔记/2022/DenseCLIP.md",
+    "note/详细笔记/2022/MaskCLIP.md",
+    "note/详细笔记/2022/CLIMS.md",
+    "note/详细笔记/2022/active contours models.md",
+    "note/详细笔记/2021/CLIP.md",
+    "note/详细笔记/2021/ViT.md",
+    "gather/关系分析.md",
     "papers/显著性检测/弱监督类别标签显著检测/CVPR2019_Multi-Source_Weak_Supervision_for_Saliency_Detection.pdf",
     "papers/显著性检测/弱监督类别标签显著检测/Multi-Source_Weak_Supervision_for_Saliency_Detection.pdf",
     "papers/显著性检测/弱监督类别标签显著检测/Multi-Source_Weak_Supervision_for_Saliency_Detection.pdf.crdownload",
-    "papers/显著性检测/弱监督类别标签显著检测/DatasetDM_Synthesizing Data with Perception.pdf",
-    "papers/显著性检测/弱监督类别标签显著检测/2308.06160v1.pdf",
-    "papers/显著性检测/弱监督类别标签显著检测/2308.06160v1.pdf.crdownload",
-    "生活note/其他/还账记录.md",
-    "生活note/其他/手机时间计算.md",
-    "note/详细笔记/2023/SAZS.md",
-    "note/简单概括/2023年CLIP相关论文对比.md",
-    "papers/Semantic Segmentation/CLIP_Segmentation/CVPR2023_SAZS_Delving into Shape-aware Zero-shot Semantic Segmentation.pdf",
-    "note/简单概括/2022年CLIP相关论文对比.md",
-    "gather/关系分析.md",
-    "gather/关系统计.md",
-    "note/详细笔记/others/扩散模型.md",
-    "gather/CLIP用于分割论文合集.md",
-    "note/详细笔记/2022/CRIS.md",
-    "note/详细笔记/2022/DenseCLIP.md",
-    "papers/Semantic Segmentation/CLIP_Segmentation/a28aaa9e37364c1f9bf673547dec5f6c/551b94733fd04091b2c644d4f21396ed.pdf",
-    "papers/Semantic Segmentation/CLIP_Segmentation/a28aaa9e37364c1f9bf673547dec5f6c",
-    "note/名词解释/Softmax.md",
     "files/Pasted image 20231206215541.png",
     "files/80b51cfc40a976b0bfc6492eb22b5ba.png",
     "files/Pasted image 20231206214640.png",
-    "note/详细笔记/2023/ZegCLIP.md",
     "files/Pasted image 20231206201945.png",
-    "papers/Semantic Segmentation/CLIP_Segmentation/45e9e038a66c4b67bdcb0685ed3ff51e/ab54a2bca66f4d9eaf2f48772d3c94ee.pdf",
-    "papers/Semantic Segmentation/CLIP_Segmentation/45e9e038a66c4b67bdcb0685ed3ff51e",
-    "note/简单概括/2023/PACL.md",
-    "gather/Transformer在CV的应用.md",
-    "gather/Referance.md",
-    "note/详细笔记/2022/MaskCLIP.md",
-    "note/详细笔记/2023/SAN.md",
-    "note/简单概括/图像分割评价指标.md",
-    "note/简单概括/2021/CLIP.md",
-    "note/详细笔记/2022/Mask2Former.md",
-    "note/详细笔记/2021/MaskFormer.md",
     "files/Pasted image 20231202203802.png",
-    "note/详细笔记/2020/DETR.md",
-    "生活note/接下来要看的.md",
-    "note/详细笔记/2022/ZegFormer.md",
     "files/91c70c40817b8bb9dceee9f2cb07fbc.jpg",
     "files/2d1bfc1ea5d48a13ebb0578f8fbda4d.jpg",
     "files/397cfa6881313e8c7c004945de58c45.jpg",

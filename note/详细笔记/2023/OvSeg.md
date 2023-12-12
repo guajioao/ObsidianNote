@@ -33,7 +33,7 @@
 	* 首先利用CLIP的文本嵌入来训练改良后的MaskFormer，从而执行开放词汇分割
 	* 使用预训练的分割模型生成不可知类的proposals，并将proposals与相应名词对齐
 	* 收集掩码类别对后用提出的mask提示调优来微调CLIP
-* ***NxC*****的分支**：MaskFormer并非对每个像素逐个预测，而是预测一组掩码proposals和对应的类别推测，每个proposals都用HxW二进制掩码表示。
+* ***NxC***的分支**：MaskFormer并非对每个像素逐个预测，而是预测一组掩码proposals和对应的类别推测，每个proposals都用HxW二进制掩码表示。
 	* 按照【40】对MaskFormer进行修改：对每个掩码生成一个C维的proposal embedding，C是CLIP模型的embedding维度。
 		* 这一改进允许MaskFormer进行开放词汇分割
 		1. 使用CLIP文本编码器为每个类生成K个文本嵌入
