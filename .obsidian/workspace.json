@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/详细笔记/2022/OpenSeg.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/详细笔记/2022/OpenSeg.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/详细笔记/2022/OpenSeg.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/其他/还账记录.md"
+                "file": "note/详细笔记/2022/OpenSeg.md"
               }
             }
           },
@@ -158,6 +158,13 @@
   },
   "active": "59c550feeb3194a8",
   "lastOpenFiles": [
+    "papers/显著性检测/弱监督类别标签显著检测/CVPR2019_Multi-Source_Weak_Supervision_for_Saliency_Detection.pdf",
+    "papers/显著性检测/弱监督类别标签显著检测/Multi-Source_Weak_Supervision_for_Saliency_Detection.pdf",
+    "papers/显著性检测/弱监督类别标签显著检测/Multi-Source_Weak_Supervision_for_Saliency_Detection.pdf.crdownload",
+    "papers/显著性检测/弱监督类别标签显著检测/DatasetDM_Synthesizing Data with Perception.pdf",
+    "papers/显著性检测/弱监督类别标签显著检测/2308.06160v1.pdf",
+    "papers/显著性检测/弱监督类别标签显著检测/2308.06160v1.pdf.crdownload",
+    "生活note/其他/还账记录.md",
     "生活note/其他/手机时间计算.md",
     "note/详细笔记/2023/SAZS.md",
     "note/简单概括/2023年CLIP相关论文对比.md",
@@ -167,7 +174,6 @@
     "gather/关系统计.md",
     "note/详细笔记/others/扩散模型.md",
     "gather/CLIP用于分割论文合集.md",
-    "生活note/其他/还账记录.md",
     "note/详细笔记/2022/CRIS.md",
     "note/详细笔记/2022/DenseCLIP.md",
     "papers/Semantic Segmentation/CLIP_Segmentation/a28aaa9e37364c1f9bf673547dec5f6c/551b94733fd04091b2c644d4f21396ed.pdf",
@@ -180,14 +186,9 @@
     "files/Pasted image 20231206201945.png",
     "papers/Semantic Segmentation/CLIP_Segmentation/45e9e038a66c4b67bdcb0685ed3ff51e/ab54a2bca66f4d9eaf2f48772d3c94ee.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/45e9e038a66c4b67bdcb0685ed3ff51e",
-    "papers/Semantic Segmentation/CLIP_Segmentation/71ce5fab370841feb612274f14021feb/cb8808ea2bfd45d1af470df74575a615.pdf",
-    "papers/Semantic Segmentation/CLIP_Segmentation/71ce5fab370841feb612274f14021feb",
-    "papers/Semantic Segmentation/CLIP_Segmentation/f09adb5e385540cc9dc879945aa43279/3b97a6a6969044f78878d3bd17d2027e.pdf",
-    "papers/Semantic Segmentation/CLIP_Segmentation/f09adb5e385540cc9dc879945aa43279",
     "note/简单概括/2023/PACL.md",
     "gather/Transformer在CV的应用.md",
     "gather/Referance.md",
-    "papers/Semantic Segmentation/CLIP_Segmentation/ECCV2022_Open-World Semantic Segmentation via Contrasting and Clustering Vision-Language Embedding.pdf",
     "note/详细笔记/2022/MaskCLIP.md",
     "note/详细笔记/2023/SAN.md",
     "note/简单概括/图像分割评价指标.md",
