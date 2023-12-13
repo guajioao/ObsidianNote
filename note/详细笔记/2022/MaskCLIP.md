@@ -1,5 +1,4 @@
-# Extract Free Dense Labels from CLIP
-
+Extract Free Dense Labels from CLIP
 收录于：ECCV2022
 # 摘要：
 

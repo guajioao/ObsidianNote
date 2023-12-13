@@ -26,6 +26,7 @@ Per-Pixel Classification is Not All You Need for Semantic Segmentation
 	* ![[Pasted image 20231121215242.png]]
 	* 每一个mask都单独计算mask损失和分类损失
 	* 这样成组的进行匹配可以通过[[DETR]]中采用的bipartite matching或者通过fixed matching，即直接使用mask的index（当预测结果个数K与类别个数N相同时:$K=N$）
+	* 
 * MaskFormer Overview
 	* ![[Pasted image 20231121220910.png]]
 	* 用backbone提取出特征图$F$
