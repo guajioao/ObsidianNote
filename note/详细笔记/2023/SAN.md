@@ -48,9 +48,9 @@
 		* 创建一组【SLS】tokens，被视觉token单向更新，不影响视觉token和【CLS】token。
 		* SLS更新公式：![[Pasted image 20231008203657.png]]
 			* $B_k \in R^{\frac{H}{16}\times \frac{W}{16} \times N}$为第L层第k个头的注意力偏移attention bias
-			* ![[Pasted image 20231008204155.png]]，
-			* ![[Pasted image 20231008204208.png]]![[Pasted image 20231008204215.png]]，
-			*  ![[Pasted image 20231008204312.png]]
+			* $Q_{[SLS]} = W_qX_{[SLS]}$,
+			* $V_{[SLS]}=W_vX_{[SLS]}$，
+			* $K_{[visual]}=W_kX_{[visual]}$ 
 			* 来自代码：$X \in R^{K*N*C}$ 
 		* **因为加入了注意力偏移Bk，SLS的特征逐渐演变为适合mask预测**。【Prompt？】
 			* ![[Pasted image 20231016220019.png]]

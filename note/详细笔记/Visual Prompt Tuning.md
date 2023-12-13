@@ -1,3 +1,4 @@
+Visual Prompt Tuning
 收录于：
 
 
@@ -14,7 +15,7 @@
 * [[#六、结论]]
 
 ## 结构
-
+![[Pasted image 20231213151243.png]]
 
 ## 一、引言 Introduction
 

@@ -32,9 +32,13 @@ $**$ 表示自监督
 	但是SAN直接改换思路，不用Decoder先查询再区分了，而是在Encoder的输入额外添加N个类似CLS token的token，这些token学出来之后用同样的token与不同的Vmask和Vclass相乘来做查询。
 	我觉得这样改造的优势在于加强了mask和class的对应关系，让V的MLP更加专注于提取特征，二者的对应关系由Q的MLP来学习。这样的结构感觉反回去像DETR一样用在目标检测里效果应该也挺好。然后感觉浙大那个工作里将CLIP文本特征添加到query token里来实现open voculabury的做法也可以用在SAN里
 * 既然一个是用encoder，一个用decoder，那是不是可以两个都用？
-#### 改进对maskimage的识别
+#### 改进对mask image的识别
 * [[OvSeg]] 
-
+	* 引入[[VPT]]方法,使用的是VPT:Deep
+	* 缺点：需要额外制作mask数据集
+	* 训练一个与图像等大的mask visual prompt，这个mask prompt训练目的是记住mask区域的特征
+* 思考：
+	* Mask attention是否可以用于忽视mask区域？
 ## 逐像素分类
 * [[MaskCLIP]]
 	* 
