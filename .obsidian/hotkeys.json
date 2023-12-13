@@ -8,7 +8,14 @@
       "key": "M"
     }
   ],
-  "editor:toggle-bold": [],
+  "editor:toggle-bold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
   "insert-template": [
     {
       "modifiers": [

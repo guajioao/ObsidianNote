@@ -99,7 +99,7 @@
 语义分割模型一般将每个像素**视为多路分类问题**，采用softmax运算来计算后验概率，然后使用交叉熵等互斥损失EL作为损失函数。然而，Softmax本质上假设待分类类之间存在互斥关系：**每个像素必须且只能属于一个interest的类**。因此只有对数的相对强度，即对数的比值，对后验概率的计算重要。但是，当将模型用于不可见类时，类空间与训练场景不同，使得不可见类的预测效果不佳
 因此本文提出使用非互斥损失（NEL），避免在训练时使用互斥机制。
 * 使用**Sigmoid和二元交叉熵（BCE）损失**，确保每个类的分割结果都是独立生成的
-* 使用BCE损失的**[[focal loss]]焦点损失**变化，并用其联合一个额外的**[[dice loss]] 损失**
+* 使用BCE损失的[focal loss]]焦点损失变化，并用其联合一个额外的[[dice loss]] 损失
 * $\mathcal{L}_{\mathrm{focal}} = -\frac{1}{\mathrm{hw}}\sum_{i=1}^{hw}{(1-y_i)^{\gamma} \times \hat{y}log(y_i)+y_i^{\gamma}\times(1-\hat{y})log(1-y_i)}$
 * $\mathcal{L}_{\mathrm{dice}} = 1 - \frac{2\sum_{i=1}^{\mathrm{hw}}y_i\hat{y}_i}{\sum_{i=1}^{\mathrm{hw}}y_i^2 + \sum_{i=1}^{\mathrm{hw}}\hat{y}_i^2}$
 * $\mathcal{L} = \alpha \cdot \mathcal{L}_{\mathrm{focal}} + \beta \cdot \mathcal{L}_{\mathrm{dice}}$

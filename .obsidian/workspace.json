@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2022/MaskCLIP.md",
+                "file": "note/详细笔记/2023/ZegCLIP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 283.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2022/MaskCLIP.md",
+                "file": "CLIP语义分割相关分类.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2022/MaskCLIP.md",
+                "file": "CLIP语义分割相关分类.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2022/MaskCLIP.md"
+                "file": "CLIP语义分割相关分类.md"
               }
             }
           },
@@ -182,6 +182,19 @@
                 }
               },
               {
+                "id": "a8ea064f0a8568a4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "note/详细笔记/2022/MaskCLIP.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "59c550feeb3194a8",
                 "type": "leaf",
                 "state": {
@@ -207,11 +220,23 @@
       }
     ]
   },
-  "active": "7712de959bf6c206",
+  "active": "a94bdb42b60a2cfd",
   "lastOpenFiles": [
+    "note/详细笔记/2023/ZegCLIP.md",
     "CLIP语义分割相关分类.md",
+    "note/详细笔记/2022/ZegFormer.md",
+    "note/详细笔记/2022/DenseCLIP.md",
+    "note/名词解释/CoOp.md",
     "note/详细笔记/2022/MaskCLIP.md",
     "note/详细笔记/2023/OvSeg.md",
+    "note/详细笔记/2021/CLIP.md",
+    "note/简单概括/2021/CLIP.md",
+    "note/详细笔记/2021/~$notes.docx",
+    "note/详细笔记/2021/notes.docx",
+    "papers/CLIP/CVPR2022_RegionCLIP_Region-based Language-Image Pretraining.pdf",
+    "papers/CLIP",
+    "papers/ClassicalNetwork/CVPR2021_Swin Transformer_Hierarchical Vision Transformer using Shifted Windows.pdf",
+    "papers/ClassicalNetwork/ECCV2020_DETR_End-to-End Object Detection with Transformers.pdf",
     "note/详细笔记/Visual Prompt Tuning.md",
     "papers/Semantic Segmentation/CLIP_Segmentation/5adfa165921f4aa8b436a05db6d45cd8/ce4c575c56a3483792ae4ddf1b8439f2.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/5adfa165921f4aa8b436a05db6d45cd8",
@@ -220,19 +245,11 @@
     "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/2023/SAN.md",
     "note/详细笔记/2023/ZRIS.md",
-    "note/详细笔记/2023/ZegCLIP.md",
     "note/详细笔记/2022/OpenSeg.md",
     "note/详细笔记/2022/SimSeg.md",
-    "note/详细笔记/2022/ZegFormer.md",
     "note/详细笔记/2023/SAZS.md",
     "note/详细笔记/2021/MaskFormer.md",
     "papers/Semantic Segmentation/CLIP_Segmentation/ICML2021_Learning transferable visual models from natural language supervision.pdf",
-    "papers/Semantic Segmentation/CLIP_Segmentation/icml2021_Learning transferable visual models from natural language supervision.pdf",
-    "papers/Semantic Segmentation/CLIP_Segmentation/icml2021_Learning transferable visual models from natural language supervision.pdf.crdownload",
-    "papers/Semantic Segmentation/CLIP_Segmentation/ICML2021_Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision.pdf",
-    "papers/Semantic Segmentation/CLIP_Segmentation/ICML2021_Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision.pdf.crdownload",
-    "papers/Semantic Segmentation/CLIP_Segmentation/Engineering_Village_detailed.pdf",
-    "papers/Semantic Segmentation/CLIP_Segmentation/Engineering_Village_detailed.pdf.crdownload",
     "note/详细笔记/2021/SETR.md",
     "note/详细笔记/2021/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
     "note/详细笔记/2021/Multi-task self-training for learning general representations.md",
@@ -240,12 +257,8 @@
     "note/详细笔记/2023/CESL.md",
     "note/详细笔记/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
     "note/详细笔记/2022/CRIS.md",
-    "note/详细笔记/2022/DenseCLIP.md",
     "note/详细笔记/2022/CLIMS.md",
     "note/详细笔记/2022/active contours models.md",
-    "note/详细笔记/2021/CLIP.md",
-    "note/详细笔记/2021/ViT.md",
-    "gather/关系分析.md",
     "files/Pasted image 20231206215541.png",
     "files/80b51cfc40a976b0bfc6492eb22b5ba.png",
     "files/Pasted image 20231206214640.png",

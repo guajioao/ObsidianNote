@@ -24,6 +24,8 @@ Extract Free Dense Labels from CLIP
 * 保持CLIP的预训练权重frozen冻结，尽量不修改
 * MaskCLIP+使用MaskCLIP的输出作为伪标签来训练更好的分割网络
 
+	* 这是否等价于矩阵乘法？都是对应位置相乘相加
+	* 与之前的想法，即用x_glb来作为q的区别是这里用了文本特征来做相似度计算
 
 ## 一、引言 Introduction
 
