@@ -38,6 +38,11 @@ Delving into Shape-aware Zero-shot Semantic Segmentation
 ## 三、方法 Method
 
 #### 3.1 Task Definition
+将训练集定义为$D_{train}=\{(I,M,S)\}$,测试集定义为$D_{test}=\{(I,M,U)\}$。
+* 其中，$I \in R^{H\times  W\times 3}$，$M\in R^{H\times W\times C}$分别代表输入图像和对应的语义分割GT。
+* S代表I中K个潜在标签的集合。
+* U代表测试过程中的unseen类
+* 
 
 
 #### 3.2 Pixel-wise Vision-Language Alignment
