@@ -65,7 +65,13 @@ Delving into Shape-aware Zero-shot Semantic Segmentation
 引入边缘探测作为限制任务，则视觉编码器能够更细粒度的获取图像信息【有没有更好的办法？同时训练两个任务比较复杂。同样是限制区域，能不能把Mask2Former的mask attention思想用在这里？】
 * 分别通过Sobel操作和boundary head提取出GT和特征图patchs中存在的边缘
 * 对第i个patch计算GT边缘与处理后的特征图通过MLP后获得的仿射变换（线性变换+平移变换）矩阵$\hat{\theta}_i$
-* $\mathcal{L}_{shape}=\frac{1}{T} \sum_{i=1}^{T}|\hat{\theta}_i -I|_F$
+* $$\mathcal{L}_{shape}=\frac{1}{T} \sum_{i=1}^{T}|\hat{\theta}_i -I|_F$$其中，T代表patches数，$|\cdot|_F$代表F范数
+* 对预测的到的边缘和GT的边缘做二元交叉熵损失$\mathcal{L}_{bce}$
+最终的损失为三个损失的融合$$\mathcal{L}=\mathcal{L}_{align}+\lambda_1\mathcal{L}_{shape}+\lambda_2\mathcal{L}_{bce}$$
+### 3.4 Self-supervised Spectral Decomposition
+使用无监督手段将输入图像分解为**具有清晰边缘的特征段**，然后将这些特征段与神经网络的预测进行融合。
+
+
 
 
 ## 四、实现细节

@@ -6,6 +6,7 @@
       {
         "id": "693844c7c99d0b84",
         "type": "tabs",
+        "dimension": 51.541554959785515,
         "children": [
           {
             "id": "7712de959bf6c206",
@@ -25,6 +26,7 @@
       {
         "id": "eb1c11cf5d090b75",
         "type": "tabs",
+        "dimension": 48.45844504021448,
         "children": [
           {
             "id": "baea801efe73ce3e",
@@ -231,18 +233,19 @@
           }
         ],
         "direction": "vertical",
-        "x": 862,
+        "x": 0,
         "y": 0,
-        "width": 728,
-        "height": 780,
+        "width": 768,
+        "height": 816,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "baea801efe73ce3e",
+  "active": "7712de959bf6c206",
   "lastOpenFiles": [
     "CLIP语义分割相关分类.md",
+    "papers - 快捷方式.lnk",
     "note/详细笔记/2023/SAZS.md",
     "papers/Semantic Segmentation/CLIP_Segmentation/8b1f0e1da68b43c39cb81376d9ffb614/4787bb255b8c458db2f2bd677b7a47c7.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/8b1f0e1da68b43c39cb81376d9ffb614",
@@ -262,7 +265,6 @@
     "papers/ClassicalNetwork/ECCV2020_DETR_End-to-End Object Detection with Transformers.pdf",
     "note/详细笔记/Visual Prompt Tuning.md",
     "papers/Semantic Segmentation/CLIP_Segmentation/5adfa165921f4aa8b436a05db6d45cd8/ce4c575c56a3483792ae4ddf1b8439f2.pdf",
-    "papers/Semantic Segmentation/CLIP_Segmentation/5adfa165921f4aa8b436a05db6d45cd8",
     "files/Pasted image 20231213151243.png",
     "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/2023/SAN.md",
