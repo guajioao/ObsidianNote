@@ -32,9 +32,61 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "03829837219bde2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/2021/MaskFormer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56043b0fd9c9fa8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/2022/ZegFormer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3df7c0a95a48abca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/2023/SAN.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e15d066ab22cac47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/详细笔记/2022/OpenSeg.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -100,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2022/SimSeg.md",
+                "file": "note/详细笔记/2023/SAN.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2022/SimSeg.md",
+                "file": "note/详细笔记/2023/SAN.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2022/SimSeg.md"
+                "file": "note/详细笔记/2023/SAN.md"
               }
             }
           },
@@ -170,11 +222,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1edbe96ef150166d",
+  "active": "3df7c0a95a48abca",
   "lastOpenFiles": [
+    "note/详细笔记/2022/ZegFormer.md",
     "note/详细笔记/2021/MaskFormer.md",
     "note/详细笔记/2022/SimSeg.md",
     "gather/CLIP语义分割相关分类.md",
+    "note/详细笔记/2022/OpenSeg.md",
     "note/简单概括/2021/CLIP.md",
     "gather/CLIP用于分割论文合集.md",
     "gather/Referance.md",
@@ -190,7 +244,6 @@
     "papers - 快捷方式.lnk",
     "papers/Semantic Segmentation/CLIP_Segmentation/8b1f0e1da68b43c39cb81376d9ffb614/4787bb255b8c458db2f2bd677b7a47c7.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/8b1f0e1da68b43c39cb81376d9ffb614",
-    "note/详细笔记/2022/ZegFormer.md",
     "note/名词解释/CoOp.md",
     "note/详细笔记/2022/MaskCLIP.md",
     "note/详细笔记/2023/OvSeg.md",
@@ -205,7 +258,6 @@
     "note/详细笔记/2022/Mask2Former.md",
     "note/详细笔记/2023/SAN.md",
     "note/详细笔记/2023/ZRIS.md",
-    "note/详细笔记/2022/OpenSeg.md",
     "note/详细笔记/2021/SETR.md",
     "note/详细笔记/2021/Multi-task self-training for learning general representations.md",
     "note/详细笔记/2023/CLIP-S4.md",
