@@ -5,6 +5,7 @@ $**$ 表示自监督
 * [[ZRIS]]
 
 ## mask分类
+baseline：[[SimSeg]]
 ### 基于使用Transformer decoder来区分区域
 * [[OpenSeg]] *
 	* 2022
