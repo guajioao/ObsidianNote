@@ -54,6 +54,6 @@ $**$ 表示自监督
 	* 
 * [[ZegCLIP]]
 	* 利用Attention层中的Scale层产生Mask【即$QK^T$】【与SAN不约而同的使用了QK乘积产生mask的思路】
-	* 
+	* 三个trick改进对unseen类的识别
 
 
