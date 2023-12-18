@@ -5,6 +5,8 @@ Momentum Contrast for Unsupervised Visual Representation Learning
 ## 摘要：
 
 
+counterpart：backbone相同，只是训练方式不一样
+
 ## 目录：
 
 * [[#结构]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/MAE.md",
+                "file": "note/论文笔记/详细笔记/自监督学习/MOCO.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/MAE.md",
+                "file": "note/论文笔记/详细笔记/自监督学习/MOCO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/MAE.md",
+                "file": "note/论文笔记/详细笔记/自监督学习/MOCO.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/MAE.md"
+                "file": "note/论文笔记/详细笔记/自监督学习/MOCO.md"
               }
             }
           },
@@ -185,8 +184,8 @@
   },
   "active": "7712de959bf6c206",
   "lastOpenFiles": [
-    "note/学习笔记/自监督学习.md",
     "note/论文笔记/详细笔记/自监督学习/MAE.md",
+    "note/学习笔记/自监督学习.md",
     "note/论文笔记/详细笔记/自监督学习/MOCO.md",
     "生活note/idea/mask.md",
     "note/论文笔记/详细笔记/自监督学习",
