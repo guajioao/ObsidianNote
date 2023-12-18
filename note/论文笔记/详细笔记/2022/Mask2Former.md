@@ -39,7 +39,7 @@ Masked-attention Mask Transformer for Universal Image Segmentation
 ## 三、方法 Method
 
 ### 3.1 Mask classification preliminaries
-基于[[Maskformer]]，介绍Maskformer的主要结构：
+基于[[MaskFormer]]，介绍Maskformer的主要结构：
 * backbone：提取低分辨率特征
 * pixel decoder：上采样低分辨率特征，来产生高分辨率 per-pixel embeddings
 * Transformer decoder：用图像特征来产生object queries

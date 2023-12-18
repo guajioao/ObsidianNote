@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md",
+                "file": "note/学习笔记/对比学习.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/详细笔记/2022/MaskCLIP.md",
+                "file": "note/论文笔记/详细笔记/2022/MaskCLIP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md",
+                "file": "note/学习笔记/对比学习.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md",
+                "file": "note/学习笔记/对比学习.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/详细笔记/2021/MaskFormer.md"
+                "file": "note/学习笔记/对比学习.md"
               }
             }
           },
@@ -184,42 +185,43 @@
   },
   "active": "7712de959bf6c206",
   "lastOpenFiles": [
+    "note/论文笔记/详细笔记/2021/MaskFormer.md",
+    "note/学习笔记/对比学习.md",
+    "note/学习笔记",
+    "note/论文笔记",
     "note/详细笔记/2021/~$notes.docx",
-    "note/详细笔记/2023/ZegCLIP.md",
+    "note/论文笔记/详细笔记/2023/ZegCLIP.md",
     "gather/CLIP语义分割相关分类.md",
-    "note/详细笔记/2022/DenseCLIP.md",
-    "note/详细笔记/2022/MaskCLIP.md",
-    "note/详细笔记/2022/ZegFormer.md",
-    "note/详细笔记/2022/OpenSeg.md",
-    "note/详细笔记/2022/SimSeg.md",
-    "note/详细笔记/2023/SAZS.md",
+    "note/论文笔记/详细笔记/2022/DenseCLIP.md",
+    "note/论文笔记/详细笔记/2022/MaskCLIP.md",
+    "note/论文笔记/详细笔记/2022/ZegFormer.md",
+    "note/论文笔记/详细笔记/2022/OpenSeg.md",
+    "note/论文笔记/详细笔记/2022/SimSeg.md",
+    "note/论文笔记/详细笔记/2023/SAZS.md",
     "note/详细笔记/2021/~WRL3368.tmp",
     "note/详细笔记/2021/~WRD3357.tmp",
     "note/详细笔记/2021/~WRD3349.tmp",
     "生活note/其他/还账记录.md",
     "生活note/其他/手机时间计算.md",
-    "note/详细笔记/2021/MaskFormer.md",
-    "note/详细笔记/2023/SAN.md",
-    "note/简单概括/2021/CLIP.md",
+    "note/论文笔记/详细笔记/2023/SAN.md",
+    "note/论文笔记/简单概括/2021/CLIP.md",
     "gather/CLIP用于分割论文合集.md",
     "gather/Referance.md",
-    "note/详细笔记/2022/CRIS.md",
-    "note/详细笔记/2022/CLIMS.md",
-    "note/详细笔记/2022/active contours models.md",
-    "note/详细笔记/2021/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
-    "note/详细笔记/2021/CLIP.md",
+    "note/论文笔记/详细笔记/2022/CRIS.md",
+    "note/论文笔记/详细笔记/2022/CLIMS.md",
+    "note/论文笔记/详细笔记/2022/active contours models.md",
+    "note/论文笔记/详细笔记/2021/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
+    "note/论文笔记/详细笔记/2021/CLIP.md",
     "papers - 快捷方式.lnk",
     "papers/Semantic Segmentation/CLIP_Segmentation/8b1f0e1da68b43c39cb81376d9ffb614/4787bb255b8c458db2f2bd677b7a47c7.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/8b1f0e1da68b43c39cb81376d9ffb614",
-    "note/名词解释/CoOp.md",
-    "note/详细笔记/2023/OvSeg.md",
-    "note/详细笔记/2021/notes.docx",
-    "papers/CLIP/CVPR2022_RegionCLIP_Region-based Language-Image Pretraining.pdf",
-    "papers/CLIP",
-    "note/详细笔记/Visual Prompt Tuning.md",
+    "note/论文笔记/名词解释/CoOp.md",
+    "note/论文笔记/详细笔记/2023/OvSeg.md",
+    "note/论文笔记/详细笔记/2021/notes.docx",
+    "note/论文笔记/详细笔记/Visual Prompt Tuning.md",
     "files/Pasted image 20231213151243.png",
-    "note/详细笔记/2022/Mask2Former.md",
-    "note/详细笔记/2023/ZRIS.md",
+    "note/论文笔记/详细笔记/2022/Mask2Former.md",
+    "note/论文笔记/详细笔记/2023/ZRIS.md",
     "files/Pasted image 20231206215541.png",
     "files/80b51cfc40a976b0bfc6492eb22b5ba.png",
     "files/Pasted image 20231206214640.png",
