@@ -45,8 +45,11 @@ Masked Autoencoders Are Scalable Vision Learners
 * MAE是一个简单的自编码器方法，通过给定信号的一部分还原成初始信号
 	* 与所有的自编码器一样，包含一个编码器将可观察的信号提取为特征，一个解码器使用提取的特征重构为原始信号
 	* 与其他自编码器不同的是，MAE采用了不对称的设计，使得编码器只在部分可见patchs上运作，而轻量级的解码器使用可见patchs和mask tokens重构原始信号
-* **Masking**. 像ViT一样将图像划分为很多个小patchs，然后随机采样
-	* 高masking比的随机采样能够很好的去除冗余性，增加任务的难度，使其不容易层相邻块上直接采样获得
+* **Masking**。像ViT一样将图像划分为很多个小patchs，然后随机采样
+	* 高masking比的随机采样能够很好的去除冗余性，增加任务的难度，使其不容易从相邻块上直接采样获得
+* **MAE encoder**。就是ViT，但是只输入未被mask的patchs。
+	* 图像patch通过线性层并加入位置编码来转换为embedding【编码器也加入位置编码，fix还是learnable?】
+	* 
 
 
 ## 四、实现细节
