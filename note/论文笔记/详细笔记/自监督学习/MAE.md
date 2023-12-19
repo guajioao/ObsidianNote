@@ -7,7 +7,15 @@ Masked Autoencoders Are Scalable Vision Learners
 
 ## 摘要：
 * 随机的盖住图片里的一些块，用其他块预测这个块里的所有像素
-* 
+	* 不对称的编码-解码器结构：
+		* 编码器仅作用于未被遮盖的patchs
+		* 解码器，轻量级的解码器，用于重建原图
+	* 对输入图像遮盖很大比例（75%）对自监督任务很有用
+* 基于上述两点使得能够高效并快速地训练大规模的模型
+	* 提高了3倍的训练速度，也提高了准确度
+* 通过MAE使得大模型能够用更少的数据训练
+	* 普通的ViT可以只用imagenet-1k数据集就能达到87.8%的准确度
+* 迁移到下游任务后表现甚至超过监督学习预训练模型
 
 ## 目录：
 
@@ -20,7 +28,12 @@ Masked Autoencoders Are Scalable Vision Learners
 * [[#六、结论]]
 
 ## 结构
-
+* MAE结构图
+	* ![[Pasted image 20231219145247.png]]
+	* 在预训练过程中大量的随机patchs（75%）被遮盖掉
+	* encoder只输入没被盖掉的图像，以减小计算量
+	* 在encoder之后引入mask token，将patchs还原到原本的位置，再用decoder预测出mask token所在位置的所有像素
+	* 在预训练之后，解码器被丢弃，只用编码器来进行识别任务
 
 ## 一、引言 Introduction
 
@@ -29,6 +42,10 @@ Masked Autoencoders Are Scalable Vision Learners
 
 
 ## 三、方法 Method
+* MAE是一个简单的自编码器方法，通过给定信号的一部分还原成初始信号
+	* 与所有的自编码器一样，包含一个编码器将可观察的信号提取为特征，一个解码器使用提取的特征重构为原始信号
+	* 与其他自编码器不同的是，MAE采用了不对称的设计，使得编码器只在部分可见patchs上运作，而轻量级的解码器使用可见patchs和mask tokens重构原始信号
+* 
 
 
 ## 四、实现细节
