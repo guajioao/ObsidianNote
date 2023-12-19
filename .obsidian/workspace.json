@@ -13,33 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/MAE.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1edbe96ef150166d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/论文笔记/详细笔记/2022/MaskCLIP.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e15d066ab22cac47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/论文笔记/详细笔记/自监督学习/MOCO.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/MAE.md",
+                "file": "note/论文笔记/详细笔记/自监督学习/MOCO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/MAE.md",
+                "file": "note/论文笔记/详细笔记/自监督学习/MOCO.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/MAE.md"
+                "file": "note/论文笔记/详细笔记/自监督学习/MOCO.md"
               }
             }
           },
@@ -185,9 +158,11 @@
   },
   "active": "7712de959bf6c206",
   "lastOpenFiles": [
+    "files/Pasted image 20231219211811.png",
+    "note/论文笔记/详细笔记/自监督学习/BEiT.md",
+    "note/论文笔记/详细笔记/自监督学习/MAE.md",
     "files/Pasted image 20231219145247.png",
     "note/论文笔记/详细笔记/自监督学习/MOCO.md",
-    "note/论文笔记/详细笔记/自监督学习/MAE.md",
     "note/学习笔记/自监督学习.md",
     "生活note/idea/mask.md",
     "note/论文笔记/详细笔记/自监督学习",
@@ -221,7 +196,6 @@
     "papers - 快捷方式.lnk",
     "papers/Semantic Segmentation/CLIP_Segmentation/8b1f0e1da68b43c39cb81376d9ffb614/4787bb255b8c458db2f2bd677b7a47c7.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/8b1f0e1da68b43c39cb81376d9ffb614",
-    "note/论文笔记/名词解释/CoOp.md",
     "files/Pasted image 20231213151243.png",
     "files/Pasted image 20231206215541.png",
     "files/80b51cfc40a976b0bfc6492eb22b5ba.png",
@@ -230,7 +204,6 @@
     "files/Pasted image 20231202203802.png",
     "files/91c70c40817b8bb9dceee9f2cb07fbc.jpg",
     "files/2d1bfc1ea5d48a13ebb0578f8fbda4d.jpg",
-    "files/397cfa6881313e8c7c004945de58c45.jpg",
     "未命名.canvas"
   ]
 }
