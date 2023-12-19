@@ -49,7 +49,19 @@ Masked Autoencoders Are Scalable Vision Learners
 	* 高masking比的随机采样能够很好的去除冗余性，增加任务的难度，使其不容易从相邻块上直接采样获得
 * **MAE encoder**。就是ViT，但是只输入未被mask的patchs。
 	* 图像patch通过线性层并加入位置编码来转换为embedding【编码器也加入位置编码，fix还是learnable?】
-	* 
+	* 只处理一个全部patch集合的一个小的子集（约为25%），移除所有mask tokens
+	* 全集由轻量级decoder处理
+* **MAE decoder**。输入为所有tokens的集合，包括已被编码的visible patches和mask tokens
+	* 每一个mask tokens都是一个共享的、可学习的向量，表示一个待推理的消失patch
+	* 为所有tokens添加位置embeddings，使得tokens具有在图像上的位置信息
+	* 只在训练时使用，在推理时只用编码器来为下游任务提供特征图
+		* 因此可以使用比编码器更浅更窄的设计，更加轻量级，减少预训练时间
+* **Recostruction target**。通过为每一个masked patch推理像素值来重建输入
+	* decoder最后一层是一个线性层，其输出通道为一个patch的像素数量，随后会被reshape为一个重构的图像
+	* 损失函数为重构后的图像与原始图像之间的MAE(mean squared error)
+		* 与DETR相似，只在masked patches上计算损失
+	* 作者还尝试了另一种重构目标，每个mask patch的归一化像素值
+		* 即，计算一个patch中所有像素的
 
 
 ## 四、实现细节
