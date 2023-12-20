@@ -44,8 +44,16 @@ counterpart：backbone相同，只是训练方式不一样
 
 ## 三、方法 Method
 ![[Pasted image 20231220111008.png]]
-（a）传统端到端方法，q的编码器和k的编码器都在训练过程中实时更新，好处是一致性很高，坏处是这样batchsize就被限制为计算内存，即mini-batch
-（b）
+（a）传统端到端方法
+* q的编码器和k的编码器都在训练过程中实时更新
+	* 好处是一致性很高，坏处是这样batchsize就被限制为计算内存，即mini-batch
+（b）memory bank：
+* 将所有用encoder编码后的特征存入memory bank，再从前往后小批量与q对比并更新q
+	* 虽然qk对比的数据量能更多，但是会导致严重的不一致性，字典前后encoder差异很大
+（c）MoCo：
+* 与memory bank相似，但是k使用一个更新很缓慢的编码器，尽量减少了每一个mini-batch的不一致
+	* ![[Pasted image 20231220143352.png|325]]，其中,$m\in [0,1)$是动量系数，只有$\theta_q$才会被更新（即来自更新后的query encoder）
+	* 选择了一个很大的m=0.999，则说明大多数参数都来自上一时刻的encoder，还有极少量的数据更新
 
 ## 四、实现细节
 

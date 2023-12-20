@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -158,6 +159,7 @@
   },
   "active": "7712de959bf6c206",
   "lastOpenFiles": [
+    "files/Pasted image 20231220143352.png",
     "files/Pasted image 20231220111008.png",
     "files/Pasted image 20231219211811.png",
     "note/论文笔记/详细笔记/自监督学习/BEiT.md",
@@ -203,7 +205,6 @@
     "files/Pasted image 20231206214640.png",
     "files/Pasted image 20231206201945.png",
     "files/Pasted image 20231202203802.png",
-    "files/91c70c40817b8bb9dceee9f2cb07fbc.jpg",
     "未命名.canvas"
   ]
 }
