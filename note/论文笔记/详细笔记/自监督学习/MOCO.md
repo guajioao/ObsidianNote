@@ -6,8 +6,13 @@ Momentum Contrast for Unsupervised Visual Representation Learning
 	* 让动量编码器不会随着q快速的改变，使得相邻的mini-batch
 目标：提供更大的字典，让正负样本更好的对比，为对比学习提供一个稳定的自监督信号
 ## 摘要：
-
-
+* 为无监督视觉表征提出MoCo（Momentun Contrast）
+* 若将对比学习视作一个字典查找的过程，则可以用队列建立一个动态的字典，并使用一个移动平均编码器(moving-averaged encoder)
+	* 使得能够实时构建一个大规模、一致性的字典，促进对比无监督学习
+* 在ImageNet分类任务最普遍的linear protocol（只微调最后的全连接层）上有出色的表现
+* 学到的知识可以很好的迁移至其他下游任务
+* 在7个检测/监督任务上能够超越backbone相同的有监督预训练方式，有时甚至是大幅超越
+* 证明在视觉任务上无监督和有监督的表征学习之间的gap是可以被大幅缩小的
 counterpart：backbone相同，只是训练方式不一样
 
 ## 目录：
@@ -23,16 +28,24 @@ counterpart：backbone相同，只是训练方式不一样
 ## 结构
 * 结构图
 	* ![[Pasted image 20231219211811.png]]
-	* 
+	* 通过q与字典计算相似度训练一个视觉表征编码器
+	* 字典键{$k_0,k_1,\cdots$}是由一组数据样本实时定义的
+	* 字典通过一个队列构建，通过在最新mini-batch入列时将最老的mini-batch出列,使得字典大小不必再与mini-batch大小相关联
+	* keys由一个缓慢更新的编码器编码得到，该编码器是通过**query编码器动量更新**驱动的
+	* 使得可以通过一个大规模一致性字典来学习视觉表征
 
 ## 一、引言 Introduction
+* 无监督学习在NLP领域已经高度成功了，但在视觉领域无监督方法依然落后于有监督方法
+	* 理由可能是各自信号空间的不同
 
 
 ## 二、相关工作 Related Work
 
 
 ## 三、方法 Method
-
+![[Pasted image 20231220111008.png]]
+（a）传统端到端方法，q的编码器和k的编码器都在训练过程中实时更新，好处是一致性很高，坏处是这样batchsize就被限制为计算内存，即mini-batch
+（b）
 
 ## 四、实现细节
 
