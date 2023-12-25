@@ -68,7 +68,13 @@ Masked Autoencoders Are Scalable Vision Learners
 
 
 ## 五、实验结果
-
+* Imagenet分类
+	* ![[Pasted image 20231225153642.png]]
+* COCO目标检测
+	* ![[Pasted image 20231225153724.png]]
+* ADE20K语义分割
+	* ![[Pasted image 20231225153759.png]]
+* 
 
 ## 六、结论
 
