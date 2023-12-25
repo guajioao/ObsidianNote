@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/学习笔记/对比学习.md",
+                "file": "生活note/其他/还账记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/学习笔记/对比学习.md",
+                "file": "生活note/其他/还账记录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/学习笔记/对比学习.md"
+                "file": "生活note/其他/还账记录.md"
               }
             }
           },
@@ -183,15 +183,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9a46cb7760146504",
+  "active": "0a8dfff946fd90c4",
   "lastOpenFiles": [
     "note/论文笔记/详细笔记/自监督学习/MOCO.md",
+    "files/Pasted image 20231220143352.png",
+    "note/学习笔记/对比学习.md",
     "note/论文笔记/详细笔记/自监督学习/InstDisc.md",
     "note/论文笔记/详细笔记/自监督学习/BEiT.md",
     "note/论文笔记/详细笔记/自监督学习/MAE.md",
     "note/学习笔记/自监督学习.md",
     "note/学习笔记/().md",
-    "note/学习笔记/对比学习.md",
     "files/Pasted image 20231224155842.png",
     "files/Pasted image 20231224152619.png",
     "files/Pasted image 20231224150226.png",
@@ -201,7 +202,6 @@
     "生活note/其他/手机时间计算.md",
     "files/Pasted image 20231220205831.png",
     "files/Pasted image 20231220153849.png",
-    "files/Pasted image 20231220143352.png",
     "files/Pasted image 20231220111008.png",
     "files/Pasted image 20231219211811.png",
     "生活note/idea/mask.md",
@@ -227,7 +227,6 @@
     "gather/Referance.md",
     "note/论文笔记/详细笔记/2022/CRIS.md",
     "note/论文笔记/详细笔记/2022/CLIMS.md",
-    "note/论文笔记/详细笔记/2022/active contours models.md",
     "papers - 快捷方式.lnk",
     "papers/Semantic Segmentation/CLIP_Segmentation/8b1f0e1da68b43c39cb81376d9ffb614/4787bb255b8c458db2f2bd677b7a47c7.pdf",
     "papers/Semantic Segmentation/CLIP_Segmentation/8b1f0e1da68b43c39cb81376d9ffb614",
