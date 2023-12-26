@@ -21,19 +21,6 @@
             }
           },
           {
-            "id": "3ed93f6a887102ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/学习笔记/掩码学习.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0f234e792e0f9a0e",
             "type": "leaf",
             "state": {
@@ -45,8 +32,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e08c4f963d9c0fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/论文笔记/详细笔记/自监督学习/SimMIM.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ed93f6a887102ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/学习笔记/掩码学习.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/BEiT.md",
+                "file": "note/论文笔记/详细笔记/自监督学习/SimMIM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/BEiT.md",
+                "file": "note/论文笔记/详细笔记/自监督学习/SimMIM.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/BEiT.md"
+                "file": "note/论文笔记/详细笔记/自监督学习/SimMIM.md"
               }
             }
           },
@@ -182,11 +195,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9a46cb7760146504",
+  "active": "3e08c4f963d9c0fd",
   "lastOpenFiles": [
-    "note/论文笔记/详细笔记/自监督学习/SimMIM.md",
+    "生活note/其他/还账记录.md",
     "note/学习笔记/掩码学习.md",
+    "note/论文笔记/详细笔记/自监督学习/SimMIM.md",
+    "生活note/其他/手机时间计算.md",
+    "note/论文笔记/详细笔记/自监督学习/BEiT.md",
     "note/论文笔记/详细笔记/自监督学习/MAE.md",
+    "note/学习笔记/对比学习.md",
+    "files/Pasted image 20231225212511.png",
+    "files/Pasted image 20231225202832.png",
+    "files/Pasted image 20231225202807.png",
+    "files/Pasted image 20231225202642.png",
+    "files/Pasted image 20231225202104.png",
     "files/Pasted image 20231225154548.png",
     "files/Pasted image 20231225153759.png",
     "files/Pasted image 20231225153724.png",
@@ -203,20 +225,11 @@
     "note/论文笔记/名词解释/active contours models.md",
     "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
     "note/论文笔记/详细笔记/CLIP相关",
-    "note/论文笔记/详细笔记/自监督学习/BEiT.md",
     "files/Pasted image 20231225145433.png",
     "note/学习笔记/自监督学习.md",
-    "note/学习笔记/对比学习.md",
     "note/论文笔记/详细笔记/自监督学习/MOCO.md",
-    "生活note/其他/还账记录.md",
-    "files/Pasted image 20231220143352.png",
     "note/论文笔记/详细笔记/自监督学习/InstDisc.md",
     "note/学习笔记/().md",
-    "files/Pasted image 20231224155842.png",
-    "files/Pasted image 20231224152619.png",
-    "files/Pasted image 20231224150226.png",
-    "files/Pasted image 20231222164912.png",
-    "生活note/其他/手机时间计算.md",
     "生活note/idea/mask.md",
     "note/论文笔记/详细笔记/自监督学习",
     "note/论文笔记/详细笔记/分割相关/2021/MaskFormer.md",
