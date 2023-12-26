@@ -26,20 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e08c4f963d9c0fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/掩码学习/MSCN.md",
+                "file": "note/论文笔记/详细笔记/自监督学习/SiameseIM.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -113,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
+                "file": "note/论文笔记/详细笔记/自监督学习/SiameseIM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
+                "file": "note/论文笔记/详细笔记/自监督学习/SiameseIM.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md"
+                "file": "note/论文笔记/详细笔记/自监督学习/SiameseIM.md"
               }
             }
           },
@@ -184,6 +171,8 @@
   },
   "active": "0f234e792e0f9a0e",
   "lastOpenFiles": [
+    "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
+    "note/论文笔记/详细笔记/自监督学习/SiameseIM.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/MSCN.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/SimMIM.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/MaskFeat.md",
@@ -192,7 +181,6 @@
     "note/学习笔记/掩码学习.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习",
     "note/论文笔记/详细笔记/自监督学习/对比学习",
-    "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
     "files/Pasted image 20231226154132.png",
     "files/Pasted image 20231226151200.png",
     "生活note/其他/还账记录.md",
@@ -228,7 +216,6 @@
     "note/学习笔记",
     "note/论文笔记",
     "note/详细笔记/2021/~$notes.docx",
-    "note/论文笔记/详细笔记/分割相关/2023/ZegCLIP.md",
     "note/详细笔记/2021/~WRL3368.tmp",
     "未命名.canvas"
   ]
