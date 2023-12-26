@@ -1,5 +1,5 @@
 SimMIM: A Simple Framework for Masked Image Modeling
-收录于：cvpr2022
+收录于：CVPR2022
 
 
 ## 摘要：
@@ -25,7 +25,10 @@ SimMIM: A Simple Framework for Masked Image Modeling
 ## 结构
 * SimMIM
 	* ![[Pasted image 20231225154548.png]]
-	* 
+	1. 图片打成patch
+	2. mask掉其中一些patch，用learnable向量替代
+	3. 编码器提取特征
+	4. 预测头回归预测masked patch中所有像素值
 
 ## 一、引言 Introduction
 NLP领域自监督学习基于masked语言学习任务已经占统治地位，通过大规模无标注数据来学习大规模语言模型，已被证明可以很好的推广到广泛地NLP任务中
@@ -71,7 +74,34 @@ SimMIM架构通过掩码图像建模任务学习特征，即mask输入图像信�
 * Prediction **head**。解码得到原始信号【即生成原图】
 * Prediction target。定义要预测的信号形式和损失计算方式。信号形式可以是像素值，也可以是原始像素的转换。损失计算可以是交叉熵分类损失，也可以是L1和L2回归损失
 ### 3.2 Masking Strategy
+* 用可学习mask token向量代替每个masked patch
+* 尝试mask区域的选择有两个：
+* Patch-aligned random masking。即patch要么全被遮住要么全都没被遮住
+* Other masking strategies。
+1. 盖住中心区域。作者将其修改为随机移动遮盖某一块区域
+2. BEiT使用的block-wise遮盖策略
+![[Pasted image 20231226151200.png]]
 
+### 3.3 Prediction Head
+预测头可以非常轻，只使用一个线性层。
+也尝试了较重的头部，如2层MLP, 逆Swin-T和逆Swin-B
+
+### 3.4 Prediction Tartget
+Raw pixel value regression原始像素值回归。将小尺寸特征图对应patch位置的特征向量用$1\times1$卷积映射回原始的大小，然后用这个向量负责预测原始像素值。
+例如，在32倍下采样的特征图上使用$1\times1$卷积将输出维度改为$3072=32*32*3$，代表$32*32$个像素的RGB值。
+即，原图$224*224$，原特征图=$7*7*128$，用$1*1$卷积修改为$7*7*(32*32*3)$
+* $L_1$损失计算如下：
+	* ![[Pasted image 20231226154132.png]],
+	* 其中$\Omega(x_M)$为元素数量
+
+* Other prediction targets。
+	* Color Clustering。iGPT的做法
+	* Vision tokenization。BEiT的做法
+	* Channel-wise bin color discretization。
+
+### 3.5 Evaluation protocols
+与BEiT相同，通过在ImageNet-1K上微调后进行图像分类来评估学到的特征的质量。
+主要目标是衡量特征在所有下游任务上的表现
 
 
 

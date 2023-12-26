@@ -61,8 +61,11 @@ Masked Autoencoders Are Scalable Vision Learners
 	* 损失函数为重构后的图像与原始图像之间的MAE(mean squared error)
 		* 与DETR相似，只在masked patches上计算损失
 	* 作者还尝试了另一种重构目标，每个mask patch的归一化像素值
-		* 即，计算一个patch中所有像素的
-
+		* 即，计算一个patch中所有像素的均值
+* Simple implementation
+	* 为每个patch生成一个token，然后随机打乱这个令牌列表，并根据mask率随机删去列表的最后一部分。
+	* 在经过编码器后向这个编码后的patch列表最后添加mask token列表，然后将它们还原回原来的位置。
+	* 在添加位置编码后这个列表就可以作为解码器的输入了
 
 ## 四、实现细节
 
