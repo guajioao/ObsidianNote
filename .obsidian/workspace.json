@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/SiameseIM.md",
+                "file": "生活note/其他/还账记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/SiameseIM.md",
+                "file": "生活note/其他/还账记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/SiameseIM.md",
+                "file": "生活note/其他/还账记录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/SiameseIM.md"
+                "file": "生活note/其他/还账记录.md"
               }
             }
           },
@@ -172,8 +171,8 @@
   },
   "active": "0f234e792e0f9a0e",
   "lastOpenFiles": [
-    "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
     "note/论文笔记/详细笔记/自监督学习/SiameseIM.md",
+    "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/MSCN.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/SimMIM.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/MaskFeat.md",
