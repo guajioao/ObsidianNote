@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md",
+                "file": "生活note/其他/还账记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md",
+                "file": "生活note/其他/还账记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md",
+                "file": "生活note/其他/还账记录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md"
+                "file": "生活note/其他/还账记录.md"
               }
             }
           },
@@ -155,8 +155,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9a46cb7760146504",
+  "active": "c1e94dfe42bc008c",
   "lastOpenFiles": [
+    "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md",
     "生活note/其他/还账记录.md",
     "note/论文笔记/详细笔记/自监督学习/SiameseIM.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
@@ -171,7 +172,6 @@
     "files/Pasted image 20231226154132.png",
     "files/Pasted image 20231226151200.png",
     "生活note/其他/手机时间计算.md",
-    "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md",
     "note/学习笔记/对比学习.md",
     "files/Pasted image 20231225212511.png",
     "files/Pasted image 20231225202832.png",
