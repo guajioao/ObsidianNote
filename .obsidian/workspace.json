@@ -33,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/学习笔记/对比学习.md",
+                "file": "生活note/其他/还账记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/学习笔记/对比学习.md",
+                "file": "生活note/其他/还账记录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/学习笔记/对比学习.md"
+                "file": "生活note/其他/还账记录.md"
               }
             }
           },
@@ -168,10 +169,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3e181160b3e6a71e",
+  "active": "232cacc92b6f35b9",
   "lastOpenFiles": [
-    "note/论文笔记/详细笔记/自监督学习/对比学习/InstDisc.md",
     "note/学习笔记/对比学习.md",
+    "note/论文笔记/详细笔记/自监督学习/对比学习/InstDisc.md",
     "note/学习笔记/掩码学习.md",
     "note/学习笔记/自监督学习.md",
     "生活note/其他/还账记录.md",
