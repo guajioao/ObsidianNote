@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e181160b3e6a71e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/学习笔记/对比学习.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/学习笔记/对比学习.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/学习笔记/对比学习.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/其他/还账记录.md"
+                "file": "note/学习笔记/对比学习.md"
               }
             }
           },
@@ -155,10 +169,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c1e94dfe42bc008c",
+  "active": "3e181160b3e6a71e",
   "lastOpenFiles": [
-    "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md",
+    "note/论文笔记/详细笔记/自监督学习/对比学习/MOCO.md",
+    "note/学习笔记/对比学习.md",
+    "note/论文笔记/详细笔记/自监督学习/对比学习/InstDisc.md",
+    "note/学习笔记/自监督学习.md",
     "生活note/其他/还账记录.md",
+    "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md",
     "note/论文笔记/详细笔记/自监督学习/SiameseIM.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/MSCN.md",
@@ -172,7 +190,6 @@
     "files/Pasted image 20231226154132.png",
     "files/Pasted image 20231226151200.png",
     "生活note/其他/手机时间计算.md",
-    "note/学习笔记/对比学习.md",
     "files/Pasted image 20231225212511.png",
     "files/Pasted image 20231225202832.png",
     "files/Pasted image 20231225202807.png",
@@ -192,9 +209,6 @@
     "note/论文笔记/名词解释/active contours models.md",
     "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
     "note/论文笔记/详细笔记/CLIP相关",
-    "note/学习笔记/自监督学习.md",
-    "note/论文笔记/详细笔记/自监督学习/对比学习/MOCO.md",
-    "note/论文笔记/详细笔记/自监督学习/对比学习/InstDisc.md",
     "note/学习笔记/().md",
     "生活note/idea/mask.md",
     "note/论文笔记/详细笔记/自监督学习",
