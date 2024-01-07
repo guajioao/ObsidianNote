@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/学习笔记/掩码学习.md",
+                "file": "note/学习笔记/对比学习.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e5b1276b416ab8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/学习笔记/DINO.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/掩码学习/SimMIM.md",
+                "file": "note/学习笔记/掩码学习.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -113,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/学习笔记/掩码学习.md",
+                "file": "note/学习笔记/对比学习.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/学习笔记/掩码学习.md",
+                "file": "note/学习笔记/对比学习.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/学习笔记/掩码学习.md"
+                "file": "note/学习笔记/对比学习.md"
               }
             }
           },
@@ -184,12 +198,15 @@
   },
   "active": "a76bf53d1a9bee10",
   "lastOpenFiles": [
-    "note/论文笔记/详细笔记/自监督学习/掩码学习/SimMIM.md",
+    "note/学习笔记/DINO.md",
+    "note/学习笔记/对比学习.md",
+    "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
+    "files/Pasted image 20240107195047.png",
     "note/学习笔记/掩码学习.md",
+    "note/论文笔记/详细笔记/自监督学习/掩码学习/MaskFeat.md",
+    "note/论文笔记/详细笔记/自监督学习/掩码学习/SimMIM.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md",
-    "note/论文笔记/详细笔记/自监督学习/掩码学习/MaskFeat.md",
-    "note/学习笔记/对比学习.md",
     "生活note/其他/还账记录.md",
     "note/论文笔记/详细笔记/自监督学习/对比学习/MOCO.md",
     "note/论文笔记/详细笔记/自监督学习/对比学习/InstDisc.md",
@@ -210,7 +227,6 @@
     "files/Pasted image 20231225202642.png",
     "files/Pasted image 20231225202104.png",
     "files/Pasted image 20231225154548.png",
-    "files/Pasted image 20231225153759.png",
     "note/论文笔记/详细笔记/分割相关/2021/SETR.md",
     "gather/Transformer在CV的应用.md",
     "note/论文笔记/详细笔记/2021/Multi-task self-training for learning general representations.md",
@@ -223,8 +239,6 @@
     "note/论文笔记/名词解释/active contours models.md",
     "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
     "note/论文笔记/详细笔记/CLIP相关",
-    "note/学习笔记/().md",
-    "生活note/idea/mask.md",
     "note/论文笔记/详细笔记/自监督学习",
     "note/学习笔记",
     "note/论文笔记",
