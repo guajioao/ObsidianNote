@@ -13,54 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/对比学习/MOCO.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a76bf53d1a9bee10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/学习笔记/对比学习.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e5b1276b416ab8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/学习笔记/DINO.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70ed584a0ccf1a33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/学习笔记/掩码学习.md",
+                "file": "生活note/其他/还账记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/学习笔记/对比学习.md",
+                "file": "生活note/其他/还账记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/学习笔记/对比学习.md",
+                "file": "生活note/其他/还账记录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/学习笔记/对比学习.md"
+                "file": "生活note/其他/还账记录.md"
               }
             }
           },
@@ -196,8 +156,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a76bf53d1a9bee10",
+  "active": "3e181160b3e6a71e",
   "lastOpenFiles": [
+    "note/论文笔记/详细笔记/自监督学习/对比学习/MOCO.md",
     "note/学习笔记/DINO.md",
     "note/学习笔记/对比学习.md",
     "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
@@ -208,7 +169,6 @@
     "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md",
     "生活note/其他/还账记录.md",
-    "note/论文笔记/详细笔记/自监督学习/对比学习/MOCO.md",
     "note/论文笔记/详细笔记/自监督学习/对比学习/InstDisc.md",
     "note/学习笔记/自监督学习.md",
     "note/论文笔记/简单概括/2021/CLIP.md",
