@@ -71,7 +71,7 @@ Q：smileing等控制是如何来的，在哪一步加入了什么？
 		* 推理的$x_0$+$x_t$的方向指向+随机噪声
 		* 其中，![[Pasted image 20240110210107.png]]
 		* 若每个时刻$\eta=1$，就是DDPM。
-		* 若$\eta=1$，这个过程就是确定的，是几乎完美的反向推演
+		* 若$\eta=0$，这个过程就是确定的，是几乎完美的反向推演
 ### 2.3 用CLIP进行的图像操控
 与直接最小化编辑图像与目标描述之间的余弦距离【直接对比图像特征与文本特征】相比，用余弦距离的方向损失实现的同质编辑不会出现mode collapse【只比较方向更好】
 ![[Pasted image 20240110210711.png]]
@@ -136,7 +136,28 @@ GENERATIVE PROCESS DESIGN
 	* 因此，需要在早期修改产生过程来达成语义的改变
 	* 将早期阶段称为editing interval $[T, t_{edit}]$
 * $LPIPS（x，P_T）$和$LPIPS（x，P_t）$分别计算时间步长T和t下，原始图像与预测图像之间的感知距离（perceptual distance）
-* 直观地说，high-level内容已经由
+* 直观地说，high-level内容已经由predicted terms决定了，LPIPS衡量的是在剩余反向过程中剩下的待编辑内容。【总之就是LPIPS衡量的是后期的细节？】
+* 定义了一个时间间隔$[T,t]$的编辑强度
+	* $\xi_t=LPIPS(x,P_T)-LPIPS(x,P_t)$
+	* 表示在原本产生过程中时间T到t的perceptual change感知变化
+* 时间间隔越短，编辑强度$\xi_t$越小。而更长的间隔一般来说会给图片带来更有辩识力的改变
+* 实验找到了有足够编辑强度的最短编辑间隔0.33
+* 一些属性需要更多的视觉变化，比如pixar > smile【整体风格的变化>人物情绪的变化】。对于这样的属性，需要根据下列公式提高编辑强度
+	* ![[Pasted image 20240111143241.png]]
+	* $E_T(\cdot)$产生CLIP文本embedding【即文本特征提取器】
+	* $y(\cdot)$代表描述文本
+	* $d(\cdot,\cdot)$计算余弦距离
+### 4.2 利用随机噪声注入技术提高质量
+QUALITY BOOSTING WITH STOCHASTIC NOISE INJECTION
+DDIM通过去除随机性实现了近乎完美的反演，但是2020年的[[Training generative adversarial networks with limited data|一篇文章]]证明随机性(stochasticity)能够提高质量。因此，作者在boosting interval提高间隔中注入了随机噪声$[t_{boost},0]$
+* 增长时间间隔会获得更高的质，但是过长会导致内容改变
+* 因此需要找到足够提高质量的最小间隔，使得内容尽量不要变化
+* 作者提高质量的能力与图像噪声有关，并定义了t时刻的quality deficiency：
+	* $\gamma_t = LPIPS(x,x_t)$
+	* 表示$x_t$中与原始图像相比的噪声量。
+	* 这里用$x$与$x_t$是因为考虑的是实际的图像而非语义信息
+* 实验找到了能够让质量提升的最小内容变化
+
 
 
 ## 五、实验结果
