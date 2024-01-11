@@ -121,6 +121,8 @@ DISCOVERING SEMANTIC LATENT SPACE IN DIFFUSION MODELS
 * 学习$f_t$对学习率的设置更佳鲁棒，并且比学习每一个$\Delta h_t$要收敛更快
 * 此外，由于$f_t$学习了一个给定时间步长和瓶颈特征的隐函数，他**能够推广到不可见**的时间步长和瓶颈特征
 * 【\*】
+* 在一个$[1,T]$的子序列$[1,S]$上定义的子序列$\{x_{\tau_i}\}_{\forall i\in [1,S]}$训练
+
 * 因此，我们可以在生成过程的任何子序列上训练$f_t$。
 
 
@@ -130,7 +132,11 @@ GENERATIVE PROCESS DESIGN
 我们设计了公式来通过可量化的措施确定每个阶段（phase）的长度
 
 ### 4.1 Asyrp编辑过程
-
+* 【根据另一篇论文】扩散模型在早期产生高水平的背景，在后期产生细节
+	* 因此，需要在早期修改产生过程来达成语义的改变
+	* 将早期阶段称为editing interval $[T, t_{edit}]$
+* $LPIPS（x，P_T）$和$LPIPS（x，P_t）$分别计算时间步长T和t下，原始图像与预测图像之间的感知距离（perceptual distance）
+* 直观地说，high-level内容已经由
 
 
 ## 五、实验结果
