@@ -32,6 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "54a8e79dbc2e9bbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/论文笔记/创新相关整理/现有论文方法.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -172,9 +185,9 @@
   },
   "active": "95ef7913d6ad96bc",
   "lastOpenFiles": [
-    "生活note/idea/创新工作/改进工作的思路.md",
-    "生活note/idea/创新工作/创新工作思路.md",
     "note/论文笔记/创新相关整理/现有论文方法.md",
+    "生活note/idea/创新工作/创新工作思路.md",
+    "生活note/idea/创新工作/改进工作的思路.md",
     "生活note/其他/还账记录.md",
     "files/Pasted image 20240112104333.png",
     "files/Pasted image 20240112104319.png",
