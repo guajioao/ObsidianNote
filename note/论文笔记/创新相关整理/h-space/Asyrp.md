@@ -111,7 +111,8 @@ DISCOVERING SEMANTIC LATENT SPACE IN DIFFUSION MODELS
 * 因此，采样公式就修改为【公式8】：
 	* ![[Pasted image 20240110214459.png]]
 	* 其中$\epsilon_t^{\theta}(x_t|\Delta h_t)$将$\Delta h_t$加入到原本的$h_t$中
-	* $\Delta h_t$最小化公式7中的损失，但用$P_t(\epsilon_t^{\theta}(x_t|\Delta h))$代替了$P_t(\hat{\epsilon}_t^{\theta}(x_t|\Delta h))$
+	* $\Delta h_t$最小化公式7中的损失
+	* 但用$P_t(\epsilon_t^{\theta}(x_t|\Delta h))$代替了$P_t(\hat{\epsilon}_t^{\theta}(x_t|\Delta h))$
 
 ### 3.4 IMPLICIT NEURAL DIRECTIONS
 即使$\Delta h$能够成功操控图像，直接在多个时间步长上优化$\Delta h_t$需要很多训练轮次，且需要很小心的选择学习率和它的scheduling。
