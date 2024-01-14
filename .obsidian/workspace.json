@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
+                "file": "note/论文笔记/创新相关整理/h-space/Asyrp.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
+                "file": "note/论文笔记/创新相关整理/h-space/Asyrp.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
+                "file": "note/论文笔记/创新相关整理/h-space/Asyrp.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md"
+                "file": "note/论文笔记/创新相关整理/h-space/Asyrp.md"
               }
             }
           },
@@ -184,6 +184,10 @@
   },
   "active": "88e538b6926dcd65",
   "lastOpenFiles": [
+    "note/论文笔记/创新相关整理/h-space/Toward a meaningful and decodable representation.md",
+    "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
+    "note/论文笔记/简单概括/自监督相关/IBOT.md",
+    "files/Pasted image 20240114150244.png",
     "note/论文笔记/详细笔记/扩散模型/DDIM.md",
     "生活note/其他/还账记录.md",
     "files/Pasted image 20240113184100.png",
@@ -201,7 +205,6 @@
     "files/Pasted image 20240112103924.png",
     "files/Pasted image 20240112103913.png",
     "files/Pasted image 20240112103901.png",
-    "files/Pasted image 20240112103726.png",
     "note/论文笔记/名词解释/GraphCut.md",
     "note/论文笔记/名词解释/未命名.md",
     "note/论文笔记/名词解释/CRF.md",
@@ -209,12 +212,9 @@
     "生活note/idea/创新工作/现有方法存在的问题.md",
     "note/论文笔记/创新相关整理/h-space/Asyrp.md",
     "生活note/idea/创新工作",
-    "note/论文笔记/创新相关整理/h-space/Toward a meaningful and decodable representation.md",
     "note/论文笔记/详细笔记/h-space/一篇文章.md",
-    "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
     "note/论文笔记/创新相关整理/h-space",
     "note/论文笔记/简单概括/自监督相关/DINO V2.md",
-    "note/论文笔记/简单概括/自监督相关/IBOT.md",
     "note/论文笔记/简单概括/自监督相关/SwAV.md",
     "template/name_explain/名词解释.md",
     "template/note_template/论文笔记-概述.md",

@@ -37,6 +37,16 @@ Dinov2: Learning robust visual features without supervision
 			* 如果聚类得到的图像与query图像相似度够高，就可以增加N，减少M；反之则减少N，增加M
 	* 最后将相似图片与query图片一起用于预训练，得到一个更优质，精心筛选过的大规模预训练数据集
 * 学习特征的方式：可以看作是DINO和iBOT的结合，并引入SwAv的centering方法
+	* ![[Pasted image 20240114150244.png]]
+	* 与DINOv1的**相同点**
+	1. x通过不同的数据增强分为了两个视野u和v
+	2. 都使用了teacher，student网络
+	3. teacher网络都使用了stop gradient操作
+	* 与DINOv1的**区别**
+	1. centering改为了SwAV中使用的SK归一化
+	2. 损失函数使用了iBOT损失
+	3. 两个视野u和v都要通过Student和Teacher网络
+	
 
 
 ## 一、引言 Introduction
