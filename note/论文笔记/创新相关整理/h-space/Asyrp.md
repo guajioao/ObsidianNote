@@ -92,7 +92,8 @@ DISCOVERING SEMANTIC LATENT SPACE IN DIFFUSION MODELS
 	* $D_t(\epsilon_t^{\theta}(x_t))$表示$x_t$的direction pointing方向
 	* 并进一步用$P_t$和$D_t$简短表示
 		* $\epsilon_t$经过【？】得到$P_t(\epsilon_t)$与$D_t$，
-		* $\hat{\epsilon_t}$得到$P_t(\hat{\epsilon_t})$
+		* $\hat{\epsilon_t}$得到$P_t(\hat{\epsilon_t})$，
+
 ### 3.1 问题
 
 
