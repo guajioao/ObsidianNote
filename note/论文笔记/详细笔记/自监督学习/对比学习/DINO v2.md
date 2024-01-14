@@ -29,7 +29,7 @@ Dinov2: Learning robust visual features without supervision
 		* 只应用于未被curated的数据，删除接近的、重复的图片。减少冗余性，增加图像间的多样性
 		* 删除与测试或验证集中包含的图片接近的图片
 	* Self-supervised image retrieval【自监督图像检索】
-		* 使用在ImageNet-22K上与训练的自监督网络计算图像embedding，并使用余弦相似度计算图像之间的距离。
+		* 使用在ImageNet-22K上预训练的自监督网络计算图像embedding，并使用余弦相似度计算图像之间的距离。
 		* 对未curated的图像进行k-means聚类。
 		* 对于用于检索的query数据:
 			* 如果足够多，就为每个图像检索N(通常为4)个最近邻
