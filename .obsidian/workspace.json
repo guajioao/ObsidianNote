@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "54a8e79dbc2e9bbe",
+            "id": "3ec14b705d89a42a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/创新相关整理/现有论文方法.md",
+                "file": "生活note/idea/创新工作/创新工作思路.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template/note_template/论文泛读.md",
+                "file": "note/论文笔记/创新相关整理/现有论文方法.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54a8e79dbc2e9bbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/论文笔记/创新相关整理/总结.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -113,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "template/note_template/论文泛读.md",
+                "file": "note/论文笔记/创新相关整理/总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "template/note_template/论文泛读.md",
+                "file": "note/论文笔记/创新相关整理/总结.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "template/note_template/论文泛读.md"
+                "file": "note/论文笔记/创新相关整理/总结.md"
               }
             }
           },
@@ -182,11 +196,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "90fb6ad169bda57a",
+  "active": "54a8e79dbc2e9bbe",
   "lastOpenFiles": [
     "生活note/idea/创新工作/创新工作思路.md",
-    "template/note_template/论文泛读.md",
+    "生活note/idea/创新工作/改进工作的思路.md",
+    "note/论文笔记/创新相关整理/总结.md",
     "note/论文笔记/创新相关整理/现有论文方法.md",
+    "template/note_template/论文泛读.md",
+    "files/Pasted image 20240115163256.png",
+    "files/Pasted image 20240115163111.png",
+    "files/Pasted image 20240115162607.png",
+    "files/Pasted image 20240115162256.png",
+    "files/Pasted image 20240115160951.png",
+    "生活note/idea/创新工作/未命名.md",
     "files/Pasted image 20240115105232.png",
     "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
     "note/论文笔记/创新相关整理/h-space/Asyrp.md",
@@ -198,15 +220,9 @@
     "note/论文笔记/简单概括/自监督相关/IBOT.md",
     "files/Pasted image 20240114150244.png",
     "生活note/其他/还账记录.md",
-    "files/Pasted image 20240113184100.png",
-    "生活note/idea/创新工作/改进工作的思路.md",
     "template/note_template/paper_note.md",
     "note/论文笔记/详细笔记/未命名.md",
     "note/论文笔记/详细笔记/扩散模型",
-    "files/Pasted image 20240112104333.png",
-    "files/Pasted image 20240112104319.png",
-    "files/Pasted image 20240112104317.png",
-    "files/Pasted image 20240112104056.png",
     "note/论文笔记/名词解释/GraphCut.md",
     "note/论文笔记/名词解释/未命名.md",
     "note/论文笔记/名词解释/CRF.md",
@@ -222,9 +238,6 @@
     "note/论文笔记/简单概括/自监督相关",
     "note/论文笔记/详细笔记/自监督学习/对比学习/DINO.md",
     "note/论文笔记/详细笔记/自监督学习/对比学习/MOCO.md",
-    "note/学习笔记/对比学习.md",
-    "note/学习笔记/掩码学习.md",
-    "note/论文笔记/详细笔记/自监督学习/掩码学习/MaskFeat.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习",
     "note/论文笔记/详细笔记/自监督学习/对比学习",
     "note/论文笔记/详细笔记/分割相关/2021",
