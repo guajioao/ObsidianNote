@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "2f857964cfa1600c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3ac78448018bca79",
             "type": "leaf",
             "state": {
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -89,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#k",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,12 +119,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -127,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/创新相关整理/h-space/Asyrp.md",
+                "file": "note/论文笔记/创新相关整理/现有论文方法.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/创新相关整理/h-space/Asyrp.md",
+                "file": "note/论文笔记/创新相关整理/现有论文方法.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/创新相关整理/h-space/Asyrp.md"
+                "file": "note/论文笔记/创新相关整理/现有论文方法.md"
               }
             }
           },
@@ -196,15 +209,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "88e538b6926dcd65",
+  "active": "b809ad64d4000eef",
   "lastOpenFiles": [
-    "note/论文笔记/详细笔记/扩散模型/DDIM.md",
+    "files/Pasted image 20240115105232.png",
+    "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
     "note/论文笔记/创新相关整理/h-space/Asyrp.md",
+    "note/论文笔记/详细笔记/扩散模型/DDIM.md",
     "files/Pasted image 20240110205901.png",
     "files/Pasted image 20240110205504.png",
     "files/Pasted image 20240110205524.png",
     "note/论文笔记/创新相关整理/h-space/Toward a meaningful and decodable representation.md",
-    "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
     "note/论文笔记/简单概括/自监督相关/IBOT.md",
     "files/Pasted image 20240114150244.png",
     "生活note/其他/还账记录.md",
