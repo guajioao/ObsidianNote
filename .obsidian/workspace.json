@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "872854112d07e04b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "生活note/其他/还账记录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/idea/创新工作/创新工作思路.md",
+                "file": "生活note/其他/还账记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/idea/创新工作/创新工作思路.md",
+                "file": "生活note/其他/还账记录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/idea/创新工作/创新工作思路.md"
+                "file": "生活note/其他/还账记录.md"
               }
             }
           },
@@ -195,50 +208,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "floating": {
-    "id": "bd6d13a1f3bcbed8",
-    "type": "floating",
-    "children": [
-      {
-        "id": "5dc6bac36fd7149b",
-        "type": "window",
-        "children": [
-          {
-            "id": "7e7bfd6bd1e6e0b1",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "56d0fb909f211c3f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "note/论文笔记/创新相关整理/方法总结.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 176,
-        "y": 166,
-        "width": 990,
-        "height": 633,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "3ec14b705d89a42a",
+  "active": "872854112d07e04b",
   "lastOpenFiles": [
     "note/论文笔记/创新相关整理/总结.md",
-    "note/论文笔记/创新相关整理/现有论文方法.md",
-    "生活note/idea/创新工作/创新工作思路.md",
     "note/论文笔记/创新相关整理/方法总结.md",
+    "生活note/idea/创新工作/创新工作思路.md",
+    "note/论文笔记/创新相关整理/现有论文方法.md",
     "files/Pasted image 20240116085239.png",
     "files/Pasted image 20240116084054.png",
     "生活note/其他/还账记录.md",
