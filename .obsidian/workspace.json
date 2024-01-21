@@ -58,19 +58,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "54a8e79dbc2e9bbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/论文笔记/创新相关整理/h-space/Asyrp.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 3
@@ -123,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -210,12 +198,12 @@
   },
   "active": "9c541d5c3d605bbe",
   "lastOpenFiles": [
-    "生活note/其他/还账记录.md",
+    "note/论文笔记/创新相关整理/h-space/Asyrp.md",
     "note/论文笔记/创新相关整理/总结.md",
+    "生活note/其他/还账记录.md",
     "note/论文笔记/创新相关整理/方法总结.md",
     "生活note/idea/创新工作/创新工作思路.md",
     "note/论文笔记/创新相关整理/现有论文方法.md",
-    "note/论文笔记/创新相关整理/h-space/Asyrp.md",
     "note/论文笔记/创新相关整理/扩散模型/DDIM.md",
     "files/Pasted image 20240116085239.png",
     "files/Pasted image 20240116084054.png",
