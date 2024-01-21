@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/论文笔记/创新相关整理/总结.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/论文笔记/创新相关整理/总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/论文笔记/创新相关整理/总结.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/其他/还账记录.md"
+                "file": "note/论文笔记/创新相关整理/总结.md"
               }
             }
           },
@@ -210,13 +210,13 @@
   },
   "active": "9c541d5c3d605bbe",
   "lastOpenFiles": [
+    "生活note/其他/还账记录.md",
     "note/论文笔记/创新相关整理/总结.md",
     "note/论文笔记/创新相关整理/方法总结.md",
     "生活note/idea/创新工作/创新工作思路.md",
     "note/论文笔记/创新相关整理/现有论文方法.md",
     "note/论文笔记/创新相关整理/h-space/Asyrp.md",
     "note/论文笔记/创新相关整理/扩散模型/DDIM.md",
-    "生活note/其他/还账记录.md",
     "files/Pasted image 20240116085239.png",
     "files/Pasted image 20240116084054.png",
     "note/论文笔记/详细笔记/分割相关/2023/ZegCLIP.md",
