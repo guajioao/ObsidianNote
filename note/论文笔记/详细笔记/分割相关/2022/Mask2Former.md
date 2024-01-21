@@ -22,7 +22,7 @@ Masked-attention Mask Transformer for Universal Image Segmentation
 
 ## 结构
 * 结构图
-	* ![[Pasted image 20231122102044.png|5000]]
+	* ![[Pasted image 20231122102044.png|675]]
 	* 采用与MaskFormer相同的结构，由一个backbone，一个pixel decoder，一个Transformer decoder组成。
 		* Transformer decoder做了改造
 			* 用masked attention来替代原本的cross attention
