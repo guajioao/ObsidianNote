@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e60ad9831bdf18f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/论文笔记/创新相关整理/扩散模型/扩散模型损失函数.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/创新相关整理/总结.md",
+                "file": "note/论文笔记/创新相关整理/扩散模型/扩散模型损失函数.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/创新相关整理/总结.md",
+                "file": "note/论文笔记/创新相关整理/扩散模型/扩散模型损失函数.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/创新相关整理/总结.md"
+                "file": "note/论文笔记/创新相关整理/扩散模型/扩散模型损失函数.md"
               }
             }
           },
@@ -195,15 +208,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9c541d5c3d605bbe",
+  "active": "e60ad9831bdf18f6",
   "lastOpenFiles": [
+    "files/Pasted image 20240123095735.png",
+    "files/Pasted image 20240123095705.png",
+    "files/Pasted image 20240123095552.png",
+    "files/Pasted image 20240123095410.png",
+    "files/Pasted image 20240123095312.png",
+    "files/Pasted image 20240123095255.png",
+    "files/Pasted image 20240123095157.png",
+    "生活note/其他/还账记录.md",
+    "note/论文笔记/创新相关整理/扩散模型/扩散模型损失函数.md",
+    "note/论文笔记/创新相关整理/总结.md",
     "note/论文笔记/详细笔记/分割相关/2021/MaskFormer.md",
     "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
-    "note/论文笔记/创新相关整理/总结.md",
     "papers/ClassicalNetwork/ICML2021_CLIP_Learning Transferable Visual Models From Natural Language Supervision.pdf",
     "papers/ClassicalNetwork/2020_DDPM_DiffusionModel_Denoising Diffusion Probabilistic Models.pdf",
     "note/论文笔记/创新相关整理/h-space/Asyrp.md",
-    "生活note/其他/还账记录.md",
     "note/论文笔记/创新相关整理/方法总结.md",
     "生活note/idea/创新工作/创新工作思路.md",
     "note/论文笔记/创新相关整理/现有论文方法.md",
@@ -213,7 +234,6 @@
     "note/论文笔记/详细笔记/分割相关/2023/ZegCLIP.md",
     "files/Pasted image 20240115213938.png",
     "files/Pasted image 20240115210410.png",
-    "files/Pasted image 20240115205321.png",
     "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
     "note/论文笔记/详细笔记/分割相关/2022/OpenSeg.md",
     "note/论文笔记/详细笔记/分割相关/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
@@ -225,16 +245,9 @@
     "note/论文笔记/详细笔记/分割相关/2023/SAN.md",
     "note/论文笔记/详细笔记/分割相关/2023/SAZS.md",
     "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
-    "files/Pasted image 20240115203203.png",
     "生活note/idea/创新工作/改进工作的思路.md",
     "template/note_template/论文泛读.md",
-    "files/Pasted image 20240115163256.png",
-    "files/Pasted image 20240115163111.png",
-    "files/Pasted image 20240115162607.png",
-    "files/Pasted image 20240115162256.png",
     "生活note/idea/创新工作/未命名.md",
-    "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
-    "note/论文笔记/创新相关整理/h-space/Toward a meaningful and decodable representation.md",
     "note/论文笔记/创新相关整理/扩散模型",
     "note/论文笔记/创新相关整理",
     "生活note/idea/创新工作",
