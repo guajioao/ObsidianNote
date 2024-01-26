@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/创新相关整理/总结.md",
+                "file": "生活note/其他/还账记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -127,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/创新相关整理/总结.md",
+                "file": "生活note/其他/还账记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/创新相关整理/总结.md",
+                "file": "生活note/其他/还账记录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/创新相关整理/总结.md"
+                "file": "生活note/其他/还账记录.md"
               }
             }
           },
@@ -198,6 +197,7 @@
   },
   "active": "9c541d5c3d605bbe",
   "lastOpenFiles": [
+    "note/论文笔记/创新相关整理/总结.md",
     "note/论文笔记/创新相关整理/扩散模型/扩散模型损失函数.md",
     "files/Pasted image 20240123095735.png",
     "files/Pasted image 20240123095705.png",
@@ -207,7 +207,6 @@
     "files/Pasted image 20240123095255.png",
     "files/Pasted image 20240123095157.png",
     "生活note/其他/还账记录.md",
-    "note/论文笔记/创新相关整理/总结.md",
     "note/论文笔记/详细笔记/分割相关/2021/MaskFormer.md",
     "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
     "papers/ClassicalNetwork/ICML2021_CLIP_Learning Transferable Visual Models From Natural Language Supervision.pdf",
