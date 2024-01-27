@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/创新相关整理/方法总结.md",
+                "file": "note/论文笔记/创新相关整理/总结.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -198,6 +199,9 @@
   "active": "9c541d5c3d605bbe",
   "lastOpenFiles": [
     "note/论文笔记/创新相关整理/总结.md",
+    "note/论文笔记/创新相关整理/方法总结.md",
+    "生活note/idea/创新工作/创新工作思路.md",
+    "生活note/其他/还账记录.md",
     "note/论文笔记/创新相关整理/扩散模型/扩散模型损失函数.md",
     "files/Pasted image 20240123095735.png",
     "files/Pasted image 20240123095705.png",
@@ -206,14 +210,11 @@
     "files/Pasted image 20240123095312.png",
     "files/Pasted image 20240123095255.png",
     "files/Pasted image 20240123095157.png",
-    "生活note/其他/还账记录.md",
     "note/论文笔记/详细笔记/分割相关/2021/MaskFormer.md",
     "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
     "papers/ClassicalNetwork/ICML2021_CLIP_Learning Transferable Visual Models From Natural Language Supervision.pdf",
     "papers/ClassicalNetwork/2020_DDPM_DiffusionModel_Denoising Diffusion Probabilistic Models.pdf",
     "note/论文笔记/创新相关整理/h-space/Asyrp.md",
-    "note/论文笔记/创新相关整理/方法总结.md",
-    "生活note/idea/创新工作/创新工作思路.md",
     "note/论文笔记/创新相关整理/现有论文方法.md",
     "note/论文笔记/创新相关整理/扩散模型/DDIM.md",
     "files/Pasted image 20240116085239.png",
