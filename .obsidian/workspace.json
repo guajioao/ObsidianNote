@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -127,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/论文笔记/创新相关整理/总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/论文笔记/创新相关整理/总结.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/其他/还账记录.md"
+                "file": "note/论文笔记/创新相关整理/总结.md"
               }
             }
           },
@@ -196,12 +195,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9c541d5c3d605bbe",
+  "active": "127c4b71d4d109be",
   "lastOpenFiles": [
+    "生活note/其他/还账记录.md",
     "note/论文笔记/创新相关整理/总结.md",
     "note/论文笔记/创新相关整理/方法总结.md",
     "生活note/idea/创新工作/创新工作思路.md",
-    "生活note/其他/还账记录.md",
     "note/论文笔记/创新相关整理/扩散模型/扩散模型损失函数.md",
     "files/Pasted image 20240123095735.png",
     "files/Pasted image 20240123095705.png",
