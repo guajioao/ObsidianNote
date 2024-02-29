@@ -16,14 +16,6 @@
       "key": "B"
     }
   ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "M"
-    }
-  ],
   "outline:open-for-current": [
     {
       "modifiers": [
@@ -75,6 +67,24 @@
         "Shift"
       ],
       "key": "E"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "switcher:open": [],
+  "obsidian-markmind:Create New outline": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
     }
   ]
 }

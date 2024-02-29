@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "693844c7c99d0b84",
+        "id": "bef9ecb5c37120a3",
         "type": "tabs",
         "children": [
           {
-            "id": "3e181160b3e6a71e",
+            "id": "78c578c5a30a2413",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/idea/创新工作/改进工作的思路.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ec14b705d89a42a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "生活note/idea/创新工作/创新工作思路.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "127c4b71d4d109be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/论文笔记/创新相关整理/总结.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c541d5c3d605bbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "生活note/其他/还账记录.md",
+                "file": "note/学习笔记/文献树/图像分割.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 306.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -126,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/创新相关整理/总结.md",
+                "file": "note/学习笔记/文献树/图像分割.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/创新相关整理/总结.md",
+                "file": "note/学习笔记/文献树/图像分割.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/创新相关整理/总结.md"
+                "file": "note/学习笔记/文献树/图像分割.md"
               }
             }
           },
@@ -195,12 +155,31 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "127c4b71d4d109be",
+  "active": "78c578c5a30a2413",
   "lastOpenFiles": [
-    "生活note/其他/还账记录.md",
-    "note/论文笔记/创新相关整理/总结.md",
-    "note/论文笔记/创新相关整理/方法总结.md",
+    "note/学习笔记/文献树/无类别分割.md",
+    "note/学习笔记/文献树/图像分割.md",
+    "note/学习笔记/文献树/开放词汇.md",
+    "note/学习笔记/文献树/数据集生成.md",
+    "note/学习笔记/文献树/语义分割.md",
+    "note/论文笔记/详细笔记/分割相关/2021/MaskFormer.md",
+    "note/论文笔记/详细笔记/2020/DETR.md",
+    "note/论文笔记/详细笔记/2021/ViT.md",
+    "note/论文笔记/详细笔记/2021/Multi-task self-training for learning general representations.md",
+    "note/论文笔记/详细笔记/2021/CLIP.md",
+    "note/论文笔记/详细笔记/分割相关/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
+    "note/论文笔记/详细笔记/Visual Prompt Tuning.md",
+    "template/note_template/paper_note.md",
+    "template/note_template/论文笔记-概述.md",
+    "template/note_template/论文泛读.md",
+    "生活note/idea/创新工作/未命名思维导图.md",
+    "note/学习笔记/文献树",
+    "生活note/idea/创新工作/改进工作的思路.md",
+    "未命名.md",
     "生活note/idea/创新工作/创新工作思路.md",
+    "note/论文笔记/创新相关整理/总结.md",
+    "生活note/其他/还账记录.md",
+    "note/论文笔记/创新相关整理/方法总结.md",
     "note/论文笔记/创新相关整理/扩散模型/扩散模型损失函数.md",
     "files/Pasted image 20240123095735.png",
     "files/Pasted image 20240123095705.png",
@@ -209,31 +188,14 @@
     "files/Pasted image 20240123095312.png",
     "files/Pasted image 20240123095255.png",
     "files/Pasted image 20240123095157.png",
-    "note/论文笔记/详细笔记/分割相关/2021/MaskFormer.md",
     "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
     "papers/ClassicalNetwork/ICML2021_CLIP_Learning Transferable Visual Models From Natural Language Supervision.pdf",
     "papers/ClassicalNetwork/2020_DDPM_DiffusionModel_Denoising Diffusion Probabilistic Models.pdf",
     "note/论文笔记/创新相关整理/h-space/Asyrp.md",
     "note/论文笔记/创新相关整理/现有论文方法.md",
-    "note/论文笔记/创新相关整理/扩散模型/DDIM.md",
     "files/Pasted image 20240116085239.png",
     "files/Pasted image 20240116084054.png",
-    "note/论文笔记/详细笔记/分割相关/2023/ZegCLIP.md",
     "files/Pasted image 20240115213938.png",
-    "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
-    "note/论文笔记/详细笔记/分割相关/2022/OpenSeg.md",
-    "note/论文笔记/详细笔记/分割相关/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
-    "note/论文笔记/详细笔记/分割相关/2022/SimSeg.md",
-    "note/论文笔记/详细笔记/分割相关/2022/ZegFormer.md",
-    "note/论文笔记/详细笔记/分割相关/2023/CESL.md",
-    "note/论文笔记/详细笔记/分割相关/2023/CLIP-S4.md",
-    "note/论文笔记/详细笔记/分割相关/2023/OvSeg.md",
-    "note/论文笔记/详细笔记/分割相关/2023/SAN.md",
-    "note/论文笔记/详细笔记/分割相关/2023/SAZS.md",
-    "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
-    "生活note/idea/创新工作/改进工作的思路.md",
-    "template/note_template/论文泛读.md",
-    "生活note/idea/创新工作/未命名.md",
     "note/论文笔记/创新相关整理/扩散模型",
     "note/论文笔记/创新相关整理",
     "生活note/idea/创新工作",
@@ -241,7 +203,6 @@
     "note/论文笔记/简单概括/自监督相关",
     "note/论文笔记/详细笔记/自监督学习/掩码学习",
     "note/论文笔记/详细笔记/自监督学习/对比学习",
-    "note/论文笔记/详细笔记/分割相关/2021",
     "未命名.canvas"
   ]
 }
