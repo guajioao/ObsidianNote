@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bef9ecb5c37120a3",
+        "id": "7b950f121881ee09",
         "type": "tabs",
         "children": [
           {
-            "id": "78c578c5a30a2413",
+            "id": "5d5fc3bf74020631",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/学习笔记/文献树/图像分割.md",
+                "file": "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -155,32 +155,73 @@
       "command-palette:打开命令面板": false
     }
   },
+  "floating": {
+    "id": "62b605efdfc43914",
+    "type": "floating",
+    "children": [
+      {
+        "id": "312782f6ceb6154e",
+        "type": "window",
+        "children": [
+          {
+            "id": "89b8610c5ebf9edf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "78c578c5a30a2413",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "note/学习笔记/文献树/图像分割.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1743,
+        "y": 86,
+        "width": 992,
+        "height": 561,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "78c578c5a30a2413",
   "lastOpenFiles": [
-    "note/学习笔记/文献树/无类别分割.md",
+    "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
+    "note/论文笔记/详细笔记/自监督学习/对比学习/MOCO.md",
+    "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md",
+    "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
+    "note/论文笔记/详细笔记/自监督学习/掩码学习/MaskFeat.md",
+    "note/论文笔记/详细笔记/自监督学习/掩码学习/MSCN.md",
+    "note/论文笔记/详细笔记/自监督学习/掩码学习/SimMIM.md",
+    "note/论文笔记/详细笔记/自监督学习/SiameseIM.md",
     "note/学习笔记/文献树/图像分割.md",
-    "note/学习笔记/文献树/开放词汇.md",
-    "note/学习笔记/文献树/数据集生成.md",
-    "note/学习笔记/文献树/语义分割.md",
-    "note/论文笔记/详细笔记/分割相关/2021/MaskFormer.md",
-    "note/论文笔记/详细笔记/2020/DETR.md",
-    "note/论文笔记/详细笔记/2021/ViT.md",
-    "note/论文笔记/详细笔记/2021/Multi-task self-training for learning general representations.md",
-    "note/论文笔记/详细笔记/2021/CLIP.md",
+    "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
+    "note/论文笔记/详细笔记/自监督学习/对比学习/SimSiams.md",
+    "note/论文笔记/详细笔记/自监督学习/对比学习/DINO.md",
+    "note/论文笔记/详细笔记/分割相关/2023/ZegCLIP.md",
+    "note/论文笔记/详细笔记/分割相关/2023/SAZS.md",
+    "note/论文笔记/详细笔记/分割相关/2023/SAN.md",
+    "note/论文笔记/详细笔记/分割相关/2023/OvSeg.md",
+    "note/论文笔记/详细笔记/分割相关/2023/CLIP-S4.md",
+    "note/论文笔记/详细笔记/分割相关/2023/CESL.md",
+    "note/论文笔记/详细笔记/分割相关/2022/ZegFormer.md",
+    "note/论文笔记/详细笔记/分割相关/2022/SimSeg.md",
     "note/论文笔记/详细笔记/分割相关/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
-    "note/论文笔记/详细笔记/Visual Prompt Tuning.md",
-    "template/note_template/paper_note.md",
-    "template/note_template/论文笔记-概述.md",
-    "template/note_template/论文泛读.md",
-    "生活note/idea/创新工作/未命名思维导图.md",
+    "note/论文笔记/详细笔记/分割相关/2022/OpenSeg.md",
+    "note/论文笔记/详细笔记/分割相关/2022/MaskCLIP.md",
+    "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
+    "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
+    "note/论文笔记/详细笔记/分割相关/2022/CRIS.md",
     "note/学习笔记/文献树",
-    "生活note/idea/创新工作/改进工作的思路.md",
-    "未命名.md",
-    "生活note/idea/创新工作/创新工作思路.md",
-    "note/论文笔记/创新相关整理/总结.md",
-    "生活note/其他/还账记录.md",
-    "note/论文笔记/创新相关整理/方法总结.md",
-    "note/论文笔记/创新相关整理/扩散模型/扩散模型损失函数.md",
     "files/Pasted image 20240123095735.png",
     "files/Pasted image 20240123095705.png",
     "files/Pasted image 20240123095552.png",
@@ -188,11 +229,8 @@
     "files/Pasted image 20240123095312.png",
     "files/Pasted image 20240123095255.png",
     "files/Pasted image 20240123095157.png",
-    "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
     "papers/ClassicalNetwork/ICML2021_CLIP_Learning Transferable Visual Models From Natural Language Supervision.pdf",
     "papers/ClassicalNetwork/2020_DDPM_DiffusionModel_Denoising Diffusion Probabilistic Models.pdf",
-    "note/论文笔记/创新相关整理/h-space/Asyrp.md",
-    "note/论文笔记/创新相关整理/现有论文方法.md",
     "files/Pasted image 20240116085239.png",
     "files/Pasted image 20240116084054.png",
     "files/Pasted image 20240115213938.png",
