@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/LoRA（Low Rank Adaption）.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "def4a21e08228957",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/ControlNet.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/ControlNet.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/ControlNet.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/常用指令.md"
+                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/ControlNet.md"
               }
             }
           },
@@ -155,46 +169,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "floating": {
-    "id": "62b605efdfc43914",
-    "type": "floating",
-    "children": [
-      {
-        "id": "312782f6ceb6154e",
-        "type": "window",
-        "children": [
-          {
-            "id": "89b8610c5ebf9edf",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "78c578c5a30a2413",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "note/学习笔记/文献树/图像分割.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1743,
-        "y": 86,
-        "width": 992,
-        "height": 561,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "5d5fc3bf74020631",
+  "active": "def4a21e08228957",
   "lastOpenFiles": [
+    "note/论文笔记/创新相关整理/扩散模型/生成控制/Textual Inversion.md",
+    "note/论文笔记/创新相关整理/扩散模型/生成控制/NovelAI Hypernetwork.md",
+    "note/论文笔记/创新相关整理/扩散模型/生成控制/LoRA（Low Rank Adaption）.md",
+    "note/论文笔记/创新相关整理/扩散模型/生成控制/DreamBooth.md",
+    "note/论文笔记/创新相关整理/扩散模型/生成控制/ControlNet.md",
+    "生活note/常用指令.md",
+    "note/论文笔记/创新相关整理/扩散模型/生成控制",
     "note/论文笔记/简单概括/自监督相关/DINO V2.md",
     "note/学习笔记/文献树/图像分割.md",
     "note/论文笔记/简单概括/自监督相关/SwAV.md",
@@ -215,12 +198,6 @@
     "note/论文笔记/详细笔记/分割相关/2023/SAN.md",
     "note/论文笔记/详细笔记/分割相关/2023/OvSeg.md",
     "note/论文笔记/详细笔记/分割相关/2023/CLIP-S4.md",
-    "note/论文笔记/详细笔记/分割相关/2023/CESL.md",
-    "note/论文笔记/详细笔记/分割相关/2022/ZegFormer.md",
-    "note/论文笔记/详细笔记/分割相关/2022/SimSeg.md",
-    "note/论文笔记/详细笔记/分割相关/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
-    "note/论文笔记/详细笔记/分割相关/2022/OpenSeg.md",
-    "note/论文笔记/详细笔记/分割相关/2022/MaskCLIP.md",
     "note/学习笔记/文献树",
     "files/Pasted image 20240123095735.png",
     "files/Pasted image 20240123095705.png",
@@ -240,7 +217,6 @@
     "note/论文笔记/创新相关整理/h-space",
     "note/论文笔记/简单概括/自监督相关",
     "note/论文笔记/详细笔记/自监督学习/掩码学习",
-    "note/论文笔记/详细笔记/自监督学习/对比学习",
     "未命名.canvas"
   ]
 }
