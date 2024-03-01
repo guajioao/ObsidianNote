@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
+                "file": "note/论文笔记/简单概括/自监督相关/DINO V2.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -195,7 +195,11 @@
   },
   "active": "78c578c5a30a2413",
   "lastOpenFiles": [
+    "note/论文笔记/简单概括/自监督相关/DINO V2.md",
+    "note/论文笔记/简单概括/自监督相关/SwAV.md",
+    "note/论文笔记/简单概括/自监督相关/IBOT.md",
     "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
+    "note/学习笔记/文献树/图像分割.md",
     "note/论文笔记/详细笔记/自监督学习/对比学习/MOCO.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
@@ -203,7 +207,6 @@
     "note/论文笔记/详细笔记/自监督学习/掩码学习/MSCN.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/SimMIM.md",
     "note/论文笔记/详细笔记/自监督学习/SiameseIM.md",
-    "note/学习笔记/文献树/图像分割.md",
     "note/论文笔记/详细笔记/自监督学习/对比学习/DINO v2.md",
     "note/论文笔记/详细笔记/自监督学习/对比学习/SimSiams.md",
     "note/论文笔记/详细笔记/自监督学习/对比学习/DINO.md",
@@ -218,9 +221,6 @@
     "note/论文笔记/详细笔记/分割相关/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
     "note/论文笔记/详细笔记/分割相关/2022/OpenSeg.md",
     "note/论文笔记/详细笔记/分割相关/2022/MaskCLIP.md",
-    "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
-    "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
-    "note/论文笔记/详细笔记/分割相关/2022/CRIS.md",
     "note/学习笔记/文献树",
     "files/Pasted image 20240123095735.png",
     "files/Pasted image 20240123095705.png",
