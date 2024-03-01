@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/简单概括/自监督相关/DINO V2.md",
+                "file": "生活note/常用指令.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/学习笔记/文献树/图像分割.md",
+                "file": "生活note/常用指令.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/学习笔记/文献树/图像分割.md",
+                "file": "生活note/常用指令.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/学习笔记/文献树/图像分割.md"
+                "file": "生活note/常用指令.md"
               }
             }
           },
@@ -193,13 +193,13 @@
       }
     ]
   },
-  "active": "78c578c5a30a2413",
+  "active": "5d5fc3bf74020631",
   "lastOpenFiles": [
     "note/论文笔记/简单概括/自监督相关/DINO V2.md",
+    "note/学习笔记/文献树/图像分割.md",
     "note/论文笔记/简单概括/自监督相关/SwAV.md",
     "note/论文笔记/简单概括/自监督相关/IBOT.md",
     "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
-    "note/学习笔记/文献树/图像分割.md",
     "note/论文笔记/详细笔记/自监督学习/对比学习/MOCO.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/BEiT.md",
     "note/论文笔记/详细笔记/自监督学习/掩码学习/MAE.md",
