@@ -47,7 +47,8 @@ Adding Conditional Control to Text-to-Image Diffusion Models
 	* 由于$\theta_{z_1}$的0初始化，在最开始$y_c = y$
 	* 
 ### 3.3 Training
-
+* 输入图像$z_0$，加噪为$z_t$
+* 给定一组条件，包括time step $t$，文本prompts $c_t$，
 
 ## 四、实现细节
 
