@@ -48,7 +48,8 @@ Adding Conditional Control to Text-to-Image Diffusion Models
 	* 
 ### 3.3 Training
 * 输入图像$z_0$，加噪为$z_t$
-* 给定一组条件，包括time step $t$，文本prompts $c_t$，
+* 给定一组条件，包括time step $t$，文本prompts $c_t$，与task-specific的条件$c_f$
+* 损失依然是噪声损失
 
 ## 四、实现细节
 
