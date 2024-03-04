@@ -13,19 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/LoRA（Low Rank Adaption）.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "def4a21e08228957",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "生活note/常用指令.md",
                 "mode": "source",
                 "backlinks": false,
@@ -33,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,10 +155,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "def4a21e08228957",
+  "active": "5d5fc3bf74020631",
   "lastOpenFiles": [
-    "生活note/idea/创新工作/利用LayerDiffusion来做mask数据集.md",
     "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md",
+    "note/论文笔记/创新相关整理/扩散模型/生成控制/LoRA（Low Rank Adaption）.md",
+    "生活note/常用指令.md",
+    "生活note/idea/创新工作/利用LayerDiffusion来做mask数据集.md",
     "files/Pasted image 20240304111123.png",
     "note/论文笔记/创新相关整理/扩散模型/生成控制/ControlNet.md",
     "files/Pasted image 20240302212858.png",
@@ -180,9 +168,7 @@
     "files/Pasted image 20240302204145.png",
     "note/论文笔记/创新相关整理/扩散模型/生成控制/Textual Inversion.md",
     "note/论文笔记/创新相关整理/扩散模型/生成控制/NovelAI Hypernetwork.md",
-    "note/论文笔记/创新相关整理/扩散模型/生成控制/LoRA（Low Rank Adaption）.md",
     "note/论文笔记/创新相关整理/扩散模型/生成控制/DreamBooth.md",
-    "生活note/常用指令.md",
     "note/论文笔记/创新相关整理/扩散模型/生成控制",
     "note/论文笔记/简单概括/自监督相关/DINO V2.md",
     "note/学习笔记/文献树/图像分割.md",
