@@ -70,7 +70,7 @@ SD生成透明特征图之后用预训练好的编码解码器还原成RGB图像
 ![[Pasted image 20240304215127.png]]
 
 ### 3.3 生成多层图像
-将前景的latent记为$x_f$，背景的latent记为$x_b$
+将前景的latent记为$x_f$，背景的latent记为$x_b$ 
 训练两个LoRA，前景的LoRA参数记为$\theta_f$，背景的LoRA记为$\theta_b$，分别对两个图像进行加噪去噪
 在这个过程中，两组模型中的扩散模型参数被冻结，且注意力共享的(attention sharing)
 
