@@ -86,7 +86,10 @@ SD生成透明特征图之后用预训练好的编码解码器还原成RGB图像
 			* 新添加的样本在下一轮的训练批次中出现的概率高出2倍
 		* 再次训练潜在透明度编码解码器和扩散模型
 	* 数据集大小达到了45K
-	* 没有人类交互地生成5M sample pairs，
+	* 没有人类交互地生成5M sample pairs，并用值为5.5的LAION Aesthetic threshold和clip分数排序来得到1M样本对。移除不含透明像素或只有透明像素的样本
+	* 用LLaVA给所有图像生成caption，获得详细的文字prompt
+	* VAE和扩散模型都使用最后得到的1M数据集进行15k iterations
+	* 
 
 
 

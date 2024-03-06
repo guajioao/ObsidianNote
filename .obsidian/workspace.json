@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 306.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/常用指令.md"
+                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md"
               }
             }
           },
@@ -157,6 +158,7 @@
   },
   "active": "5d5fc3bf74020631",
   "lastOpenFiles": [
+    "生活note/常用指令.md",
     "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md",
     "files/Pasted image 20240304215127.png",
     "files/Pasted image 20240304214600.png",
@@ -164,7 +166,6 @@
     "files/Pasted image 20240304211624.png",
     "files/Pasted image 20240304211513.png",
     "files/Pasted image 20240304210836.png",
-    "生活note/常用指令.md",
     "note/论文笔记/创新相关整理/扩散模型/生成控制/LoRA（Low Rank Adaption）.md",
     "生活note/idea/创新工作/利用LayerDiffusion来做mask数据集.md",
     "files/Pasted image 20240304111123.png",
