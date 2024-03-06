@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md",
+                "file": "生活note/常用指令.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md",
+                "file": "生活note/常用指令.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md",
+                "file": "生活note/常用指令.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md"
+                "file": "生活note/常用指令.md"
               }
             }
           },
@@ -157,6 +157,7 @@
   },
   "active": "5d5fc3bf74020631",
   "lastOpenFiles": [
+    "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md",
     "files/Pasted image 20240304215127.png",
     "files/Pasted image 20240304214600.png",
     "files/Pasted image 20240304211839.png",
@@ -164,7 +165,6 @@
     "files/Pasted image 20240304211513.png",
     "files/Pasted image 20240304210836.png",
     "生活note/常用指令.md",
-    "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md",
     "note/论文笔记/创新相关整理/扩散模型/生成控制/LoRA（Low Rank Adaption）.md",
     "生活note/idea/创新工作/利用LayerDiffusion来做mask数据集.md",
     "files/Pasted image 20240304111123.png",
@@ -194,7 +194,6 @@
     "note/论文笔记/详细笔记/分割相关/2023/ZegCLIP.md",
     "note/论文笔记/详细笔记/分割相关/2023/SAZS.md",
     "note/学习笔记/文献树",
-    "files/Pasted image 20240123095735.png",
     "papers/ClassicalNetwork/ICML2021_CLIP_Learning Transferable Visual Models From Natural Language Supervision.pdf",
     "papers/ClassicalNetwork/2020_DDPM_DiffusionModel_Denoising Diffusion Probabilistic Models.pdf",
     "note/论文笔记/创新相关整理/扩散模型",
