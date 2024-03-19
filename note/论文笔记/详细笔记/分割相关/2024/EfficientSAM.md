@@ -4,7 +4,8 @@ EfficientSAM: Leveraged Masked Image Pretraining for Efficient Segment Anything
 ## 结构
 * Overview
 	* ![[Pasted image 20240319153123.png]]
-	* 
+	* SAMI(SAM-Leveraged)，通过MAE与SAM的知识蒸馏MAE的得到轻量编码器
+		* 
 
 ## 摘要：
 
