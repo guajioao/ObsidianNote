@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/常用tips/VSCode.md",
+                "file": "生活note/常用指令.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/常用tips/VSCode.md",
+                "file": "生活note/常用指令.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/常用tips/VSCode.md",
+                "file": "生活note/常用指令.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/常用tips/VSCode.md"
+                "file": "生活note/常用指令.md"
               }
             }
           },
@@ -157,9 +157,9 @@
   },
   "active": "5d5fc3bf74020631",
   "lastOpenFiles": [
+    "生活note/常用tips/VSCode.md",
     "生活note/常用指令.md",
     "生活note/常用tips/Python.md",
-    "生活note/常用tips/VSCode.md",
     "files/Pasted image 20240328104312.png",
     "files/Pasted image 20240328104145.png",
     "files/Pasted image 20240328103649.png",
