@@ -1,4 +1,4 @@
-* 收录于：CVPR2023
+ 收录于：CVPR2023
 
 * 应用领域：Open-Vocabulary Semantic Segmentation，开放词汇语义分割
 
