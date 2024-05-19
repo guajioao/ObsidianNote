@@ -1,6 +1,6 @@
-PROMPT-TO-PROMPT IMAGE EDITING WITH CROSS-ATTENTION CONTROL
+InstructPix2Pix: Learning to Follow Image Editing Instructions
 
-发表于：ICLR2023
+发表于：CVPR2023
 
 ## 结构
 
