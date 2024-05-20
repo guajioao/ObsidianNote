@@ -29,7 +29,8 @@ InstructPix2Pix: Learning to Follow Image Editing Instructions
 ## 三、方法 Method
 
 ### 3.2.1 Classifier-free Guidance for Two Conditionings
-* 
+* Classifier-free diffusion guidance
+	* 常用于类别条件和文本条件图像的生成，以提高生成图像的视觉质量，使采样图像更加符合条件
 * 实现方式
 	* 联合训练有条件和无条件去噪的扩散模型，在推理时结合两个score estimates
 * 
