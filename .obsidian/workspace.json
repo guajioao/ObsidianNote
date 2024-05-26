@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "815c4bed4f5430d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLP作业.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP作业.md",
+                "file": "生活note/常用指令.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP作业.md",
+                "file": "生活note/常用指令.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP作业.md"
+                "file": "生活note/常用指令.md"
               }
             }
           },
@@ -169,7 +155,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "815c4bed4f5430d6",
+  "active": "5d5fc3bf74020631",
   "lastOpenFiles": [
     "NLP作业.md",
     "生活note/常用指令.md",
