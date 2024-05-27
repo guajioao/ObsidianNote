@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/论文笔记/详细笔记/图像编辑/Null-Text Inversion.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/论文笔记/详细笔记/图像编辑/Null-Text Inversion.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/论文笔记/详细笔记/图像编辑/Null-Text Inversion.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/常用指令.md"
+                "file": "note/论文笔记/详细笔记/图像编辑/Null-Text Inversion.md"
               }
             }
           },
@@ -157,8 +157,11 @@
   },
   "active": "5d5fc3bf74020631",
   "lastOpenFiles": [
-    "NLP作业.md",
+    "files/Pasted image 20240527212430.png",
+    "files/Pasted image 20240527200835.png",
     "生活note/常用指令.md",
+    "note/论文笔记/详细笔记/图像编辑/Null-Text Inversion.md",
+    "NLP作业.md",
     "files/NLP作业.md",
     "note/论文笔记/详细笔记/图像编辑/InstructPix2Pix.md",
     "note/论文笔记/详细笔记/图像编辑/Prompt2Prompt.md",
@@ -184,8 +187,6 @@
     "note/论文笔记/泛读论文/2023/Side Adapter Network for Open-Vocabulary Semantic Segmentation.md",
     "note/论文笔记/泛读论文/2023/PACL.md",
     "note/论文笔记/泛读论文/2023/CESL.md",
-    "note/论文笔记/泛读论文/2023/Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP.md",
-    "note/论文笔记/泛读论文/2023年CLIP相关论文对比.md",
     "files/Pasted image 20240426101823.png",
     "note/论文笔记/详细笔记/2023",
     "files/Pasted image 20240407102008.png",
@@ -194,7 +195,6 @@
     "files/Pasted image 20240328103649.png",
     "files/Pasted image 20240328103308.png",
     "files/Pasted image 20240328102950.png",
-    "files/Pasted image 20240328102521.png",
     "生活note/常用tips",
     "note/论文笔记/详细笔记/分割相关/2024",
     "note/论文笔记/创新相关整理/扩散模型/生成控制",
