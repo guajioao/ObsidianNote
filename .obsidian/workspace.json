@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/名词解释/CoOp.md",
+                "file": "note/论文笔记/详细笔记/图像编辑/Null-Text Inversion.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "learnable",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/名词解释/CoOp.md",
+                "file": "note/论文笔记/详细笔记/图像编辑/Null-Text Inversion.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/名词解释/CoOp.md",
+                "file": "note/论文笔记/详细笔记/图像编辑/Null-Text Inversion.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/名词解释/CoOp.md"
+                "file": "note/论文笔记/详细笔记/图像编辑/Null-Text Inversion.md"
               }
             }
           },
@@ -158,6 +157,7 @@
   },
   "active": "5d5fc3bf74020631",
   "lastOpenFiles": [
+    "note/论文笔记/名词解释/CoOp.md",
     "note/论文笔记/详细笔记/Visual Prompt Tuning.md",
     "note/论文笔记/详细笔记/others/Normalization.md",
     "note/论文笔记/详细笔记/others/扩散模型.md",
@@ -183,7 +183,6 @@
     "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
     "note/论文笔记/详细笔记/分割相关/2022/CRIS.md",
     "note/论文笔记/详细笔记/分割相关/2021/MaskFormer.md",
-    "note/论文笔记/详细笔记/分割相关/2021/SETR.md",
     "files/Pasted image 20240527212430.png",
     "files/Pasted image 20240527200835.png",
     "files/Pasted image 20240520095813.png",
