@@ -11,8 +11,13 @@
             "id": "99e062f688fe98a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "生活note/idea/code思路.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 337.5,
+    "collapsed": true
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "生活note/idea/code思路.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "生活note/idea/code思路.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "生活note/idea/code思路.md"
+              }
             }
           },
           {
@@ -148,6 +158,12 @@
   },
   "active": "99e062f688fe98a6",
   "lastOpenFiles": [
+    "生活note/idea/question.md",
+    "生活note/idea/code思路.md",
+    "生活note/idea/q1.md",
+    "生活note/idea/创新工作/note.md",
+    "生活note/idea/创新工作/mask.md",
+    "生活note/idea/创新工作/未命名.md",
     "生活note/课内/NLP作业.md",
     "note/论文笔记/详细笔记/图像编辑/Null-Text Inversion.md",
     "note/论文笔记/名词解释/CoOp.md",
@@ -168,12 +184,6 @@
     "note/论文笔记/详细笔记/分割相关/2023/CLIP-S4.md",
     "note/论文笔记/详细笔记/分割相关/2023/CESL.md",
     "note/论文笔记/详细笔记/分割相关/2022/ZegFormer.md",
-    "note/论文笔记/详细笔记/分割相关/2022/SimSeg.md",
-    "note/论文笔记/详细笔记/分割相关/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
-    "note/论文笔记/详细笔记/分割相关/2022/OpenSeg.md",
-    "note/论文笔记/详细笔记/分割相关/2022/MaskCLIP.md",
-    "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
-    "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
     "files/Pasted image 20240527212430.png",
     "files/Pasted image 20240527200835.png",
     "files/Pasted image 20240520095813.png",
