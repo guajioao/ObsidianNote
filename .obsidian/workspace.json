@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "da7536649cbc2a66",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,7 +167,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "99e062f688fe98a6",
+  "active": "da7536649cbc2a66",
   "lastOpenFiles": [
     "生活note/idea/question.md",
     "生活note/idea/code思路.md",
