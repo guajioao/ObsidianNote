@@ -13,25 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/idea/code思路.md",
+                "file": "note/论文笔记/详细笔记/others/Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "da7536649cbc2a66",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 337.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/idea/code思路.md",
+                "file": "note/论文笔记/详细笔记/others/Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/idea/code思路.md",
+                "file": "note/论文笔记/详细笔记/others/Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/idea/code思路.md"
+                "file": "note/论文笔记/详细笔记/others/Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions.md"
               }
             }
           },
@@ -167,10 +155,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "da7536649cbc2a66",
+  "active": "99e062f688fe98a6",
   "lastOpenFiles": [
-    "生活note/idea/question.md",
     "生活note/idea/code思路.md",
+    "note/论文笔记/详细笔记/others/Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions.md",
+    "生活note/idea/question.md",
     "生活note/idea/q1.md",
     "生活note/idea/创新工作/note.md",
     "生活note/idea/创新工作/mask.md",
@@ -194,7 +183,6 @@
     "note/论文笔记/详细笔记/分割相关/2023/OvSeg.md",
     "note/论文笔记/详细笔记/分割相关/2023/CLIP-S4.md",
     "note/论文笔记/详细笔记/分割相关/2023/CESL.md",
-    "note/论文笔记/详细笔记/分割相关/2022/ZegFormer.md",
     "files/Pasted image 20240527212430.png",
     "files/Pasted image 20240527200835.png",
     "files/Pasted image 20240520095813.png",
