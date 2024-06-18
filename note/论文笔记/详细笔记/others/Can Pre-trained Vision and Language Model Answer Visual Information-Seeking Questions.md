@@ -15,7 +15,7 @@ Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Ques
 * [[#结构]]
 * [[#一、引言 Introduction]]
 * [[#二、The Need for a New Visual Information-seeking Benchmark]]
-* [[#三、方法 Method]]
+* [[#三、INFOSEEK A VQA Benchmark of Visual Information-seeking Questions]]
 * [[#四、实现细节]]
 * [[#五、实验结果]]
 * [[#六、结论]]
@@ -54,10 +54,13 @@ Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Ques
 		* 因为评估可能仅限于面部识别
 * 为了解决上述限制，作者提出INFOSEEK，一个在视觉信息寻找问题上新的跨模态模型预训练数据集
 	* 基于一个视觉实体识别数据集之上OVEN，它旨在回答与视觉实体识别相关的问题
-* 通过对关于视觉实体的信息寻求问题进行基准测试，进一步寻求视觉信息，这允许我们测试模型的预训练知识，而不仅仅是简单地识别一个实体。
+* 通过对关于视觉实体的信息寻求问题来进行基准测试，进一步寻求视觉信息，这允许我们测试模型的预训练知识，而不仅仅是简单地识别一个实体。
 
-## 三、方法 Method
-
+## 三、INFOSEEK: A VQA Benchmark of Visual Information-seeking Questions
+INFOSEEK数据集由两部分组成：
+（1）$INFOSEEK_{Human}$：一组人写的视觉信息寻求问题（8.9K）来模拟信息寻求意图
+（2）$INFOSEEK_{Wikidata}$：一个自动数据集，涵盖了大量实体。用于大规模训练的评估目的
+分割数据集以确保记住训练集是无用的，从而强调预训练对获取知识的重要性
 
 ## 四、实现细节
 
