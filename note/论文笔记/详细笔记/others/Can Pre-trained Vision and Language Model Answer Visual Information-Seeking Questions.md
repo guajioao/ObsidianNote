@@ -91,6 +91,7 @@ INFOSEEK数据集由两部分组成：
 	* 以平衡实体和关系的分布
 ### 3.3 Evaluation of INFOSEEK
 * **Dataset Split.**
+	* 
 * **Evaluation Metric.**
 	* STRING和TIME类型计算VQA accuracy准确度
 	* NUMERICAL计算Relaxed Accuracy
