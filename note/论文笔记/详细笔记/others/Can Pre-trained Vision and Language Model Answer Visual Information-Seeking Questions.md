@@ -61,8 +61,41 @@ INFOSEEK数据集由两部分组成：
 （1）$INFOSEEK_{Human}$：一组人写的视觉信息寻求问题（8.9K）来模拟信息寻求意图
 （2）$INFOSEEK_{Wikidata}$：一个自动数据集，涵盖了大量实体。用于大规模训练的评估目的
 分割数据集以确保记住训练集是无用的，从而强调预训练对获取知识的重要性
+**Image Sources for Diverse Entity Coverage.** 从9个图像分类和检索数据集中获取图像，包括地标建筑（17%），动物（13%），食物（5%），飞机（3%）等
+### 3.1 $INFOSEEK_{Human}$：  Natural Info-Seeking VQA Data Annotated by Humans
+为确保信息搜索问题依赖于视觉理解，防止模型走捷径不使用图像就回答问题，采用了一种受TyDiQA启发的两阶段注释方法
+这使得提问者不能事先知道答案，从而确保问题有寻求信息的意图
+* **Question Writing.** 
+	* Annotators标注者需根据自己的好奇心和信息需求写3-5个关于视觉实体的问题。
+	* 在编写问题的过程中会给一些关于视觉实体的提示：一段简短的描述（15词），以及一组维基百科的章节标题。这确保了问题反应对学习实体的重要方面但又不能看到答案
+	* 使用一组注释规则来防止问题太琐碎，比如关于视觉attributes的问题
+* **Answer Labeling.**
+	* 每个实体收集到的问题随机分配给不同的标注者，让他们根据维基百科来标注答案
+	* 标注者查看维基百科上关于这个实体的文章，并被要求找到这个问题的简洁答案：一个尽可能短的文本span，同时仍能形成一个令人满意的回答
+	* 此外，标注者还需要将问题分为三种类型：
+		* 时间TIME，例如year
+		* 数值NUMERICAL，例如height
+		* 字符STRING，例如location
+	* 最终为标注好的QA对分配图片，构造{image, question, answer}的三元组。如果在图像中出现多个物体，则进行人工验证和问题澄清clarification
+	* 根据TyDiQA，测量注释的正确性，并获得了很高的精度95%，以此证明数据集质量是可靠的，足以用于评估视觉信息检索模型
 
-## 四、实现细节
+### 3.2 $INFOSEEK_{Wikidata}$ 1 Million Automated VQA Data from Wikipedia
+使用半自动化程序拓展数据集，将Wikidata（2022-10-03）中的知识三元组转换为使用人类编写模板的自然语言问题，从而得到1.3M个examples，包含超过11K视觉实体，覆盖了2.7K种实体类别
+* **QA Generateion.**
+	* 将Wikidata中的知识三元组(subj, relation, obj)根据一个挑选出的包含300个关系的列表，转换为自然语言处理问题-回答对。
+	* 对每一个关系，标注者写1-2个问题模板。模板中包含1个用于视觉实体的占位符（例如car），并在数值问题中设置1个用于测量单位的占位符（例如inches英尺）避免混淆
+	* 构造IQA三元组
+* **QA Pair Filtering and Subsampling.**
+	* 为了确保问题是多样化的，并且答案可以从维基百科上引用
+	* 当来自Wikidata的answer无法在Wikipedia文章和subsample问题中找到时这个QA对会被过滤
+	* 以平衡实体和关系的分布
+### 3.3 Evaluation of INFOSEEK
+* **Dataset Split.**
+* **Evaluation Metric.**
+	* STRING和TIME类型计算VQA accuracy准确度
+	* NUMERICAL计算Relaxed Accuracy
+
+## 四、Protocols and Models for INFOSEEK
 
 
 ## 五、实验结果
