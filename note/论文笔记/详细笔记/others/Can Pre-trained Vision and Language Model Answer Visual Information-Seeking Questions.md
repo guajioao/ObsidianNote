@@ -133,11 +133,72 @@ INFOSEEK数据集由两部分组成：
 	* 这两个模型共享相同的架构
 		* 训练一个Q-former Transformer：将一个冻结的视觉编码器连接至一个冻结的instruct-tuned指令调优语言模型
 		* 基于输入图像和文本输出文本
-	* InstructBLIP在26个视觉语言数据集
+	* InstructBLIP在26个视觉语言数据集上对BLIP进行微调，并声称在unseen视觉语言任务上显示出更强的零迁移性能
+	* 对于这两个模型，作者使用$INFOSEEK_{Wikidata}$微调其Q-former，来提高表现
+* **PaLI-17B & PaLI-X.** 
+	* 在PaLI系列模型中选择SOTA性能的两个额外预训练视觉语言模型来进行实验
+		* 即使用PaLI-17B (ViT-e+mT5XXL)和PaLI-X (ViT-22B+ UL2-33B)
+		* 其是在有10亿图像文本对的WebLI上进行预训练的
+		* 这两个模型都使用了非指令调优语言模型，在INFOSEEK上显示出最小的零迁移性能【即在INFOSEEK上表现很差？】
+		* 因此，在$INFOSEEK_{Wikidata}$上进行微调来提升这俩的性能
 
-
+### 4.2 Models with KB Information
+在这个protocol中，用两个解耦的子问题显式地建模了回答info-seeking问题的路径：
+1. 识别grounded to the KB的视觉实体
+2. 文本推理来回答这个问题
+这种pipeline系统的隐藏好处是能够提高可解释性，因为通过诊断每个子组件能够更容易的定位问题源
+* **Sub-task #1: Visual Entity Recognition.** 
+	* 遵循OVEN中定义的实体识别任务，使用图像和文本查询（例如，“这个建筑是什么？”）作为模型输入，并预测100K个多模态维基百科条目中的实体
+	* 使用预训练的CLIP（模型（ViT-L/14）作为本研究的视觉实体识别模型，因为它具有很强的泛化能力。
+		* 具体来说，遵循CLIP2CLIP模型来微调CLIP，将本文数据集中的多模态表示（图像，问题）编码为query，将来自KB的（Wikipedia image,Wikipedia title）作为候选candidates
+		* 然后基于query与candidates之间的加权余弦相似度分数，检索前k=5个最相似的实体
+* **Sub-task #2: Language QA with LLM or KB Reader.** 
+	* 通过视觉实体识别，已经可以将查询到的视觉信息表示为其文本描述。
+	* 这使我们能够独立地研究语言推理组件，以理解一个强大的LLM或KB(基于知识的)阅读器能带来多少改进。
+	* **PaLM: Large Language Model.**
+		* 我们使用PaLM（540B）来研究从文本语料库的预训练到模型参数中可以记忆的知识量。
+		* 给定一个问题和查询的实体名称（来自实体识别）
+		* 使用5-shot in-context例子来提示PaLM，以此推理答案
+		* prompt格式为“question: This is {entity} {question} answer:”
+	* **Fusion-in Decoder (FiD): KB Reader.** 
+		* 使用SOTA的检索增强模型，它从一个知识库中阅读信息，以理解维基百科文章在KB中的价值。
+		* 具体来说，采用了FiD模型，该模型将N篇=100篇检索到的文章作为输入，并生成答案
+		* 该模型使用$T5_{Large}$骨干（660M）对自然问题进行了预训练，并在INFOSEEK上进行了微调。
+		* 在推理过程中，我们从Wikipedia中的前20个段落中检索k=5个视觉实体（来自实体识别），并将100段提供给FiD以生成答案。
 
 ## 五、Experiments
+### 5.1 Results for No-KB Models
+* **Main result.**
+	* 表4给出了端到端模型的结果。
+	* 在这种设置下，最好的预训练模型是PaLI-X，尽管该模型的整体性能的绝对数字仍然很低。
+	* 这部分是由于信息搜索问题通常需要识别实体和检索与问题相关的特定信息，这使得端到端模型成为一项具有挑战性的任务。
+	* 由于PaLI-X是在具有更多模型参数的大型语料库上进行预训练的，与PaLI-17B相比，它在UNSEEN ENTITY部分上表现出更好的泛化能力
+	* 同时，在UNSEEN的问题和UNSEEN的实体部分上仍然存在明显的性能差距，这表明模型难以从训练集中泛化到新的视觉实体。
+	* 我们还展示了模型在OKVQA和VQAv2上的研究结果以进行比较，并观察到了一个巨大的性能差距，这再次强调了视觉信息寻求问题的难度。
+* **Fine-tuning elicits knowledge from the model.**
+	* 为了演示INFOSEEK训练数据的价值，我们在图3中报告了模型的零迁移性能。
+	* 具体来说，我们发现，在没有微调的情况下，两个PaLI模型产生的总体性能可以忽略不计，远远低于微调后的对应模型。
+		* 这为假设：微调能够帮助引出预训练PaLI模型中的知识，提供了支撑证据
+	* 另一方面，BLIP2和InstructBLIP在INFOSEEK上显示了引人注目的零迁移性能，因为它们采用了冻结指令微调的LLM（即Flan-T5），并且InstructBLIP在VQA基准测试上进行了进一步的指令微调
+		* 在INFOSEEK上进行少量微调后，BLIP2模型的性能进一步提高，显示了在Human部分上强大的泛化结果
+		* 在图10中，我们展示了使用BLIP2预测一个unseen实体（i.e Amberd）的“country location”的例子，经过微调后，准确率从18%提高到了92%
+		* 尽管在训练集中这个实体是Unseen的
+	* 最后，在互联网无法检索到的领域外的图像上进行了一个真实世界的评估
+	* 特别的是，用作者制作的90个问题和30张图像，在INFOSEEK训练语料库外的视觉实体上，评估微调后的PaLI
+		* 结果是，PaLI- 17B和PaLI-X分别正确回答了22.2%和38.9%的问题
+		* 图4给出了PaLI和BLIP2对两个域外实体（艺术品和时尚产品）的预测示例。
+* **Why does instruction-tuned BLIP2 obtain worse zero-shot INFOSEEK results?** 
+	* ![[Pasted image 20240619210432.png]]
+	* 图3中一个令人惊讶的发现引起了我们的注意，并揭示了对未来模型改进的一个重要的准则
+	* 我们发现$InstructBLIP_{0-shot}$的表现明显低于其初始checkpoint，BLIP2（在$INFOSEEK_{Wikidata}$上7.4vs11.3），这与InstructBLIP优越的零迁移表现相矛盾
+	* 我们进行人工分析，并发现了InstructBLIP的一个常见错误：与BLIP2相比，它倾向于生成粗粒度预测（例如，架构师vs一个人的名字）。这使得其在INFOSEEK上的性能下降
+	* 我们假设这可以归因于InstructBLIP的指令调优数据集（例如，VQAv2和OK-VQA），它们共享一个细粒度较低的答案分布
+	* 幸运的是，在$INFOSEEK_{Wikidata}$上微调有助于缩小差距。
+
+###  5.2 Results for With-KB Models
+* **Models with KB access perform better.**
+	* 值得注意的是，在具有挑战性的$INFOSEEK_{Human}$部分，pipeline模型显著优于最好的No-KB模型。
+	* 这强调了pipeline系统通过有效地利用视觉识别和语言推理来回答视觉信息检索问题的能力
 
 
 ## 六、Related Work
