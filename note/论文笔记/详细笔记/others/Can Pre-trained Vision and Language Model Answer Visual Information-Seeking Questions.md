@@ -91,7 +91,11 @@ INFOSEEK数据集由两部分组成：
 	* 以平衡实体和关系的分布
 ### 3.3 Evaluation of INFOSEEK
 * **Dataset Split.**
-	* 
+	* 设计评估分割，以防止过拟合，并重点评估预训练模型的泛化能力
+		* 包括回答新实体的问题和在未见过的问题的能力
+	* 定义了两个evaluation splits：
+	1. UNSEEN ENTITY。一部分实体在不参与训练，只在评估中使用
+	2. UNSEEN QUESTION。一部分问题只在评估时使用
 * **Evaluation Metric.**
 	* STRING和TIME类型计算VQA accuracy准确度
 	* NUMERICAL计算Relaxed Accuracy
