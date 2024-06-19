@@ -1,7 +1,6 @@
 Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions?
 发表于：emnlp
 
-## 结构
 
 
 ## 摘要：
@@ -16,9 +15,11 @@ Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Ques
 * [[#一、引言 Introduction]]
 * [[#二、The Need for a New Visual Information-seeking Benchmark]]
 * [[#三、INFOSEEK A VQA Benchmark of Visual Information-seeking Questions]]
-* [[#四、实现细节]]
-* [[#五、实验结果]]
-* [[#六、结论]]
+* [[#四、Protocols and Models for INFOSEEK]]
+* [[#五、Experiments]]
+* [[#六、Related Work]]
+* [[#七、 Conclusion]]
+* [[#八、 Limitation]]
 
 
 ## 一、引言 Introduction
@@ -101,10 +102,49 @@ INFOSEEK数据集由两部分组成：
 	* NUMERICAL计算Relaxed Accuracy
 
 ## 四、Protocols and Models for INFOSEEK
+* 提出两种protocol，分别用于评估获取不同信息的模型。
+	* 这一设计是为了鼓励来自不同families的模型对比概念，什么信息是可获取的
+	* No KB协议比With KB 协议更有挑战性
+* **The No-KB protocol.** 
+	* 通过根据图像和问题来直接预测答案，类似于传统的VQA系统
+	* 要求模型在参数中直接存储世界知识，以便有效的回答问题
+	* 研究问题的一个重点是一个端到端模型在预训练中能记忆多少知识，以及在微调后对这些知识能够多好地利用
+	* 使用标准的VQA格式数据，即{Image(I), Question(Q), Answer(A)}三元组
+* **The With-KB protocol.** 
+	* 目标是提供明确可行的推理链时，分析改进的headroom净空间
+	* 因此该协议鼓励一个额外的实体识别步骤，并将任务建立在一个知识库上
+	* VQA任务被转换为一个two-step pipeline
+		1. 视觉实体识别
+		2. 在有实体信息的情况下进行语言QA
+			* 利用识别的实体信息查询一个大模型的答案
+			* 或识别相应的维基百科文章来提取答案
+	* 提供了一个100K的维基百科KB(文章和infobox图像)，其中包含来自INFOSEEK的视觉实体和来自Wikidia频率最高的实体
+	* 在训练和验证过程中，With-KB protocol为每一个查询的视觉实体提供实体标签
+	* 在测试过程中，模型仅基于{I, Q}对进行评估
+
+### 4.1 Models without KB Information
+* **Random & Prior.** 
+	* 从训练集中随机抽样答案，大多数答案是基于问题先验。该先验是使用4-gram问题分组得到的训练问题集合计算得到的
+* **PALM(Q-only) Model.** 
+	* 为了验证INFOSEEK中视觉内容的重要性，使用PaLM(540B)建立了一个question-only baseline
+	* 使用文本问题作为唯一的输入，并使用5次上下文学习（5-shot in-context-learning）
+* **BLIP2 & InstructBLIP.** 
+	* 使用了两个预先训练过的视觉语言模型，即BLIP2与InstructBLIP
+	* 这两个模型共享相同的架构
+		* 训练一个Q-former Transformer：将一个冻结的视觉编码器连接至一个冻结的instruct-tuned指令调优语言模型
+		* 基于输入图像和文本输出文本
+	* InstructBLIP在26个视觉语言数据集
 
 
-## 五、实验结果
+
+## 五、Experiments
 
 
-## 六、结论
+## 六、Related Work
+
+
+## 七、 Conclusion
+
+
+## 八、 Limitation
 
