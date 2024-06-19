@@ -1,11 +1,9 @@
 Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions?
 发表于：emnlp
 
-
-
 ## 摘要：
-* 与训练文本语言模型在视觉问题回答上已经展示了sota的能力，但不清楚这些模型是否能够不仅查询视觉内容，还能够回答知识密集型和信息寻求的问题
-* 本研究提出数据集INFOSEEK，一个数据集，里面只有无法仅通过普通感官无法回答的问题
+* 预训练文本语言模型在视觉问题回答上已经展示了sota的能力，但不清楚这些模型是否能够不仅查询视觉内容，还能够回答知识密集型和信息寻求的问题
+* 本研究提出数据集INFOSEEK，一个数据集，其中只包含无法仅依靠常识来回答的问题
 * 在这个数据集上发现现有多模态模型面对这些问题表现不佳，但在微调后能够引出模型使用在于训练过程中得到的细粒度知识的能力
 * 此外，论文还发现精确的视觉实体识别可以通过检索相关文档来提高信息搜索的性能，说明在此有很大的提升空间
 
@@ -23,6 +21,7 @@ Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Ques
 
 
 ## 一、引言 Introduction
+* 此前研究已经分析了模型回答文本信息寻求（或信息寻求）问题的能力，但对视觉信息寻求问题却知之甚少。
 * 大模型对于INFOSEEK中问题表现不佳
 * 大语言模型需要一些微调才能完全唤醒使用预训练获得的知识的能力
 * 在INFOSEEK微调的模型可以推广到在微调过程中完全unseen的问题和实体类型
@@ -31,6 +30,9 @@ Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Ques
 * 但是没有知识库的端到端模型在某些需要细粒度答案的问题类别甚至tail entities上表现得更好（）
 	* 例如“Which continent is this building located on?这座建筑位于哪个大陆上？”
 * 提高视觉实体的识别可以大幅提高模型回答视觉信息寻找问题 visual infoseeking questions的能力
+Entity-focused dense passage retrieval for outside
+
+knowledge visual question answering
 
 ## 二、The Need for a New Visual Information-seeking Benchmark
 以往数据集的局限：
