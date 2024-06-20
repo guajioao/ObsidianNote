@@ -66,7 +66,7 @@ INFOSEEK数据集由两部分组成：
 分割数据集以确保记住训练集是无用的，从而强调预训练对获取知识的重要性
 **Image Sources for Diverse Entity Coverage.** 从9个图像分类和检索数据集中获取图像，包括地标建筑（17%），动物（13%），食物（5%），飞机（3%）等
 ### 3.1 $INFOSEEK_{Human}$：  Natural Info-Seeking VQA Data Annotated by Humans
-为确保信息搜索问题依赖于视觉理解，防止模型走捷径不使用图像就回答问题，采用了一种受TyDiQA启发的两阶段注释方法
+为确保信息搜索问题依赖于视觉理解，防止模型走捷径，不使用图像就回答问题，采用了一种受TyDiQA启发的两阶段注释方法
 这使得提问者不能事先知道答案，从而确保问题有寻求信息的意图
 * **Question Writing.** 
 	* Annotators标注者需根据自己的好奇心和信息需求写3-5个关于视觉实体的问题。
