@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/others/Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions.md",
+                "file": "生活note/常用指令.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 337.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/详细笔记/others/Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions.md",
+                "file": "生活note/常用指令.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/详细笔记/others/Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions.md",
+                "file": "生活note/常用指令.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/详细笔记/others/Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions.md"
+                "file": "生活note/常用指令.md"
               }
             }
           },
@@ -158,9 +157,9 @@
   },
   "active": "99e062f688fe98a6",
   "lastOpenFiles": [
+    "note/论文笔记/详细笔记/others/Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions.md",
     "files/Pasted image 20240619210432.png",
     "生活note/idea/code思路.md",
-    "note/论文笔记/详细笔记/others/Can Pre-trained Vision and Language Model Answer Visual Information-Seeking Questions.md",
     "生活note/idea/question.md",
     "生活note/idea/q1.md",
     "生活note/idea/创新工作/note.md",
@@ -195,7 +194,6 @@
     "files/Pasted image 20240328104312.png",
     "files/Pasted image 20240328104145.png",
     "files/Pasted image 20240328103649.png",
-    "files/Pasted image 20240328103308.png",
     "生活note/常用tips",
     "note/论文笔记/详细笔记/分割相关/2024",
     "note/论文笔记/创新相关整理/扩散模型/生成控制",
