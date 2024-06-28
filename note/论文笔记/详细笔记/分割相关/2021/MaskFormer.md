@@ -1,4 +1,4 @@
-
+ 
 收录于：NIPS2021
 Per-Pixel Classification is Not All You Need for Semantic Segmentation
 [code](https://github.com/facebookresearch/MaskFormer)
