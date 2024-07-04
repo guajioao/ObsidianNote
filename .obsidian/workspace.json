@@ -19,19 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "496fb21b8c9c5eca",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +155,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "496fb21b8c9c5eca",
+  "active": "99e062f688fe98a6",
   "lastOpenFiles": [
     "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
     "note/论文笔记/详细笔记/2021/ViT.md",
