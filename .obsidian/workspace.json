@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
+                "file": "生活note/常用指令.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
+                "file": "生活note/常用指令.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
+                "file": "生活note/常用指令.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md"
+                "file": "生活note/常用指令.md"
               }
             }
           },
@@ -157,6 +157,7 @@
   },
   "active": "99e062f688fe98a6",
   "lastOpenFiles": [
+    "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
     "note/论文笔记/详细笔记/分割相关/2022/CRIS.md",
     "note/论文笔记/详细笔记/分割相关/2022/CLIMS.md",
     "note/论文笔记/详细笔记/分割相关/2021/SETR.md",
@@ -172,7 +173,6 @@
     "note/论文笔记/详细笔记/分割相关/2022/OpenSeg.md",
     "note/论文笔记/详细笔记/分割相关/2022/MaskCLIP.md",
     "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
-    "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
     "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
     "note/论文笔记/详细笔记/分割相关/2023/ZegCLIP.md",
     "note/论文笔记/详细笔记/分割相关/2023/SAZS.md",
