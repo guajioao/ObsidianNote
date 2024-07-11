@@ -6,6 +6,7 @@
       {
         "id": "696828ed386298fc",
         "type": "tabs",
+        "dimension": 60.13363028953229,
         "children": [
           {
             "id": "99e062f688fe98a6",
@@ -13,12 +14,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/论文笔记/详细笔记/2021/CLIP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
-            }
+            },
+            "group": "584e8ed937cb2435"
+          }
+        ]
+      },
+      {
+        "id": "d2181ca2a1b2fe92",
+        "type": "tabs",
+        "dimension": 39.86636971046771,
+        "children": [
+          {
+            "id": "faef0f146dfe914f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "note/论文笔记/详细笔记/2021/CLIP.md"
+              }
+            },
+            "group": "584e8ed937cb2435"
           }
         ]
       }
@@ -86,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/论文笔记/详细笔记/2021/CLIP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/常用指令.md",
+                "file": "note/论文笔记/详细笔记/2021/CLIP.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/常用指令.md"
+                "file": "note/论文笔记/详细笔记/2021/CLIP.md"
               }
             }
           },
@@ -155,8 +175,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "99e062f688fe98a6",
+  "active": "c1e94dfe42bc008c",
   "lastOpenFiles": [
+    "note/论文笔记/泛读论文/2021/ViT-Vision Transformer.md",
+    "note/论文笔记/泛读论文/2021/CLIP.md",
+    "note/论文笔记/详细笔记/2021/CLIP.md",
+    "note/论文笔记/创新相关整理/现有论文方法.md",
+    "note/论文笔记/创新相关整理/方法总结.md",
+    "note/论文笔记/创新相关整理/扩散模型/生成控制/LoRA（Low Rank Adaption）.md",
+    "note/论文笔记/创新相关整理/扩散模型/生成控制/LayerDiffusion.md",
+    "note/论文笔记/创新相关整理/扩散模型/生成控制/NovelAI Hypernetwork.md",
+    "note/论文笔记/创新相关整理/扩散模型/生成控制/Textual Inversion.md",
+    "生活note/常用指令.md",
     "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
     "note/论文笔记/详细笔记/分割相关/2022/CRIS.md",
     "note/论文笔记/详细笔记/分割相关/2022/CLIMS.md",
@@ -173,16 +203,6 @@
     "note/论文笔记/详细笔记/分割相关/2022/OpenSeg.md",
     "note/论文笔记/详细笔记/分割相关/2022/MaskCLIP.md",
     "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
-    "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
-    "note/论文笔记/详细笔记/分割相关/2023/ZegCLIP.md",
-    "note/论文笔记/详细笔记/分割相关/2023/SAZS.md",
-    "note/论文笔记/详细笔记/分割相关/2023/SAN.md",
-    "note/论文笔记/详细笔记/分割相关/2023/OvSeg.md",
-    "note/论文笔记/详细笔记/分割相关/2023/CLIP-S4.md",
-    "note/论文笔记/详细笔记/分割相关/2023/CESL.md",
-    "note/论文笔记/详细笔记/分割相关/2024/EfficientSAM.md",
-    "note/论文笔记/详细笔记/图像编辑/Prompt2Prompt.md",
-    "note/论文笔记/详细笔记/图像编辑/Null-Text Inversion.md",
     "files/Pasted image 20240619210432.png",
     "files/Pasted image 20240527212430.png",
     "files/Pasted image 20240527200835.png",

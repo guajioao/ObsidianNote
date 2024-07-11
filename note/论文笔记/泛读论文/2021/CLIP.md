@@ -20,6 +20,6 @@
 		* zero-shot效果很好![[Pasted image 20231014100913.png]]
 		* 
 * 详细笔记
-	* [notes.docx](D:\Learning\Y5S1\files\论文相关\2309\CLIP)
+	* 
 * 对图像编码器的修改
 	* 以ResNet编码器为例。CLIP对其做了一个小修改，即增加了一个全局注意力池化层：在最后一个阶段的特征图![[Pasted image 20231012162233.png]]上应用全局池化，获得全局特征![[Pasted image 20231012155852.png]]。将concatenated特征![[Pasted image 20231012155940.png]]输入多头自注意力层(MHSA),获得![[Pasted image 20231012160019.png]]。在CLIP的训练过程中，![[Pasted image 20231012160114.png]]会被作为图像编码器的输出，即图像特征，而z通常会被忽略
