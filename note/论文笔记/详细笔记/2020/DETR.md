@@ -1,7 +1,6 @@
 
 收录于：ECCV2020
-End-to-End Object Detection with Transformers
-Detection Transformer (DETR)
+End-to-End Object Detection with Transformers Detection Transformer (DETR)
 Transformer在目标检测领域的成功应用
 [code](https://github.com/encounter1997/SFA)
 

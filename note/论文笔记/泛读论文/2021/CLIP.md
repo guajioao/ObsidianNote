@@ -1,5 +1,5 @@
 * 收录于：ICML2021
-
+* Learning Transferable Visual Models From Natural Language Supervision
 * 应用领域：多个领域都可以zero-shot，达到很好的效果
 	* 论文中给出用于图像分类的例子
 
