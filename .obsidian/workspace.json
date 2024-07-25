@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活note/报错解决.md",
+                "file": "生活note/常用指令.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活note/报错解决.md",
+                "file": "生活note/常用指令.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活note/报错解决.md",
+                "file": "生活note/常用指令.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活note/报错解决.md"
+                "file": "生活note/常用指令.md"
               }
             }
           },
@@ -169,7 +169,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c1e94dfe42bc008c",
+  "active": "25cc281f49ad0b42",
   "lastOpenFiles": [
     "生活note/报错解决.md",
     "生活note/常用指令.md",
