@@ -9,7 +9,7 @@ Scaling Open-Vocabulary Image Segmentation with Image-Level Labels
 * 提出OpenSeg来解决上述问题的同时依然使用了规模可变的图像及标题监督。
 	* 首先，学习为可能的组织提出分割掩码
 	* 然后，通过对齐标题中的每个单词与一个或多个masks来学习视觉-语义对齐
-	* 发现
+	* 发现掩码特征是从Captions中学习图像分割的关键，因为它使得扩大数据集和词汇表成为可能
 
 # 目录：
 * [[#结构]]
