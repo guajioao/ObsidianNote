@@ -25,7 +25,7 @@ DenseCLIP:Language-Guided Dense Prediction with Context-Aware Prompting
 * [[#五、结论]]
 * [[#六、Question]]
 
-## 结构
+# 结构
 ### 传统训练和微调方法与DenseCLIP的对比
 * 传统方法：
 	* ![[Pasted image 20231012153311.png]]
