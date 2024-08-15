@@ -39,7 +39,7 @@ Scaling Open-Vocabulary Image Segmentation with Image-Level Labels
 1. 处理过程：
 	* 使用FPN来多尺度提取特征，并使用一个交叉注意力模块来产生分割区域建议
 	* 将FPN特征融入P2分辨率【按照[[Multi-task self-training for learning general representations|另一篇文章]]的做法】来产生图像特征**F**
-	* 通过卷积和fc层，从F中获得![[Pasted image 20231014194927.png]]
+	* 通过卷积和fc层，从F中获得$\mathcal{F_s}\in \mathbb{R} ^{H\times W\times D}$
 	* 在Fs中加入可学习位置嵌入PE，获得![[Pasted image 20231014195310.png]]
 	* 将![[Pasted image 20231014195410.png]]与一组随机初始化的queries![[Pasted image 20231014195504.png]]输入cross-attention交叉注意力模块，获得mask queries![[Pasted image 20231014195612.png]]
 	* **计算q与位置增强的图像特征![[Pasted image 20231014195410.png]]之间的点积，获得推理的masks**【没有crop】
