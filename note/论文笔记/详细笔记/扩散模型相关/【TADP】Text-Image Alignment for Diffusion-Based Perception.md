@@ -22,7 +22,8 @@
 
 
 ## 四、实现细节
-
+对比实验
+Wenliang Zhao, Yongming Rao, Zuyan Liu, Benlin Liu, Jie Zhou, and Jiwen Lu. Unleashing Text-to-Image Diffusion Models for Visual Perception.
 
 ## 五、实验结果
 
