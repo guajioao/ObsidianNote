@@ -5,7 +5,7 @@
 * 结构图
 	* ![[Pasted image 20240820155107.png]]
 	* noisy特征图flatten为序列，输入n个重复的DiffuSSM块中
-	* 
+	* DiffuSSM
 
 ## 摘要：
 * DDPMs在高分辨率特征上会产生很高的计算开销，当前方法，例如patchifying加快了Unet和Transformer结构中的处理进程，但是以representational能力为代价的【？】
@@ -53,7 +53,7 @@ DiffuSSM的核心部分是一个门控双向SSM，旨在优化长序列的处理
 同时，整个DIFFUSSM块又是在原始长度上计算的，从而完全利用全局上下文信息。
 
 ## 四、实现细节
-
+在门控SSM最后一个block后，模型将序列图像表示解码为原始的空间维数，从而输出噪声预测和对角斜方差预测。与【12,40】相似，本文使用一个线性解码器，并重新排列特征图，以获得原始的维数。遵循DiT，使用来自ViT的标准layer norm方法
 
 ## 五、实验结果
 
