@@ -1,4 +1,4 @@
-# Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP
+Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP
 收录于：CVPR2023
 
 # 摘要：

@@ -1,4 +1,4 @@
-# Side Adapter Network for Open-Vocabulary Semantic Segmentation
+Side Adapter Network for Open-Vocabulary Semantic Segmentation
 收录于：CVPR23
 
 # 摘要：
@@ -10,16 +10,6 @@
 * 网络进行**端到端训练**
 	* 使得侧网适应冻结的CLIP模型，因此预测的到的proposals具有CLIP的感知能力(CLIP-aware)
 * 本方法比其他方法训练参数减少了18倍，推理速度更快提高了19倍
-
-# 目录：
-* [[#结构]]
-* [[#一、引言 Introduction]]
-* [[#二、相关工作 Related Work]]
-* [[#三、方法 Method]]
-* [[#四、实现细节]]
-* [[#五、实验结果]]
-* [[#六、结论]]
-* [[#Question|问题]]
 
 ## 结构
 * ![[Pasted image 20231008144145.png]]
@@ -62,23 +52,3 @@
 		* mask识别：交叉熵损失 $L_{cls}$
 		* 总损失：$$L_{seg} = \lambda_1L_{mask\_dice} + \lambda_2L_{mask\_bce} + \lambda_3L_{cls}$$，$\lambda_1, \lambda_2, \lambda_3$分别为为5.0,5.0,2.0
 
-## 一、引言 Introduction
-
-
-## 二、相关工作 Related Work
-
-
-## 三、方法 Method
-
-
-## 四、实现细节
-
-
-## 五、实验结果
-
-
-## 六、结论
-
-
-## Question:
-attention bias与CLIP层到底做了什么操作？ ^c1f508

@@ -33,7 +33,14 @@
       "key": "H"
     }
   ],
-  "editor:open-search-replace": [],
+  "editor:open-search-replace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
   "editor:toggle-inline-math": [
     {
       "modifiers": [
@@ -87,5 +94,16 @@
       "key": "L"
     }
   ],
-  "editor:toggle-checklist-status": []
+  "editor:toggle-checklist-status": [],
+  "editor:open-search": [],
+  "editor:toggle-comments": [],
+  "editor:insert-codeblock": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "/"
+    }
+  ]
 }

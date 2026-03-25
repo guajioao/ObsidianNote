@@ -8,42 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c40c37aa525dae6f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "LeetCode刷题手册.pdf"
-              }
-            }
-          },
-          {
-            "id": "4735099a86e66537",
+            "id": "961151e6a46ec987",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/扩散模型相关/AllSpark.md",
+                "file": "note/学习笔记/java八股/java/Java.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Java"
             }
           },
           {
-            "id": "6a8ed1735bde89a2",
+            "id": "2690297237b07b7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/论文笔记/详细笔记/扩散模型相关/DIFFUSSM.md",
+                "file": "files/翻译.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "翻译"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,8 +57,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -72,13 +70,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CVPR",
+                "query": "Mask2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -86,14 +86,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 328.5
   },
   "right": {
     "id": "698a64af326ea48e",
@@ -104,20 +106,37 @@
         "type": "tabs",
         "children": [
           {
+            "id": "8a5a1af8d4ba7dbc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "files/翻译.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "翻译 的大纲"
+            }
+          },
+          {
             "id": "611aa9821796403b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LeetCode刷题手册.pdf",
-                "collapseAll": true,
+                "file": "生活note/Work/个人信息.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "个人信息 的反向链接列表"
             }
           },
           {
@@ -126,10 +145,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LeetCode刷题手册.pdf",
+                "file": "生活note/Work/个人信息.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "个人信息 的出链列表"
             }
           },
           {
@@ -139,18 +160,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "8a5a1af8d4ba7dbc",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "LeetCode刷题手册.pdf"
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -158,15 +173,16 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 535.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,53 +194,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c40c37aa525dae6f",
+  "active": "2690297237b07b7d",
   "lastOpenFiles": [
-    "note/论文笔记/创新相关整理/论文收集.md",
-    "files/Pasted image 20240822160942.png",
-    "files/Pasted image 20240822160649.png",
-    "files/Pasted image 20240822153332.png",
-    "files/Pasted image 20240822151718.png",
-    "files/Pasted image 20240822151541.png",
-    "files/Pasted image 20240822151409.png",
-    "files/Pasted image 20240822150811.png",
-    "files/Pasted image 20240822150437.png",
-    "files/Pasted image 20240822150401.png",
-    "note/论文笔记/详细笔记/分割相关/2023/SAN.md",
-    "note/论文笔记/详细笔记/扩散模型相关/AllSpark.md",
-    "files/Pasted image 20240822145048.png",
-    "note/论文笔记/详细笔记/扩散模型相关/OMG-Seg.md",
-    "note/论文笔记/详细笔记/扩散模型相关/DIFFUSSM.md",
-    "note/论文笔记/详细笔记/扩散模型相关/未命名.md",
-    "note/论文笔记/详细笔记/扩散模型相关/Improving the Generalization of Segmentation Foundation Model under Distribution Shift via Weakly Supervised Adaptation.md",
-    "note/论文笔记/详细笔记/扩散模型相关/【TADP】Text-Image Alignment for Diffusion-Based Perception.md",
+    "files/用全局局部特征做RIS_结构图.png",
+    "files/翻译.md",
+    "papers/对比学习/CVPR2022_Contrastive learning of Class-agnostic Activation Map.pdf",
+    "Pasted image 20250611151921.png",
+    "Pasted image 20250611150526.png",
+    "NLP作业.md",
+    "未命名.md",
+    "未命名.canvas",
+    "生活note/Work/个人信息.md",
+    "Pasted image 20260325214541.png",
+    "生活note/Work/学习新领域.md",
+    "生活note/Work/知识问答.md",
+    "组会/230928.md",
+    "生活note/接下来要看的.md",
+    "生活note/常用指令.md",
+    "生活note/报错解决.md",
+    "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
+    "生活note/Work",
+    "note/学习笔记/文献树/图像分割.md",
+    "生活note/算法常见题/未命名.md",
+    "LeetCode刷题手册.pdf",
+    "生活note/idea/创新工作/创新工作思路.md",
+    "生活note/idea/创新工作/现有方法存在的问题.md",
+    "Pasted image 20250611153213.png",
+    "note/论文笔记/详细笔记/分割相关/2023/ZRIS.md",
+    "note/论文笔记/详细笔记/分割相关/2023/ZegCLIP.md",
+    "note/论文笔记/详细笔记/分割相关/2023/SAZS.md",
     "note/论文笔记/详细笔记/分割相关/2023/OvSeg.md",
     "note/论文笔记/详细笔记/分割相关/2023/CLIP-S4.md",
     "note/论文笔记/详细笔记/分割相关/2023/CESL.md",
-    "note/论文笔记/详细笔记/分割相关/2022/ZegFormer.md",
     "note/论文笔记/详细笔记/分割相关/2022/SimSeg.md",
     "note/论文笔记/详细笔记/分割相关/2022/Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples.md",
-    "note/论文笔记/详细笔记/分割相关/2022/OpenSeg.md",
-    "note/论文笔记/详细笔记/2021/Multi-task self-training for learning general representations.md",
-    "template/note_template/paper_note.md",
-    "note/论文笔记/详细笔记/扩散模型相关",
-    "生活note/idea/扩散模型用于分割.md",
-    "生活note/idea/创新工作/创新工作思路.md",
-    "生活note/接下来要看的.md",
-    "LeetCode刷题手册.pdf",
-    "note/论文笔记/详细笔记/分割相关/2022/MaskCLIP.md",
-    "note/论文笔记/详细笔记/分割相关/2022/Mask2Former.md",
-    "note/论文笔记/详细笔记/分割相关/2022/DenseCLIP.md",
     "note/论文笔记/详细笔记/分割相关/2022/CRIS.md",
-    "note/论文笔记/详细笔记/分割相关/2022/CLIMS.md",
-    "note/论文笔记/详细笔记/图像编辑",
-    "note/论文笔记/详细笔记/2023",
-    "生活note/常用tips",
-    "note/论文笔记/详细笔记/分割相关/2024",
-    "note/论文笔记/创新相关整理/扩散模型/生成控制",
-    "note/学习笔记/文献树",
-    "papers/ClassicalNetwork/ICML2021_CLIP_Learning Transferable Visual Models From Natural Language Supervision.pdf",
-    "papers/ClassicalNetwork/2020_DDPM_DiffusionModel_Denoising Diffusion Probabilistic Models.pdf",
-    "未命名.canvas"
+    "note/论文笔记/详细笔记/分割相关/2023/SAN.md",
+    "Pasted image 20250915135943.png",
+    "Pasted image 20250915135829.png",
+    "Pasted image 20250914222636.png",
+    "Pasted image 20250914222513.png",
+    "生活note/算法常见题",
+    "Pasted image 20250914154025.png",
+    "Pasted image 20250914152636.png",
+    "note/学习笔记/java八股/java",
+    "note/学习笔记/java八股",
+    "note/论文笔记/详细笔记/2023/现有论文方法.pdf",
+    "note/论文笔记/详细笔记/2023/SAN.pdf",
+    "note/论文笔记/详细笔记/backbone/rwkv",
+    "note/论文笔记/详细笔记/backbone"
   ]
 }
